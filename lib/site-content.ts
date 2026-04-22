@@ -1,270 +1,713 @@
+import importedContent from "./generated/squarespace-import.json";
+
 export type NavItem = {
   href: string;
   label: string;
 };
 
-export type Stat = {
+export type ActionLink = {
+  external?: boolean;
+  href: string;
+  label: string;
+};
+
+export type ImportedItem = (typeof importedContent)["items"][number];
+export type ImportedImage = (typeof importedContent)["allImages"][number];
+
+type Stat = {
   label: string;
   value: string;
 };
 
-export type StoryBeat = {
+type SimpleCard = {
   body: string;
-  title: string;
-  year: string;
-};
-
-export type FocusArea = {
-  body: string;
-  eyebrow: string;
+  eyebrow?: string;
   title: string;
 };
 
-export type ProjectSpotlight = {
+type CompanyCard = {
+  body: string;
   category: string;
-  description: string;
-  name: string;
-};
-
-export type LocationCard = {
-  body: string;
+  href?: string;
   title: string;
 };
 
-export type Principle = {
+type PageCard = {
   body: string;
+  href: string;
+  image?: ImportedImage;
   title: string;
 };
 
-export type PartnerProfile = {
+type LocationCard = {
+  badge: string;
+  body: string;
+  images: ImportedImage[];
+  title: string;
+};
+
+type PartnerCard = {
   body: string;
   highlights: Stat[];
-  links: NavItem[];
+  links: ActionLink[];
   role: string;
   supporting: string;
   title: string;
 };
 
-export const siteContent = {
-  navigation: [
-    { href: "#story", label: "Story" },
-    { href: "#residency", label: "Residency" },
-    { href: "#fit", label: "Founder Fit" },
-    { href: "#partners", label: "Partners" },
-    { href: "#support", label: "Support" },
-    { href: "#contact", label: "Contact" }
-  ] satisfies NavItem[],
-  hero: {
-    eyebrow: "June 2026 inaugural batch. Six companies.",
-    title: "A one-month San Francisco residency for founders already creating real outcomes.",
-    description:
-      "Founder's Dojo Fund is building a June 2026 residency program for early-stage companies that already have meaningful traction and clear impact, and are ready to scale much harder with the right environment. We will select six teams for one month in San Francisco, then surround them with capital, mentorship, operator support and a fund model designed to keep backing them after graduation.",
-    asideTitle: "What accepted founders get",
-    asideBody:
-      "Free stay in San Francisco for one month. Free office space. A stipend. Intensive mentorship from respected operators, industry leaders, exited founders, venture capitalists and angel investors. We take 2% and put the full weight of our team behind helping the company scale.",
-    primaryCta: {
-      href: "#residency",
-      label: "See the residency"
-    },
-    secondaryCta: {
-      href: "#fit",
-      label: "See founder fit"
+function normalizeBrandCopy(value: string) {
+  return value
+    .replace(/\bFounders Dojo\b/g, "Founder's Dojo Fund")
+    .replace(/\bFounder'?s Dojo\b/g, "Founder's Dojo Fund")
+    .replace(/\bFounder’s Dojo\b/g, "Founder's Dojo Fund")
+    .replace(/\bfounding organization for this leading decentralization and blockchain advocacy organization\./i, "a founding force behind this leading decentralization and blockchain advocacy organization.")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
+function getImportedItem(slug: string) {
+  const item = importedContent.items.find((candidate) => candidate.slug === slug);
+
+  if (!item) {
+    throw new Error(`Missing imported content item for slug: ${slug}`);
+  }
+
+  return item;
+}
+
+function getSection(item: ImportedItem, heading: string) {
+  return item.sections.find((section) => section.heading === heading);
+}
+
+function getLink(item: ImportedItem, domainFragment: string) {
+  return item.links.find((link) => link.href.includes(domainFragment))?.href;
+}
+
+function dedupeImages(images: ImportedImage[]) {
+  const seen = new Set<string>();
+
+  return images.filter((image) => {
+    if (seen.has(image.id)) {
+      return false;
     }
+
+    seen.add(image.id);
+    return true;
+  });
+}
+
+function fallbackExcerpt(slug: string) {
+  if (slug === "our-vision") {
+    return "The visual material around the Dojo now supports the Fund's broader story about place, ambition, and the kind of builders it wants close.";
+  }
+
+  return "";
+}
+
+const homeSource = getImportedItem("home");
+const startupSource = getImportedItem("dojo-start-up-program");
+const communitySource = getImportedItem("our-community");
+const sfSource = getImportedItem("dojo-san-francisco");
+const tahoeSource = getImportedItem("dojo-lake-tahoe");
+const vegasSource = getImportedItem("dojo-las-vegas");
+const visionSource = getImportedItem("our-vision");
+const decentralizationSource = getImportedItem("decentralization-initiative");
+const communityInitiativesSource = getImportedItem("community-initiatives");
+
+const publicArchivePages = importedContent.publicPageOrder.map((slug) => getImportedItem(slug));
+const publicArchiveImages = dedupeImages(publicArchivePages.flatMap((page) => page.images));
+const homeBridgeImage = homeSource.images[0];
+const sfHeroImage = sfSource.images[2] ?? sfSource.images[0];
+const communityHeroImage = communitySource.images[4] ?? communitySource.images[0];
+const initiativesHeroImage = communityInitiativesSource.images[0] ?? decentralizationSource.images[0];
+
+const companyCards: CompanyCard[] = [
+  {
+    title: "Native Co",
+    category: "DTC exit",
+    body: "The export credits the Dojo orbit with helping shape Native Co before its sale to Procter & Gamble in a $100M outcome.",
+    href: getLink(communitySource, "nativecos.com")
   },
-  stats: [
-    { label: "Launch", value: "June 2026" },
-    { label: "Batch size", value: "6 companies" },
-    { label: "Residency", value: "1 month in SF" },
-    { label: "Fund model", value: "2% + syndication" }
-  ] satisfies Stat[],
-  story: [
-    {
-      year: "2008",
-      title: "A spare office turns into a founder magnet",
-      body:
-        "The Dojo started as extra room inside an ad-network office near South Park. Instead of shrinking the space, David Grossblatt and early collaborators kept it open and let talented builders work there. The room filled with internet founders, product people and technical misfits who traded proximity for momentum."
-    },
-    {
-      year: "2010s",
-      title: "From desks to a startup studio culture",
-      body:
-        "What looked like free desk space evolved into a real operating pattern: keep strong people close, let projects cross-pollinate and help teams get through the earliest stage without unnecessary ceremony. Over the next decade, hundreds of founders and makers passed through the Dojo orbit."
-    },
-    {
-      year: "2015",
-      title: "The outside world notices the ethos",
-      body:
-        "The Hustle profiled Grossblatt as the rumored real-world influence behind Erlich Bachman from Silicon Valley. The article made public what insiders already recognized: the Dojo had become a home for unusually independent founders who valued freedom, intensity and weird talent density over polished startup theater."
-    },
-    {
-      year: "Now",
-      title: "The residency becomes the main program",
-      body:
-        "Today the fund is led by David Grossblatt and Rishi Sachdev as equal managing partners, and the main program is a June 2026 San Francisco residency for six companies. The goal is not to help founders start from zero, but to take companies with real outcomes and help them break into much larger impact."
-    }
-  ] satisfies StoryBeat[],
-  focusAreas: [
-    {
-      eyebrow: "Batch 01",
-      title: "Six founders. One month. June 2026.",
-      body:
-        "The inaugural residency begins in June 2026 with six spots. We are deliberately keeping the batch small so every company gets serious partner time, daily operating support and real access to the wider Dojo network."
-    },
-    {
-      eyebrow: "What founders get",
-      title: "Free stay, free office space, stipend and real intensity",
-      body:
-        "Accepted teams get one month in San Francisco with housing, office space and a stipend covered. The point is to remove distraction, compress feedback loops and let founders spend the month fully focused on building and scaling."
-    },
-    {
-      eyebrow: "Mentorship and fund support",
-      title: "Advisors who have built, exited and invested at the highest level",
-      body:
-        "Every residency company gets intensive mentorship from industry leaders, exited founders, respected venture capitalists and angel investors. We take 2%, offer the full support of our team during the residency, and plan to syndicate every company through the fund after graduation."
-    }
-  ] satisfies FocusArea[],
-  projectIntro:
-    "The ideal company for the residency is already doing something that matters. We are not looking for raw ideas. We are looking for founders with proof, momentum and a credible path to dramatically larger impact if they are given the right environment and leverage.",
-  projects: [
-    {
-      name: "Already producing outcomes",
-      category: "Traction",
-      description:
-        "The strongest fit already has customers, users, revenue, adoption or some other clear evidence that the product is solving a real problem."
-    },
-    {
-      name: "Making a real dent already",
-      category: "Impact",
-      description:
-        "We want founders who are already making a decent impact and can point to the people, systems or markets that are materially better because the company exists."
-    },
-    {
-      name: "Ready to scale beyond the current plateau",
-      category: "Scale",
-      description:
-        "The residency is for companies that do not need generic startup motivation. They need sharper distribution, positioning, hiring, product leverage, financing or network effects to unlock the next order of magnitude."
-    },
-    {
-      name: "Able to use intense founder pressure well",
-      category: "Tempo",
-      description:
-        "One month in San Francisco only works if the team is ready for concentrated feedback, fast iteration and a high-trust, high-honesty environment."
-    },
-    {
-      name: "A fit for direct partner involvement",
-      category: "Support model",
-      description:
-        "We want companies where David, Rishi, the advisor bench and the wider Dojo network can create meaningful leverage instead of offering generic office hours."
-    },
-    {
-      name: "Worth backing after graduation",
-      category: "Fund thesis",
-      description:
-        "Every residency company is a candidate for syndication through the fund after the program. That only works if the company is strong enough that we genuinely want to keep backing it."
-    }
-  ] satisfies ProjectSpotlight[],
-  partners: {
-    eyebrow: "Managing partners",
-    title: "David Grossblatt and Rishi Sachdev lead the Dojo together.",
-    description:
-      "The residency works because it combines founder taste, operator depth, investor access and a support model built around real leverage. David carries the original San Francisco Dojo culture and network memory; Rishi extends the platform through company building, healthcare infrastructure and technical execution.",
-    profiles: [
+  {
+    title: "Akash",
+    category: "Decentralized infrastructure",
+    body: "Akash appears in the Dojo story as a category-defining decentralized cloud project with value measured above the billion-dollar mark.",
+    href: getLink(communitySource, "akash.network")
+  },
+  {
+    title: "Scout Monitoring",
+    category: "Developer tooling",
+    body: "Scout Monitoring is described as a leading distributed monitoring system that later sold to SolarWinds.",
+    href: getLink(communitySource, "scoutapm.com")
+  },
+  {
+    title: "Linjer",
+    category: "Global consumer brand",
+    body: "The Dojo story positions Linjer as a leading global fashion brand and one of the largest DTC operators in its category across the Pacific Rim.",
+    href: getLink(communitySource, "linjer.co")
+  },
+  {
+    title: "The Hustle",
+    category: "Media exit",
+    body: "The Hustle shows the Dojo's range beyond software, with the export noting its eventual sale to HubSpot.",
+    href: getLink(communitySource, "thehustle.co")
+  },
+  {
+    title: "Quantstamp",
+    category: "Web3 security",
+    body: "Quantstamp appears across the community and decentralization material as proof that the Dojo has long been close to the open internet and security stack.",
+    href: getLink(communitySource, "quantstamp.com")
+  },
+  {
+    title: "TalkDoc",
+    category: "Healthcare infrastructure",
+    body: "The export frames TalkDoc as a fast-growing mental tele-healthcare platform focused on expanding access to care.",
+    href: getLink(communitySource, "talkdoc.com")
+  },
+  {
+    title: "Product Hunt",
+    category: "Early support",
+    body: "Product Hunt was not founded in the Dojo, but the network supported Ryan Hoover's platform early and closely.",
+    href: getLink(communitySource, "producthunt.com")
+  }
+];
+
+const archivePageRoutes: Record<string, string> = {
+  home: "/",
+  "dojo-start-up-program": "/residency",
+  "our-community": "/community",
+  "dojo-san-francisco": "/locations",
+  "dojo-lake-tahoe": "/locations",
+  "dojo-las-vegas": "/locations",
+  "decentralization-initiative": "/initiatives",
+  "community-initiatives": "/initiatives",
+  "our-vision": "/community"
+};
+
+const archivePageCards: PageCard[] = publicArchivePages.map((page) => ({
+  title: page.title,
+  href: archivePageRoutes[page.slug] ?? "/community",
+  body: normalizeBrandCopy(page.excerpt || fallbackExcerpt(page.slug)),
+  image: page.images[0]
+}));
+
+const partnerCards: PartnerCard[] = [
+  {
+    title: "David Grossblatt",
+    role: "Managing partner",
+    body:
+      "Grossblatt built the original South Park Dojo environment and the operating culture behind it: keep unusual founders close, remove unnecessary drag, and let strong people create leverage together.",
+    supporting:
+      "That history still shapes the Fund's taste today, from the free-desk origin story to the companies, initiatives, and spaces that define what kind of founder community the partners want to build around.",
+    highlights: [
+      { label: "Original base", value: "South Park, 2008" },
+      { label: "Operating edge", value: "Network and founder taste" },
+      { label: "Public profile", value: "The Hustle feature" }
+    ],
+    links: [
       {
-        title: "David Grossblatt",
-        role: "Managing partner",
-        body:
-          "Grossblatt built the original Dojo environment in South Park and shaped the culture that made it matter: give sharp, unconventional founders real room to work, keep talent close and let the right projects collide without institutional drag.",
-        supporting:
-          "That role is not just historical. The current Dojo still draws much of its identity from David's network, taste and long-term presence inside the founder community, which is why the right framing is managing partner rather than distant founder emeritus.",
-        highlights: [
-          {
-            label: "Dojo roots",
-            value: "South Park, 2008"
-          },
-          {
-            label: "Public profile",
-            value: "Real-life Erlich story"
-          },
-          {
-            label: "Core edge",
-            value: "Network, culture, founder taste"
-          }
-        ],
-        links: [
-          {
-            href: "https://thehustle.co/the-real-erlich-bachman-of-silicon-valley/",
-            label: "Read David's profile"
-          }
-        ]
+        href: "https://thehustle.co/the-real-erlich-bachman-of-silicon-valley/",
+        label: "Read David's profile",
+        external: true
+      }
+    ]
+  },
+  {
+    title: "Rishi Sachdev",
+    role: "Managing partner",
+    body:
+      "Sachdev brings operator, technical, and healthcare infrastructure depth to the Fund, spanning TalkDoc, Rooster, engineering leadership, and a staffing platform tied to more than $100M in revenue and care access for hundreds of thousands of incarcerated patients.",
+    supporting:
+      "That mix matters for the residency: the Fund is not designed as passive programming. It is built for direct partner involvement on product, growth, capital, hiring, and execution with founders who already have something real working.",
+    highlights: [
+      { label: "TalkDoc", value: "$1.8MM peak ARR" },
+      { label: "Rooster", value: "Technical co-founder" },
+      { label: "Healthcare platform", value: "$100MM staffing base" }
+    ],
+    links: [
+      {
+        href: "https://www.talkdoc.com/about",
+        label: "View TalkDoc",
+        external: true
       },
       {
-        title: "Rishi Sachdev",
-        role: "Managing partner",
-        body:
-          "Sachdev brings operator and technical depth to the partnership. He is the CEO and technical founder of TalkDoc, and was also the CTO and technical co-founder of Rooster, with prior operating experience at Coinbase, Google Fiber and a Berkeley background in computer science and applied mathematics.",
-        supporting:
-          "The healthcare infrastructure behind that work runs deeper than software. Rishi's background includes Bay Area Doctors / Csolutions International, a family-run California clinician staffing operation tied to prison and government behavioral health work, with public profile materials describing more than $100M in combined revenue and care delivery reaching hundreds of thousands of incarcerated patients.",
-        highlights: [
-          {
-            label: "TalkDoc",
-            value: "$1.8MM peak ARR"
-          },
-          {
-            label: "Rooster",
-            value: "Technical co-founder"
-          },
-          {
-            label: "Healthcare platform",
-            value: "$100MM staffing base"
-          }
-        ],
-        links: [
-          {
-            href: "https://www.talkdoc.com/about",
-            label: "View TalkDoc"
-          },
-          {
-            href: "https://rishisachdev.net/",
-            label: "View Rishi profile"
-          }
-        ]
+        href: "https://rishisachdev.net/",
+        label: "View Rishi profile",
+        external: true
       }
-    ] satisfies PartnerProfile[]
+    ]
+  }
+];
+
+const locationCards: LocationCard[] = [
+  {
+    title: "San Francisco",
+    badge: "Residency base",
+    body:
+      "San Francisco is the active home of the June 2026 residency. The Dojo story points to a 10,000-square-foot work and event environment with views, gathering space, and enough density to keep founders in the room with each other.",
+    images: sfSource.images.slice(0, 4)
   },
-  locations: [
-    {
-      title: "Free stay in San Francisco",
-      body:
-        "Each company receives one month of free stay in San Francisco so the team can work in proximity, build momentum quickly and use the city itself as part of the program."
+  {
+    title: "Lake Tahoe",
+    badge: "Sprint and reset",
+    body: normalizeBrandCopy(
+      `${tahoeSource.excerpt} It is part of the current footprint for off-sites, heads-down sprints, and sharper working sessions away from the city.`
+    ),
+    images: tahoeSource.images.slice(0, 1)
+  },
+  {
+    title: "Las Vegas",
+    badge: "Experience and convening",
+    body: normalizeBrandCopy(
+      `${vegasSource.excerpt} We present it as part of the Fund's current broader footprint: a place for high-energy convenings, brand moments, and founder collisions around culture, risk, and hospitality.`
+    ),
+    images: vegasSource.images.slice(0, 1)
+  }
+];
+
+const initiativeCards: CompanyCard[] = [
+  {
+    title: "Manifest Network",
+    category: "Decentralization",
+    body:
+      "The export highlights Manifest Network alongside Akash and Quantstamp as part of the Dojo's long-running commitment to decentralized infrastructure.",
+    href: getLink(decentralizationSource, "manifest.network")
+  },
+  {
+    title: "Akash",
+    category: "Decentralization",
+    body:
+      "Akash stands as proof that the Dojo does not just admire open systems in theory; it has worked close to category builders inside that movement.",
+    href: getLink(decentralizationSource, "akash.network")
+  },
+  {
+    title: "Quantstamp",
+    category: "Decentralization",
+    body:
+      "Quantstamp reinforces the Fund's bias toward security, open internet infrastructure, and technically serious founders.",
+    href: getLink(decentralizationSource, "quantstamp.com")
+  },
+  {
+    title: "Blockchain Advocacy Coalition",
+    category: "Policy",
+    body:
+      "The community initiatives material describes the Dojo network as a founding force behind BAC's work on blockchain and decentralization policy in California, Wyoming, and Washington, D.C.",
+    href: getLink(communityInitiativesSource, "blockadvocacy.org")
+  },
+  {
+    title: "Open Door Legal",
+    category: "Public-interest scale",
+    body:
+      "Open Door Legal appears as a long-running Dojo project and one of the clearest examples of impact-oriented work that still has operating rigor behind it.",
+    href: getLink(communityInitiativesSource, "opendoorlegal.org")
+  },
+  {
+    title: "Lincoln University",
+    category: "Institutional partnership",
+    body:
+      "The Dojo material ties the network to mentorship, program development, and broader community engagement with Lincoln University in Oakland.",
+    href: getLink(communityInitiativesSource, "lincolnuca.edu")
+  }
+];
+
+const footerStats: Stat[] = [
+  { label: "Launch", value: "June 2026" },
+  { label: "Batch size", value: "6 companies" },
+  { label: "Residency", value: "1 month in SF" },
+  { label: "Economics", value: "2% + syndication" }
+];
+
+export const brand = {
+  name: "Founder's Dojo Fund",
+  domain: "foundersdojo.fund"
+} as const;
+
+export const navigation: NavItem[] = [
+  { href: "/", label: "Home" },
+  { href: "/residency", label: "Residency" },
+  { href: "/community", label: "Community" },
+  { href: "/locations", label: "Locations" },
+  { href: "/initiatives", label: "Initiatives" }
+];
+
+export const footerText =
+  "Founder's Dojo Fund is a residency-led platform run by David Grossblatt and Rishi Sachdev, using the Dojo's history, current footprint, and operating network to help already-working companies scale into much larger impact.";
+
+export const siteContent = {
+  footerStats,
+  home: {
+    hero: {
+      eyebrow: "June 2026 inaugural batch. Six companies.",
+      title: "A one-month San Francisco residency for founders already creating real outcomes.",
+      description:
+        "Founder's Dojo Fund is centered on a June 2026 residency for six early-stage companies that already have traction, real impact, and clear leverage if the right operators, investors, advisors, and peers get deeply involved for a concentrated month in San Francisco.",
+      image: sfHeroImage,
+      panelTitle: "What accepted founders get",
+      panelBody:
+        "Free stay in San Francisco for one month, free office space, a stipend, and intensive mentorship from industry leaders, exited founders, respected venture capitalists, and angel investors. The Fund takes 2 percent, works closely during the program, and plans to syndicate every company after graduation.",
+      panelItems: footerStats,
+      actions: [
+        { href: "/residency", label: "See the residency" },
+        { href: "/community", label: "See the proof" }
+      ] satisfies ActionLink[]
     },
-    {
-      title: "Free office space and stipend",
-      body:
-        "We provide office space and a stipend so founders can spend the month focused on the company instead of carrying unnecessary operating drag while they are in residency."
+    storyHeading: {
+      eyebrow: "Why this works",
+      title: "The Dojo already knows how to gather the right people around ambitious companies.",
+      description:
+        "The older Dojo material points to four useful truths: the network started in South Park in 2008, it kept unusual founders close to one another, it accumulated real outcomes across companies and initiatives, and San Francisco remains the right place to run an intense first batch."
     },
-    {
-      title: "An advisor bench with real weight",
+    storyParagraphs: [
+      normalizeBrandCopy(homeSource.paragraphs[0]),
+      "The older startup-program language supplied the clearer operator frame: connect capital, talent, and wisdom to accomplish the amazing. The Fund now turns that into a more specific offer for founders who already have something working and need sharper leverage to scale."
+    ],
+    originCards: [
+      {
+        eyebrow: "Origin",
+        title: "South Park, free desks, high talent density",
+        body: normalizeBrandCopy(getSection(communitySource, "History")?.body[0] ?? "")
+      },
+      {
+        eyebrow: "Operating model",
+        title: "Capital, talent, and wisdom in one room",
+        body: normalizeBrandCopy(startupSource.sections[1]?.body[0] ?? "")
+      },
+      {
+        eyebrow: "Current shape",
+        title: "Residency first, proof behind it",
+        body: "The Fund now uses that history as an advantage: six companies, one month, direct partner involvement, and a network that already understands how to help founders move faster."
+      }
+    ] satisfies SimpleCard[],
+    residencyCards: [
+      {
+        eyebrow: "Included",
+        title: "Free stay, free office space, stipend",
+        body: "The residency removes living and workspace friction so founders can spend the month building instead of solving logistics."
+      },
+      {
+        eyebrow: "Mentorship",
+        title: "Operators, founders, VCs, and angels with real weight",
+        body: "The program is built around direct access to people who have actually built, exited, invested, and helped companies scale."
+      },
+      {
+        eyebrow: "Alignment",
+        title: "2 percent, full-team support, syndication after graduation",
+        body: "The economics are intentionally simple: tight alignment during the month, then continued backing through the fund when the company earns it."
+      }
+    ] satisfies SimpleCard[],
+    companies: companyCards.slice(0, 6),
+    routeCards: [
+      {
+        title: "Residency",
+        href: "/residency",
+        body: "Program structure, founder fit, economics, and what founders actually receive during the month.",
+        image: sfSource.images[1]
+      },
+      {
+        title: "Community",
+        href: "/community",
+        body: "Company outcomes, South Park history, and the people-and-place context that make the residency credible.",
+        image: communitySource.images[3]
+      },
+      {
+        title: "Locations",
+        href: "/locations",
+        body: "San Francisco as the residency base, plus Tahoe and Las Vegas as part of the current footprint.",
+        image: tahoeSource.images[0]
+      },
+      {
+        title: "Initiatives",
+        href: "/initiatives",
+        body: "Decentralization, advocacy, nonprofit work, and the impact-oriented edge that shapes the Fund's taste.",
+        image: initiativesHeroImage
+      }
+    ] satisfies PageCard[],
+    footprintCards: locationCards,
+    initiativeCards: initiativeCards.slice(0, 3),
+    gallery: dedupeImages([
+      homeBridgeImage,
+      ...sfSource.images.slice(0, 2),
+      ...communitySource.images.slice(0, 3),
+      ...visionSource.images.slice(0, 1)
+    ]),
+    partners: partnerCards,
+    quote: {
+      text:
+        startupSource.sections.find((section) => section.heading.includes("collaborative, start-up"))
+          ?.heading ?? "It's a collaborative, start-up community and home to superstars who do amazing things.",
+      attribution:
+        startupSource.sections.find((section) => section.heading.includes("collaborative, start-up"))
+          ?.body[0] ?? "Ryan Hoover, Founder of Product Hunt"
+    },
+    cta: {
+      title: "The Fund is looking for companies that already matter and are ready to compound much faster.",
       body:
-        "The support system includes industry leaders, exited founders, respected venture capitalists and active angel investors who can help founders tighten strategy and accelerate the right introductions."
+        "The right team already has outcomes on the board. The residency exists to compress the next stage of company building, not to create generic startup theater.",
+      actions: [
+        { href: "/residency", label: "Review founder fit" },
+        { href: "/locations", label: "See the footprint" }
+      ] satisfies ActionLink[]
     }
-  ] satisfies LocationCard[],
-  principles: [
-    {
-      title: "Full-team support during the residency",
-      body:
-        "This is not light-touch programming. Founders get the concentrated help of the managing partners and the broader team for the full month."
+  },
+  residency: {
+    hero: {
+      eyebrow: "Main program",
+      title: "The Founder's Dojo Fund Residency",
+      description:
+        "The main program is a one-month San Francisco residency for six companies in June 2026. It is designed for founders who already have meaningful traction or impact and need sharper leverage across product, distribution, hiring, capital, positioning, and network access.",
+      image: sfSource.images[0],
+      panelTitle: "Residency terms",
+      panelBody:
+        "6 companies. 1 month in San Francisco. Free stay. Free office space. Stipend. Intensive mentorship. 2 percent economics. Post-program syndication through the Fund.",
+      panelItems: footerStats,
+      actions: [
+        { href: "/locations", label: "See the SF base" },
+        { href: "/community", label: "See the proof" }
+      ] satisfies ActionLink[]
     },
-    {
-      title: "2% for aligned, practical help",
+    offerCards: [
+      {
+        eyebrow: "Environment",
+        title: "San Francisco with no operating drag",
+        body: "Housing, office space, and a stipend are part of the program so founders can spend the month in a tighter loop of work, feedback, and momentum."
+      },
+      {
+        eyebrow: "Mentor access",
+        title: "Industry leaders, exited founders, VCs, and angels",
+        body: "The advisory layer is meant to be useful in practice, not ornamental. Founders should expect hard feedback, specific introductions, and decision-shaping context."
+      },
+      {
+        eyebrow: "Fund model",
+        title: "2 percent for concentrated help and long-term alignment",
+        body: "The economics are intentionally lean because the Fund wants to keep backing companies after the residency instead of treating the month as the end of the relationship."
+      }
+    ] satisfies SimpleCard[],
+    founderFit: [
+      {
+        eyebrow: "Traction",
+        title: "Already producing outcomes",
+        body: "The best fit already has revenue, adoption, customer pull, distribution proof, or another credible signal that the company is working."
+      },
+      {
+        eyebrow: "Impact",
+        title: "Already making a decent dent",
+        body: "The target founder can point to people, systems, or markets that are materially better because the company already exists."
+      },
+      {
+        eyebrow: "Scale",
+        title: "Ready for the next order of magnitude",
+        body: "The residency is built for founders who need leverage, not generic startup encouragement."
+      },
+      {
+        eyebrow: "Tempo",
+        title: "Able to use pressure well",
+        body: "One month only works if the team is ready for concentrated conversation, rapid iteration, and honest operator feedback."
+      },
+      {
+        eyebrow: "Partner fit",
+        title: "A company the partners can materially help",
+        body: "The Fund wants situations where David, Rishi, the advisors, and the Dojo network can produce non-generic leverage."
+      },
+      {
+        eyebrow: "Backability",
+        title: "Strong enough to syndicate after graduation",
+        body: "Every residency company is a candidate for continued backing through the Fund, which is why the bar is higher than a typical accelerator funnel."
+      }
+    ] satisfies SimpleCard[],
+    operatingModel: [
+      {
+        eyebrow: "Dojo philosophy",
+        title: "Capital, talent, and wisdom",
+        body: normalizeBrandCopy(startupSource.sections[1]?.heading ?? "The Dojo connects capital, talent & wisdom to accomplish the amazing.")
+      },
+      {
+        eyebrow: "How work gets done",
+        title: "Vision, hypothesis, experimentation",
+        body: normalizeBrandCopy(startupSource.sections[2]?.body[2] ?? startupSource.sections[2]?.body[0] ?? "")
+      },
+      {
+        eyebrow: "Growth philosophy",
+        title: "Straight, fast, and frictionless",
+        body: "The older startup-program copy is blunt about the intended style: achieve clarity, map the simplest path to the next objective, and keep avoidable pain low."
+      }
+    ] satisfies SimpleCard[],
+    supportCards: [
+      {
+        eyebrow: "Partner time",
+        title: "Direct involvement from David and Rishi",
+        body: "The program is designed around direct managing-partner time rather than broad but shallow programming."
+      },
+      {
+        eyebrow: "Network access",
+        title: "A community that already knows how to help companies move",
+        body: normalizeBrandCopy(getSection(communitySource, "About Us")?.body[2] ?? "")
+      },
+      {
+        eyebrow: "After the month",
+        title: "Graduation is the start of the next relationship",
+        body: "The Fund intends to syndicate strong companies after the residency, making the month part of a longer support arc instead of a one-off batch experience."
+      }
+    ] satisfies SimpleCard[],
+    companies: companyCards.slice(0, 4),
+    gallery: dedupeImages([
+      ...sfSource.images.slice(0, 4),
+      ...communitySource.images.slice(0, 2),
+      ...startupSource.images.slice(0, 3)
+    ]),
+    cta: {
+      title: "The first batch is deliberately small so every company gets real partner time.",
       body:
-        "We take 2% because the program is designed to be genuinely useful, highly involved and tightly aligned with the companies we believe can create outsized outcomes."
-    },
-    {
-      title: "Syndication after graduation",
-      body:
-        "Graduation is not the end of the relationship. Every company in the residency is one we intend to syndicate through the fund if the work and company quality justify it."
+        "Six spots is a design choice, not a scarcity gimmick. The Fund wants a cohort small enough that each founder actually feels the weight of the team, advisors, and network around them.",
+      actions: [
+        { href: "/community", label: "See the company pattern" },
+        { href: "/initiatives", label: "See the impact thesis" }
+      ] satisfies ActionLink[]
     }
-  ] satisfies Principle[],
-  footer:
-    "Founder's Dojo Fund is building a June 2026 residency for six early-stage companies with real outcomes, offering one month in San Francisco, full-team support, intensive mentorship and fund syndication after graduation."
+  },
+  community: {
+    hero: {
+      eyebrow: "Archive proof",
+      title: "A founder network with real outcomes behind it.",
+      description:
+        "The community story is the clearest proof layer for the Fund: company outcomes, a long founder history in South Park, and a body of real people-and-place evidence that shows the Dojo as an actual working environment rather than a slogan.",
+      image: communityHeroImage,
+      panelTitle: "Why this matters",
+      panelBody:
+        "The residency matters more when founders can see the underlying pattern: strong people staying close, real outcomes emerging from the network, and a culture that values intensity, ambition, and unusually capable builders.",
+      panelItems: [
+        { label: "Origin", value: "South Park, 2008" },
+        { label: "Company pattern", value: "Operators and outcomes" },
+        { label: "Network shape", value: "Hundreds of Dojans" },
+        { label: "Program now", value: "Residency-first" }
+      ] satisfies Stat[],
+      actions: [
+        { href: "/residency", label: "Back to the residency" },
+        { href: "#archive-gallery", label: "See the community" }
+      ] satisfies ActionLink[]
+    },
+    aboutParagraphs: (getSection(communitySource, "About Us")?.body ?? []).map(normalizeBrandCopy),
+    companies: companyCards,
+    historyParagraphs: (getSection(communitySource, "History")?.body ?? [])
+      .slice(0, 3)
+      .map(normalizeBrandCopy),
+    archivePages: archivePageCards,
+    gallery: publicArchiveImages,
+    cta: {
+      title: "This history matters because it shows pattern recognition, not nostalgia.",
+      body:
+        "For founders considering the residency, the point of the history is simple: this network has already been close to meaningful companies, serious operators, and unusual talent for a long time.",
+      actions: [
+        { href: "/residency", label: "See founder fit" },
+        { href: "/locations", label: "See the footprint" }
+      ] satisfies ActionLink[]
+    }
+  },
+  locations: {
+    hero: {
+      eyebrow: "Current footprint",
+      title: "San Francisco, Lake Tahoe, and Las Vegas in one operating network.",
+      description:
+        "San Francisco is the base for the June 2026 residency, while Lake Tahoe and Las Vegas expand the Fund's current footprint with different working modes: sprinting, convening, and founder collisions in environments that are distinct on purpose.",
+      image: sfHeroImage,
+      panelTitle: "Why this matters",
+      panelBody:
+        "The residency is not an abstract remote program. Place matters. The different Dojo environments make that clear and help explain why the Fund can host founders in ways that feel more immersive than a standard batch.",
+      panelItems: [
+        { label: "SF role", value: "Residency base" },
+        { label: "Tahoe role", value: "Sprint base" },
+        { label: "Vegas role", value: "Convening node" },
+        { label: "Program lens", value: "Place creates leverage" }
+      ] satisfies Stat[],
+      actions: [
+        { href: "/residency", label: "See the program" },
+        { href: "/community", label: "See the community" }
+      ] satisfies ActionLink[]
+    },
+    locations: locationCards,
+    modeCards: [
+      {
+        eyebrow: "Residency",
+        title: "San Francisco for the main batch",
+        body: "The main program lives in San Francisco because that is where the Dojo's founder history, advisor access, and dense collision potential are strongest."
+      },
+      {
+        eyebrow: "Sprints",
+        title: "Tahoe for focused working sessions",
+        body: "Tahoe gives teams a quieter mode without leaving the broader Fund footprint."
+      },
+      {
+        eyebrow: "Conventions",
+        title: "Las Vegas for energy and convening",
+        body: "Las Vegas fits moments where hospitality, experience design, and large-scale gatherings are part of the work."
+      }
+    ] satisfies SimpleCard[],
+    gallery: dedupeImages([
+      ...sfSource.images,
+      ...tahoeSource.images,
+      ...vegasSource.images
+    ]),
+    cta: {
+      title: "San Francisco is the batch base. The wider footprint expands how the network works.",
+      body:
+        "The three-location story is not there for ornament. It gives the Fund multiple contexts for getting founders together at the right level of intensity.",
+      actions: [
+        { href: "/residency", label: "Review the residency" },
+        { href: "/initiatives", label: "Review the impact thesis" }
+      ] satisfies ActionLink[]
+    }
+  },
+  initiatives: {
+    hero: {
+      eyebrow: "Impact and infrastructure",
+      title: "The Fund's taste extends beyond startup growth for its own sake.",
+      description:
+        "The older Dojo material makes the worldview visible: decentralization, advocacy, legal access, institutional partnership, and projects that have a credible public-interest edge. That does not replace the residency. It explains what kind of founder the Fund wants close.",
+      image: initiativesHeroImage,
+      panelTitle: "Themes in the network",
+      panelBody:
+        "Privacy, security, open infrastructure, community advocacy, legal access, and large-scale public benefit all show up repeatedly in the Dojo's initiatives and partnerships.",
+      panelItems: [
+        { label: "Decentralization", value: "Manifest, Akash, Quantstamp" },
+        { label: "Advocacy", value: "BAC" },
+        { label: "Legal access", value: "Open Door Legal" },
+        { label: "Institutional work", value: "Lincoln University" }
+      ] satisfies Stat[],
+      actions: [
+        { href: "/residency", label: "See founder fit" },
+        { href: "/community", label: "See the broader proof" }
+      ] satisfies ActionLink[]
+    },
+    pillarCards: [
+      {
+        eyebrow: "Decentralization initiative",
+        title: "Private, secure, community-owned infrastructure",
+        body: normalizeBrandCopy(decentralizationSource.paragraphs[0])
+      },
+      {
+        eyebrow: "Community initiatives",
+        title: "Impact work with operating seriousness",
+        body: normalizeBrandCopy(communityInitiativesSource.paragraphs[0])
+      },
+      {
+        eyebrow: "Residency implication",
+        title: "The Fund prefers founders with actual stakes in the world",
+        body: "The target company is already producing outcomes and can plausibly scale into much larger impact with the Fund's network, advice, and follow-on support."
+      }
+    ] satisfies SimpleCard[],
+    projects: initiativeCards,
+    gallery: dedupeImages([
+      ...decentralizationSource.images,
+      ...communityInitiativesSource.images,
+      ...visionSource.images.slice(0, 3)
+    ]),
+    cta: {
+      title: "The best residency candidates already care about consequential problems.",
+      body:
+        "The Fund is not only looking for good startup mechanics. It is looking for founders whose work already matters and can matter much more with the right leverage around them.",
+      actions: [
+        { href: "/residency", label: "See the residency" },
+        { href: "/community", label: "See the company outcomes" }
+      ] satisfies ActionLink[]
+    }
+  }
 } as const;

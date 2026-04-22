@@ -5,6 +5,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: "https://foundersdojo.fund",
       lastModified: new Date()
+    },
+    {
+      url: "https://foundersdojo.fund/residency",
+      lastModified: new Date()
+    },
+    {
+      url: "https://foundersdojo.fund/community",
+      lastModified: new Date()
+    },
+    {
+      url: "https://foundersdojo.fund/locations",
+      lastModified: new Date()
+    },
+    {
+      url: "https://foundersdojo.fund/initiatives",
+      lastModified: new Date()
     }
   ];
 }

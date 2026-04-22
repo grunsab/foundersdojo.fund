@@ -1,0 +1,1615 @@
+{
+  "sourceFile": "content library/Squarespace-Wordpress-Export-04-22-2026.xml",
+  "generatedAt": "2026-04-22T21:23:09.394Z",
+  "summary": {
+    "itemCount": 18,
+    "pageCount": 10,
+    "postCount": 4,
+    "attachmentCount": 4,
+    "publicPageCount": 9,
+    "imageCount": 54,
+    "downloadedImageCount": 54,
+    "failedImageCount": 0
+  },
+  "publicPageOrder": [
+    "home",
+    "dojo-lake-tahoe",
+    "dojo-san-francisco",
+    "our-community",
+    "dojo-start-up-program",
+    "our-vision",
+    "decentralization-initiative",
+    "community-initiatives",
+    "dojo-las-vegas"
+  ],
+  "items": [
+    {
+      "id": "1e32db600a3e",
+      "title": "Home",
+      "slug": "home",
+      "type": "page",
+      "author": "",
+      "includePublic": true,
+      "isFillerPost": false,
+      "excerpt": "The Founder’s Dojo began as collaborative start up studio in San Francisco’s South Park neighborhood in 2008. Now the Dojo is a global community of founders, technologists, entrepreneurs, makers, artists & impactors.",
+      "headings": [
+        "Founders Dojo is a Collaborative Start Up Community"
+      ],
+      "paragraphs": [
+        "The Founder’s Dojo began as collaborative start up studio in San Francisco’s South Park neighborhood in 2008.",
+        "Now the Dojo is a global community of founders, technologists, entrepreneurs, makers, artists & impactors.",
+        "Dojian are super heros with super powers, Dojo is their toolbox."
+      ],
+      "sections": [
+        {
+          "heading": "Founders Dojo is a Collaborative Start Up Community",
+          "level": 4,
+          "body": [
+            "The Founder’s Dojo began as collaborative start up studio in San Francisco’s South Park neighborhood in 2008.",
+            "Now the Dojo is a global community of founders, technologists, entrepreneurs, makers, artists & impactors.",
+            "Dojian are super heros with super powers, Dojo is their toolbox."
+          ]
+        }
+      ],
+      "links": [],
+      "images": [
+        {
+          "id": "d15fbe891876",
+          "localPath": "/media/squarespace/d15fbe891876-goldengatebridge-001.jpg",
+          "alt": "GoldenGateBridge 001 from Home",
+          "fileName": "d15fbe891876-goldengatebridge-001.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/1622145470586-3Y4RJFG4VA2WO3FES556/GoldenGateBridge-001.jpg"
+        }
+      ]
+    },
+    {
+      "id": "4521ee32972c",
+      "title": "Dojo Lake Tahoe",
+      "slug": "dojo-lake-tahoe",
+      "type": "page",
+      "author": "",
+      "includePublic": true,
+      "isFillerPost": false,
+      "excerpt": "Dojo Sierra is located in the Lake Tahoe area in the picturesque East Sierra Mountain range. Located in historic downtown Carson City, NV Dojo Sierra is an excellent location for team off sites, heads down sprints and refreshers.",
+      "headings": [
+        "Dojo Lake Tahoe"
+      ],
+      "paragraphs": [
+        "Dojo Sierra is located in the Lake Tahoe area in the picturesque East Sierra Mountain range. Located in historic downtown Carson City, NV Dojo Sierra is an excellent location for team off sites, heads down sprints and refreshers."
+      ],
+      "sections": [
+        {
+          "heading": "Dojo Lake Tahoe",
+          "level": 2,
+          "body": [
+            "Dojo Sierra is located in the Lake Tahoe area in the picturesque East Sierra Mountain range. Located in historic downtown Carson City, NV Dojo Sierra is an excellent location for team off sites, heads down sprints and refreshers."
+          ]
+        }
+      ],
+      "links": [],
+      "images": [
+        {
+          "id": "2c54723ba792",
+          "localPath": "/media/squarespace/2c54723ba792-lake-tahoe.jpg",
+          "alt": "Lake Tahoe from Dojo Lake Tahoe",
+          "fileName": "2c54723ba792-lake-tahoe.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/1622140757244-WYJACXO70M54XW3MSN2I/Lake+Tahoe.jpg"
+        }
+      ]
+    },
+    {
+      "id": "8bffb294dc2d",
+      "title": "Dojo San Francisco",
+      "slug": "dojo-san-francisco",
+      "type": "page",
+      "author": "",
+      "includePublic": true,
+      "isFillerPost": false,
+      "excerpt": "Dojo San Francisco is located in the the Southeast section of the city. It shares the building with the world renowned Archimedes Banya. Members of the Dojo community enjoy full access to the facility and services. This unique space includes a Dojo executive and event suite. It features over 10,000 square feet of work space both inside and on two decks with amazing views of San Francisco and the East Bay. The building also has a restaurant and a full service banya and health resort features saunas, steam rooms, pools, massages and more.",
+      "headings": [
+        "Founded in San Francisco in the early days of the Internet.",
+        "Dojo San Francisco"
+      ],
+      "paragraphs": [
+        "Dojo San Francisco is located in the the Southeast section of the city. It shares the building with the world renowned Archimedes Banya. Members of the Dojo community enjoy full access to the facility and services.",
+        "This unique space includes a Dojo executive and event suite. It features over 10,000 square feet of work space both inside and on two decks with amazing views of San Francisco and the East Bay. The building also has a restaurant and a full service banya and health resort features saunas, steam rooms, pools, massages and more."
+      ],
+      "sections": [
+        {
+          "heading": "Founded in San Francisco in the early days of the Internet.",
+          "level": 4,
+          "body": []
+        },
+        {
+          "heading": "Dojo San Francisco",
+          "level": 2,
+          "body": [
+            "Dojo San Francisco is located in the the Southeast section of the city. It shares the building with the world renowned Archimedes Banya. Members of the Dojo community enjoy full access to the facility and services.",
+            "This unique space includes a Dojo executive and event suite. It features over 10,000 square feet of work space both inside and on two decks with amazing views of San Francisco and the East Bay. The building also has a restaurant and a full service banya and health resort features saunas, steam rooms, pools, massages and more."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.banyasf.com",
+          "label": "Archimedes Banya."
+        }
+      ],
+      "images": [
+        {
+          "id": "dee48e022424",
+          "localPath": "/media/squarespace/dee48e022424-sfnight.jpg",
+          "alt": "SFNight from Dojo San Francisco",
+          "fileName": "dee48e022424-sfnight.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/1622227352606-ZVSJBNPYMO4FRI37ERNG/SFNight.JPG"
+        },
+        {
+          "id": "88f9ebe624c2",
+          "localPath": "/media/squarespace/88f9ebe624c2-building.jpg",
+          "alt": "building from Dojo San Francisco",
+          "fileName": "88f9ebe624c2-building.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/bbd3a7b3-3384-4481-a8ee-0b70119eca74/building.jpg"
+        },
+        {
+          "id": "7791a5f81188",
+          "localPath": "/media/squarespace/7791a5f81188-cityview.jpg",
+          "alt": "cityview from Dojo San Francisco",
+          "fileName": "7791a5f81188-cityview.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/c6c4cc11-2f53-4a85-99e2-573a9144d542/cityview.jpg"
+        },
+        {
+          "id": "78791cbe5131",
+          "localPath": "/media/squarespace/78791cbe5131-rooftopcheers.jpg",
+          "alt": "rooftopcheers from Dojo San Francisco",
+          "fileName": "78791cbe5131-rooftopcheers.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/f84af53c-dfaa-471a-8702-a52b5eea0428/rooftopcheers.jpg"
+        },
+        {
+          "id": "a1d030a62a29",
+          "localPath": "/media/squarespace/a1d030a62a29-banyacrew.jpg",
+          "alt": "banyacrew from Dojo San Francisco",
+          "fileName": "a1d030a62a29-banyacrew.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/8c426d68-f15d-4748-b17b-a197d629b2e3/banyacrew.jpg"
+        },
+        {
+          "id": "165bc4f826df",
+          "localPath": "/media/squarespace/165bc4f826df-52819960-160625357654972-r.jpeg",
+          "alt": "52819960 160625357654972 r from Dojo San Francisco",
+          "fileName": "165bc4f826df-52819960-160625357654972-r.jpeg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/056b25ae-261e-48dd-ba3c-e108082d61ab/52819960_160625357654972_r.jpeg"
+        },
+        {
+          "id": "3cc2ba4ce1f8",
+          "localPath": "/media/squarespace/3cc2ba4ce1f8-chess.jpg",
+          "alt": "chess from Dojo San Francisco",
+          "fileName": "3cc2ba4ce1f8-chess.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/2cbfd718-39a5-4dcf-90c4-d813a64def2f/chess.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2b1045cc7a16",
+      "title": "Our Community",
+      "slug": "our-community",
+      "type": "page",
+      "author": "",
+      "includePublic": true,
+      "isFillerPost": false,
+      "excerpt": "The accomplishments of Dojians are wide reaching and impactful. This includes building unicorn private and public companies, deploying capital, talent and resources into impactful projects across the globe and conceiving and building key aspects of the global technology infrastructure. Some of the largest and well known technology companies and categories were fostered in and around the Dojo. Today hundreds of great entrepreneurs and leaders in all corners of the world consider themselves Dojans.",
+      "headings": [
+        "About Us",
+        "Below is a selection of incubated & advised Dojo Companies.",
+        "Native Co",
+        "Akash",
+        "Scout Monitoring",
+        "Linjer",
+        "The Hustle",
+        "Quantstamp",
+        "Talkdoc",
+        "Product Hunt",
+        "History"
+      ],
+      "paragraphs": [
+        "The accomplishments of Dojians are wide reaching and impactful. This includes building unicorn private and public companies, deploying capital, talent and resources into impactful projects across the globe and conceiving and building key aspects of the global technology infrastructure.",
+        "Some of the largest and well known technology companies and categories were fostered in and around the Dojo. Today hundreds of great entrepreneurs and leaders in all corners of the world consider themselves Dojans.",
+        "The Dojo works with companies in a broad range of roles primarily capital deployment, advisory and project management.",
+        "Revolutionized DTC and personal care subscription. Sold to Procter & Gamble PG (NYSE) $100M.",
+        "Created a new decentralized cloud computing category value exceed $1B .",
+        "Leading distributed computer monitoring system sold to SolarWinds SWI (NYSE) for undisclosed amount.",
+        "A leading global fashion brand, Linjer and its subsidiaries are among the largest DTC brands in their respective categories in the Pacific Rim.",
+        "Leading business and technology media company sold to Hubspot HUBS (NYSE).",
+        "Innovative blockchain security software provider leading way towards a decentralized internet.",
+        "Committed to equal access to mental health services, Talkdoc is the fasting growing mental tele-healthcare provider for Medicare + Medi Cal.",
+        "While not founded in the Dojo, the Dojo was early subscribers and supports of Ryan Hoover’s innovative product discovery platform. .",
+        "The Dojo started as a too big office for an ad network. The ad network is gone but the Dojo grows. The space started as a traditional rent a desk space back in 2008. My buddy (since Coolboard days in web 1.0) Andre Lewis, of Scout Monitoring built a lead management system for my CPA network. While celebrating the completion of the project at the Anchor Brewing tour we started talking about getting a place were we could both work. As it turned out the Looksmart building where Andre had rented a desk was kicking everybody out for Myspace. After looking at a few spaces Andre and I agreed on spot near South Park at 480 2nd st #201. At the time, the building was pretty empty. We rented desks to other Looksmart refugees including Richard White of Uservoice, Christian Perry of SFBETA and an engineer who went on to build Kickstarter. Mike Simon of Flexible Informatics and Derrick Hayneswho co-founded Scout Monitoring joined soon after. Barry Willingham and my brother who were both partners in the CPA network but located in other parts of the country immediately we saw the value of the community both to give me sounding boards and also to be close to talent and skills.",
+        "I felt that I had to charge rent to justify the large size of the office so we offered desks at $250 per month, internet included. Over the next year or so people came and went including David Park and Eric Bahn of Beat the GMAT. After Eric and David left to go to San Mateo, it did not take long to realize that I did not want to lose talent unnecessarily and I wasn’t interested in the traditional rent a desk business. Ironically mega projects like WeWork and Techspace would soon raise billions on that idea. We thought about moving to a smaller office but Barry Willingham and Michael Grossblatt were against losing our hard won San Francisco footprint. Also Mike Simon had become a great mentor and I started to feel like I did not want to charge rent in mindshare. We all agreed to keep the space and not charge anyone. Soon great people started coming through the office. his was also about the time that the Facebook platform for developers opened up so Web2.0 was underway. I could never afford the talent that came to the dojo, but if I gave them a desk they worked with me for free. Over the next decade hundreds of amazing founders, technologists, leaders and makers came through the Founders Dojo. Amazing adventures and accomplishments happened as well.",
+        "Now the Dojo is a community of hundreds of business and cultural leaders around the world. We get together ad hoc and come together for projects and experiences. Opportunity never sets on the Dojo",
+        "David Grossblatt, Founder"
+      ],
+      "sections": [
+        {
+          "heading": "About Us",
+          "level": 3,
+          "body": [
+            "The accomplishments of Dojians are wide reaching and impactful. This includes building unicorn private and public companies, deploying capital, talent and resources into impactful projects across the globe and conceiving and building key aspects of the global technology infrastructure.",
+            "Some of the largest and well known technology companies and categories were fostered in and around the Dojo. Today hundreds of great entrepreneurs and leaders in all corners of the world consider themselves Dojans.",
+            "The Dojo works with companies in a broad range of roles primarily capital deployment, advisory and project management."
+          ]
+        },
+        {
+          "heading": "Below is a selection of incubated & advised Dojo Companies.",
+          "level": 4,
+          "body": []
+        },
+        {
+          "heading": "Native Co",
+          "level": 4,
+          "body": [
+            "Revolutionized DTC and personal care subscription. Sold to Procter & Gamble PG (NYSE) $100M."
+          ]
+        },
+        {
+          "heading": "Akash",
+          "level": 4,
+          "body": [
+            "Created a new decentralized cloud computing category value exceed $1B ."
+          ]
+        },
+        {
+          "heading": "Scout Monitoring",
+          "level": 4,
+          "body": [
+            "Leading distributed computer monitoring system sold to SolarWinds SWI (NYSE) for undisclosed amount."
+          ]
+        },
+        {
+          "heading": "Linjer",
+          "level": 4,
+          "body": [
+            "A leading global fashion brand, Linjer and its subsidiaries are among the largest DTC brands in their respective categories in the Pacific Rim."
+          ]
+        },
+        {
+          "heading": "The Hustle",
+          "level": 4,
+          "body": [
+            "Leading business and technology media company sold to Hubspot HUBS (NYSE)."
+          ]
+        },
+        {
+          "heading": "Quantstamp",
+          "level": 4,
+          "body": [
+            "Innovative blockchain security software provider leading way towards a decentralized internet."
+          ]
+        },
+        {
+          "heading": "Talkdoc",
+          "level": 4,
+          "body": [
+            "Committed to equal access to mental health services, Talkdoc is the fasting growing mental tele-healthcare provider for Medicare + Medi Cal."
+          ]
+        },
+        {
+          "heading": "Product Hunt",
+          "level": 4,
+          "body": [
+            "While not founded in the Dojo, the Dojo was early subscribers and supports of Ryan Hoover’s innovative product discovery platform. ."
+          ]
+        },
+        {
+          "heading": "History",
+          "level": 3,
+          "body": [
+            "The Dojo started as a too big office for an ad network. The ad network is gone but the Dojo grows. The space started as a traditional rent a desk space back in 2008. My buddy (since Coolboard days in web 1.0) Andre Lewis, of Scout Monitoring built a lead management system for my CPA network. While celebrating the completion of the project at the Anchor Brewing tour we started talking about getting a place were we could both work. As it turned out the Looksmart building where Andre had rented a desk was kicking everybody out for Myspace. After looking at a few spaces Andre and I agreed on spot near South Park at 480 2nd st #201. At the time, the building was pretty empty. We rented desks to other Looksmart refugees including Richard White of Uservoice, Christian Perry of SFBETA and an engineer who went on to build Kickstarter. Mike Simon of Flexible Informatics and Derrick Hayneswho co-founded Scout Monitoring joined soon after. Barry Willingham and my brother who were both partners in the CPA network but located in other parts of the country immediately we saw the value of the community both to give me sounding boards and also to be close to talent and skills.",
+            "I felt that I had to charge rent to justify the large size of the office so we offered desks at $250 per month, internet included. Over the next year or so people came and went including David Park and Eric Bahn of Beat the GMAT. After Eric and David left to go to San Mateo, it did not take long to realize that I did not want to lose talent unnecessarily and I wasn’t interested in the traditional rent a desk business. Ironically mega projects like WeWork and Techspace would soon raise billions on that idea. We thought about moving to a smaller office but Barry Willingham and Michael Grossblatt were against losing our hard won San Francisco footprint. Also Mike Simon had become a great mentor and I started to feel like I did not want to charge rent in mindshare. We all agreed to keep the space and not charge anyone. Soon great people started coming through the office. his was also about the time that the Facebook platform for developers opened up so Web2.0 was underway. I could never afford the talent that came to the dojo, but if I gave them a desk they worked with me for free. Over the next decade hundreds of amazing founders, technologists, leaders and makers came through the Founders Dojo. Amazing adventures and accomplishments happened as well.",
+            "Now the Dojo is a community of hundreds of business and cultural leaders around the world. We get together ad hoc and come together for projects and experiences. Opportunity never sets on the Dojo",
+            "David Grossblatt, Founder"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.nativecos.com/",
+          "label": "Native Co"
+        },
+        {
+          "href": "https://akash.network/",
+          "label": "Akash"
+        },
+        {
+          "href": "https://www.coingecko.com/en/coins/akash-network/usd",
+          "label": "$1B"
+        },
+        {
+          "href": "https://scoutapm.com/",
+          "label": "Scout Monitoring"
+        },
+        {
+          "href": "https://www.linjer.co/",
+          "label": "Linjer"
+        },
+        {
+          "href": "https://thehustle.co/",
+          "label": "The Hustle"
+        },
+        {
+          "href": "https://quantstamp.com/",
+          "label": "Quantstamp"
+        },
+        {
+          "href": "https://www.talkdoc.com/",
+          "label": "Talkdoc"
+        },
+        {
+          "href": "https://www.producthunt.com/",
+          "label": "Product Hunt"
+        },
+        {
+          "href": "https://www.doublefine.com/",
+          "label": "https://www.doublefine.com/"
+        },
+        {
+          "href": "https://en.wikipedia.org/wiki/Malia_Cohen",
+          "label": "https://en.wikipedia.org/wiki/Malia_Cohen"
+        }
+      ],
+      "images": [
+        {
+          "id": "92c27198f458",
+          "localPath": "/media/squarespace/92c27198f458-ravifortunecver.jpg",
+          "alt": "RaviFortuneCver from Our Community",
+          "fileName": "92c27198f458-ravifortunecver.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/11802e3e-310b-4824-b9e5-95816eeb107c/RaviFortuneCver.jpg"
+        },
+        {
+          "id": "135ab2f32548",
+          "localPath": "/media/squarespace/135ab2f32548-dojopep1.jpg",
+          "alt": "dojopep1 from Our Community",
+          "fileName": "135ab2f32548-dojopep1.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/bf1c3ddd-d61a-47c7-bcd3-3017f59f08e4/dojopep1.jpg"
+        },
+        {
+          "id": "21798eea5be8",
+          "localPath": "/media/squarespace/21798eea5be8-conference-at-sf-dojo2.jpg",
+          "alt": "conference at sf dojo2 from Our Community",
+          "fileName": "21798eea5be8-conference-at-sf-dojo2.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/4c05c091-e2e0-4971-980d-c9187d019e36/conference+at+sf+dojo2.jpg"
+        },
+        {
+          "id": "9a67c37494b2",
+          "localPath": "/media/squarespace/9a67c37494b2-dojobday.jpg",
+          "alt": "dojobday from Our Community",
+          "fileName": "9a67c37494b2-dojobday.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/fb26049a-33c3-4601-a9ea-3266e472e039/dojobday.jpg"
+        },
+        {
+          "id": "97f2dcb50a86",
+          "localPath": "/media/squarespace/97f2dcb50a86-dojopicabove.jpg",
+          "alt": "dojopicabove from Our Community",
+          "fileName": "97f2dcb50a86-dojopicabove.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/b3e865db-6225-4232-9d5f-07fd705505d6/dojopicabove.jpg"
+        },
+        {
+          "id": "bf083db8d695",
+          "localPath": "/media/squarespace/bf083db8d695-fdshirt.jpg",
+          "alt": "fdshirt from Our Community",
+          "fileName": "bf083db8d695-fdshirt.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/05456b4e-403e-436e-8c9a-fe9eb51c1397/fdshirt.jpg"
+        },
+        {
+          "id": "aca7ad6d9877",
+          "localPath": "/media/squarespace/aca7ad6d9877-dogpatchplayground.jpg",
+          "alt": "dogpatchplayground from Our Community",
+          "fileName": "aca7ad6d9877-dogpatchplayground.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/458887d3-a16a-40c6-a3d7-f6d4415540ba/dogpatchplayground.jpg"
+        },
+        {
+          "id": "0899eda6fca9",
+          "localPath": "/media/squarespace/0899eda6fca9-timpatrick.jpg",
+          "alt": "TimPatrick from Our Community",
+          "fileName": "0899eda6fca9-timpatrick.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/ad423941-c36c-4c62-81bf-67b924dbef64/TimPatrick.jpg"
+        },
+        {
+          "id": "7ffa53cf2ac3",
+          "localPath": "/media/squarespace/7ffa53cf2ac3-dojodrones.jpg",
+          "alt": "dojodrones from Our Community",
+          "fileName": "7ffa53cf2ac3-dojodrones.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/ee57af8f-ec1b-4c3a-a7be-d600ba6c2b9a/dojodrones.jpg"
+        },
+        {
+          "id": "c870d68c4312",
+          "localPath": "/media/squarespace/c870d68c4312-dojocelebrate.jpg",
+          "alt": "dojocelebrate from Our Community",
+          "fileName": "c870d68c4312-dojocelebrate.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/241c356e-be1e-42aa-bff8-ca4f51542050/dojocelebrate.jpg"
+        },
+        {
+          "id": "533410f42c5b",
+          "localPath": "/media/squarespace/533410f42c5b-dogpatch-playground-fundraiser36.jpg",
+          "alt": "Dogpatch Playground Fundraiser36 from Our Community",
+          "fileName": "533410f42c5b-dogpatch-playground-fundraiser36.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/8a7caa78-0155-480a-9f4c-c850b5ed9380/Dogpatch+Playground+Fundraiser36.jpg"
+        },
+        {
+          "id": "30b9a0f926bc",
+          "localPath": "/media/squarespace/30b9a0f926bc-keneticactivitydojo.jpg",
+          "alt": "keneticactivitydojo from Our Community",
+          "fileName": "30b9a0f926bc-keneticactivitydojo.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/edf165c6-8aba-4739-b6fb-4190cea1de07/keneticactivitydojo.jpg"
+        },
+        {
+          "id": "9271f7358e11",
+          "localPath": "/media/squarespace/9271f7358e11-rips.jpg",
+          "alt": "rips from Our Community",
+          "fileName": "9271f7358e11-rips.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/2ebcc3ff-7eb6-4d60-99cc-7d1721e7d460/rips.jpg"
+        },
+        {
+          "id": "aa6e37f27d85",
+          "localPath": "/media/squarespace/aa6e37f27d85-danabbie.jpg",
+          "alt": "DanAbbie from Our Community",
+          "fileName": "aa6e37f27d85-danabbie.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/e5394dc5-2092-4b60-9694-e2fbcaf60d77/DanAbbie.jpg"
+        },
+        {
+          "id": "af5b22a4aadf",
+          "localPath": "/media/squarespace/af5b22a4aadf-abbieamina.jpg",
+          "alt": "AbbieAmina from Our Community",
+          "fileName": "af5b22a4aadf-abbieamina.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/35097cc8-c612-4d36-b2f4-223142c00513/AbbieAmina.jpg"
+        },
+        {
+          "id": "08ed046ebe1a",
+          "localPath": "/media/squarespace/08ed046ebe1a-amina.jpg",
+          "alt": "Amina from Our Community",
+          "fileName": "08ed046ebe1a-amina.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/a4478367-8ef4-4f4f-b2c8-55b183b9aade/Amina.jpg"
+        },
+        {
+          "id": "77b156640dd2",
+          "localPath": "/media/squarespace/77b156640dd2-rajchris.jpg",
+          "alt": "rajchris from Our Community",
+          "fileName": "77b156640dd2-rajchris.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/b1b7fda6-82a7-4716-b7e7-5571ef0325e2/rajchris.jpg"
+        },
+        {
+          "id": "11381f29e443",
+          "localPath": "/media/squarespace/11381f29e443-old-dojo.jpg",
+          "alt": "old dojo from Our Community",
+          "fileName": "11381f29e443-old-dojo.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/49614b97-7f0c-4b4a-a609-d6158449951b/old+dojo.jpg"
+        }
+      ]
+    },
+    {
+      "id": "e86eb3132cdf",
+      "title": "Dojo Start Up Program",
+      "slug": "dojo-start-up-program",
+      "type": "page",
+      "author": "",
+      "includePublic": true,
+      "isFillerPost": false,
+      "excerpt": "Founders Dojo Start Up Program Since 2007 hundreds of founders, projects, initiatives and movements have come through the Dojo. The Founders Dojo Start up program is the iteration and culmination of those experiences. The Dojo is a tool box, Dojians are the crafters.",
+      "headings": [
+        "The Dojo connects capital, talent & wisdom to accomplish the amazing.",
+        "In The Beginning and",
+        "\"It's a collaborative, start-up community and home to superstars who do amazing things\""
+      ],
+      "paragraphs": [
+        "Founders Dojo Start Up Program",
+        "Since 2007 hundreds of founders, projects, initiatives and movements have come through the Dojo. The Founders Dojo Start up program is the iteration and culmination of those experiences. The Dojo is a tool box, Dojians are the crafters.",
+        "The Dojo Start up program is unique for each project and is generally broken into two key phases - formation and growth.",
+        "Everyone is a super hero and everyone has super powers. The Dojo’s goal is to match the Super Heros and super powers to achieve synergy towards a shared vision.",
+        "The formation phase starts with a vision - how the world should change. A hypothesis - if we do this, that will happen, and experimentation to adjust the vector towards the vision.",
+        "The experimentation tests the hypothesis with the minimial work and expense. The MVP (minimal viable product) is he MVP (Most Valuable Player) of the start up stack. Going from vision to reality is a fulfilling journey we have traveled many times.",
+        "Dojo is a toolbox of entrepenurial wisdom and experience. When you avoid the mistakes from the hundreds that have come before you, you go straighter, faster and smoother towards your vision.",
+        "Dojo’s growth philosophy is the same, achieve clarity, map out the simplest path to the next objective, then proceed straight, fast and frictionless. The Dojo’s focus and commitment to results with a high rate of success and a low rate of pain.",
+        "Start up and life must be fun, enjoyable and lucrative to be dojo. At each stage we work to be the toolbox of wisdom, talent and capital to achieve the vision.",
+        "— Ryan Hoover, Founder of Product Hunt"
+      ],
+      "sections": [
+        {
+          "heading": "Intro",
+          "level": 0,
+          "body": [
+            "Founders Dojo Start Up Program"
+          ]
+        },
+        {
+          "heading": "The Dojo connects capital, talent & wisdom to accomplish the amazing.",
+          "level": 3,
+          "body": [
+            "Since 2007 hundreds of founders, projects, initiatives and movements have come through the Dojo. The Founders Dojo Start up program is the iteration and culmination of those experiences. The Dojo is a tool box, Dojians are the crafters."
+          ]
+        },
+        {
+          "heading": "In The Beginning and",
+          "level": 4,
+          "body": [
+            "The Dojo Start up program is unique for each project and is generally broken into two key phases - formation and growth.",
+            "Everyone is a super hero and everyone has super powers. The Dojo’s goal is to match the Super Heros and super powers to achieve synergy towards a shared vision.",
+            "The formation phase starts with a vision - how the world should change. A hypothesis - if we do this, that will happen, and experimentation to adjust the vector towards the vision.",
+            "The experimentation tests the hypothesis with the minimial work and expense. The MVP (minimal viable product) is he MVP (Most Valuable Player) of the start up stack. Going from vision to reality is a fulfilling journey we have traveled many times.",
+            "Dojo is a toolbox of entrepenurial wisdom and experience. When you avoid the mistakes from the hundreds that have come before you, you go straighter, faster and smoother towards your vision.",
+            "Dojo’s growth philosophy is the same, achieve clarity, map out the simplest path to the next objective, then proceed straight, fast and frictionless. The Dojo’s focus and commitment to results with a high rate of success and a low rate of pain.",
+            "Start up and life must be fun, enjoyable and lucrative to be dojo. At each stage we work to be the toolbox of wisdom, talent and capital to achieve the vision."
+          ]
+        },
+        {
+          "heading": "\"It's a collaborative, start-up community and home to superstars who do amazing things\"",
+          "level": 3,
+          "body": [
+            "— Ryan Hoover, Founder of Product Hunt"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://cmxhub.com/",
+          "label": "https://cmxhub.com/"
+        },
+        {
+          "href": "https://www.collective.com/",
+          "label": "https://www.collective.com/"
+        },
+        {
+          "href": "https://refereum.com/",
+          "label": "https://refereum.com/"
+        },
+        {
+          "href": "https://www.nytimes.com/2015/03/27/technology/tech-titans-bet-that-the-world-is-ready-for-the-streaming-selfie.html",
+          "label": "https://www.nytimes.com/2015/03/27/technology/tech-titans-bet-that-the-world-is-ready-for-the-streaming-selfie.html"
+        },
+        {
+          "href": "https://www.nativecos.com/",
+          "label": "https://www.nativecos.com/"
+        }
+      ],
+      "images": [
+        {
+          "id": "2b181fbb48c9",
+          "localPath": "/media/squarespace/2b181fbb48c9-abbyjohn.jpg",
+          "alt": "AbbyJohn from Dojo Start Up Program",
+          "fileName": "2b181fbb48c9-abbyjohn.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/59bdfeed-4684-4b2c-8f62-98cd945f2788/AbbyJohn.jpg"
+        },
+        {
+          "id": "8efdaf30ba7a",
+          "localPath": "/media/squarespace/8efdaf30ba7a-spinks.jpg",
+          "alt": "spinks from Dojo Start Up Program",
+          "fileName": "8efdaf30ba7a-spinks.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/bc37fcb3-ab65-4bde-b05d-4d51b29a3777/spinks.jpg"
+        },
+        {
+          "id": "6a906c639754",
+          "localPath": "/media/squarespace/6a906c639754-dojocrew.jpg",
+          "alt": "dojocrew from Dojo Start Up Program",
+          "fileName": "6a906c639754-dojocrew.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/12d7deae-e09a-487b-ae91-0f271083907f/dojocrew.jpg"
+        },
+        {
+          "id": "54d27704c16e",
+          "localPath": "/media/squarespace/54d27704c16e-23519353-10155610354317911-366432096105870276-n.jpg",
+          "alt": "23519353 10155610354317911 366432096105870276 n from Dojo Start Up Program",
+          "fileName": "54d27704c16e-23519353-10155610354317911-366432096105870276-n.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/0dcea448-1b30-4f34-906b-ce9dba44ecd0/23519353_10155610354317911_366432096105870276_n.jpg"
+        },
+        {
+          "id": "5cf931d6797d",
+          "localPath": "/media/squarespace/5cf931d6797d-dojobday.jpg",
+          "alt": "dojobday from Dojo Start Up Program",
+          "fileName": "5cf931d6797d-dojobday.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/4c262915-6c85-4f7d-8c04-123a81fa7310/dojobday.jpg"
+        },
+        {
+          "id": "4c80be23b794",
+          "localPath": "/media/squarespace/4c80be23b794-facebooktour.jpg",
+          "alt": "facebooktour from Dojo Start Up Program",
+          "fileName": "4c80be23b794-facebooktour.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/45667b54-6a83-4421-bf84-14c2adea4455/facebooktour.jpg"
+        },
+        {
+          "id": "6d4077d7ffd2",
+          "localPath": "/media/squarespace/6d4077d7ffd2-needles-meerkat.jpg",
+          "alt": "needles meerkat from Dojo Start Up Program",
+          "fileName": "6d4077d7ffd2-needles-meerkat.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/a03ddace-5ed0-4c7c-b3e4-8fe4602f34bb/needles+meerkat.jpg"
+        },
+        {
+          "id": "33dcb98d56c0",
+          "localPath": "/media/squarespace/33dcb98d56c0-sammoiz.jpg",
+          "alt": "samMoiz from Dojo Start Up Program",
+          "fileName": "33dcb98d56c0-sammoiz.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/b1c5e83d-d5a0-49c5-bd9b-6e20e5e92b61/samMoiz.jpg"
+        },
+        {
+          "id": "1bdddf50fa00",
+          "localPath": "/media/squarespace/1bdddf50fa00-tejs.jpg",
+          "alt": "TEJS from Dojo Start Up Program",
+          "fileName": "1bdddf50fa00-tejs.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/5a53dce5-3f34-4cd4-824e-8be3eaa4c2ac/TEJS.jpg"
+        }
+      ]
+    },
+    {
+      "id": "347c29ff2ac0",
+      "title": "Our Vision",
+      "slug": "our-vision",
+      "type": "page",
+      "author": "",
+      "includePublic": true,
+      "isFillerPost": false,
+      "excerpt": "",
+      "headings": [],
+      "paragraphs": [],
+      "sections": [],
+      "links": [],
+      "images": [
+        {
+          "id": "dfbd5f57d546",
+          "localPath": "/media/squarespace/dfbd5f57d546-ca-state-house.jpg",
+          "alt": "ca state house from Our Vision",
+          "fileName": "dfbd5f57d546-ca-state-house.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/c6d03449-2bb8-41ba-92b8-0c3227928dd6/ca+state+house.jpg"
+        },
+        {
+          "id": "424c29134c8c",
+          "localPath": "/media/squarespace/424c29134c8c-cryptinight.jpg",
+          "alt": "cryptinight from Our Vision",
+          "fileName": "424c29134c8c-cryptinight.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/2043f57f-8ae8-4692-9a64-9d12d9966e88/cryptinight.jpg"
+        },
+        {
+          "id": "c948dfeb63dd",
+          "localPath": "/media/squarespace/c948dfeb63dd-dojopicabove.jpg",
+          "alt": "dojopicabove from Our Vision",
+          "fileName": "c948dfeb63dd-dojopicabove.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/edd9cea7-7be2-4091-b95e-b1e44ad9127e/dojopicabove.jpg"
+        },
+        {
+          "id": "e0edbd040938",
+          "localPath": "/media/squarespace/e0edbd040938-facebooktour.jpg",
+          "alt": "facebooktour from Our Vision",
+          "fileName": "e0edbd040938-facebooktour.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/714496fc-e361-4248-83c2-394896cfc1d0/facebooktour.jpg"
+        },
+        {
+          "id": "3e037919c79a",
+          "localPath": "/media/squarespace/3e037919c79a-tejs.jpg",
+          "alt": "TEJS from Our Vision",
+          "fileName": "3e037919c79a-tejs.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/494e5c5a-9871-4347-a9f2-85714e03d240/TEJS.jpg"
+        },
+        {
+          "id": "4a762db28a64",
+          "localPath": "/media/squarespace/4a762db28a64-tinawithhrc.jpg",
+          "alt": "tinawithHRC from Our Vision",
+          "fileName": "4a762db28a64-tinawithhrc.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/d2fae460-cd97-4a39-b6d3-b2fca2b814b5/tinawithHRC.jpg"
+        },
+        {
+          "id": "0cf87d1a4a78",
+          "localPath": "/media/squarespace/0cf87d1a4a78-faces.jpg",
+          "alt": "faces from Our Vision",
+          "fileName": "0cf87d1a4a78-faces.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/1622147522307-PH6NH8ND7LX1QLUD0AN9/faces.jpg"
+        }
+      ]
+    },
+    {
+      "id": "f5d79d36a453",
+      "title": "Decentralization Initiative",
+      "slug": "decentralization-initiative",
+      "type": "page",
+      "author": "",
+      "includePublic": true,
+      "isFillerPost": false,
+      "excerpt": "The Dojo community has been involved in the decentralization and open source software movement since the early days. We believe in privacy, security and a free and safe internet. Decentralization is the process of distributing to the users or community of a platform or software. Projects like Manifest Network , Quantstamp , and Akash lead the way, we offer special support for projects committed to decentralization. We work with new or existing projects across all aspects of the process including capital and talent acquisition, project design, tokenomics, content and community development, technology, policy, launch and growth.",
+      "headings": [
+        "Founders Dojo Decentralization Initiative"
+      ],
+      "paragraphs": [
+        "The Dojo community has been involved in the decentralization and open source software movement since the early days. We believe in privacy, security and a free and safe internet. Decentralization is the process of distributing to the users or community of a platform or software.",
+        "Projects like Manifest Network , Quantstamp , and Akash lead the way, we offer special support for projects committed to decentralization. We work with new or existing projects across all aspects of the process including capital and talent acquisition, project design, tokenomics, content and community development, technology, policy, launch and growth.",
+        "Decentralized Infrastructure Initiative",
+        "The three layers to the global tech stack are the bare metal layer (data center), the application layer (software) and the data layer (information), We believe that each layer should be private and secure. We are committed to helping new and existing teams build the decentralized infrastrucure."
+      ],
+      "sections": [
+        {
+          "heading": "Founders Dojo Decentralization Initiative",
+          "level": 4,
+          "body": [
+            "The Dojo community has been involved in the decentralization and open source software movement since the early days. We believe in privacy, security and a free and safe internet. Decentralization is the process of distributing to the users or community of a platform or software.",
+            "Projects like Manifest Network , Quantstamp , and Akash lead the way, we offer special support for projects committed to decentralization. We work with new or existing projects across all aspects of the process including capital and talent acquisition, project design, tokenomics, content and community development, technology, policy, launch and growth.",
+            "Decentralized Infrastructure Initiative",
+            "The three layers to the global tech stack are the bare metal layer (data center), the application layer (software) and the data layer (information), We believe that each layer should be private and secure. We are committed to helping new and existing teams build the decentralized infrastrucure."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.manifest.network",
+          "label": "Manifest Network"
+        },
+        {
+          "href": "https://quantstamp.com",
+          "label": "Quantstamp"
+        },
+        {
+          "href": "https://akash.network",
+          "label": "Akash"
+        },
+        {
+          "href": "https://www.collective.com/",
+          "label": "https://www.collective.com/"
+        },
+        {
+          "href": "https://refereum.com/",
+          "label": "https://refereum.com/"
+        }
+      ],
+      "images": [
+        {
+          "id": "1f4041484d8c",
+          "localPath": "/media/squarespace/1f4041484d8c-newsom2.jpg",
+          "alt": "newsom2 from Decentralization Initiative",
+          "fileName": "1f4041484d8c-newsom2.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/80537fb1-b5e3-454c-aa66-6d29d7d89d4b/newsom2.jpg"
+        },
+        {
+          "id": "4475b9d77fd6",
+          "localPath": "/media/squarespace/4475b9d77fd6-newsom.jpg",
+          "alt": "newsom from Decentralization Initiative",
+          "fileName": "4475b9d77fd6-newsom.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/dcd007ea-f988-4c9e-81da-a389ac971bce/newsom.jpg"
+        },
+        {
+          "id": "d482b2806aa7",
+          "localPath": "/media/squarespace/d482b2806aa7-ca-state-house.jpg",
+          "alt": "ca state house from Decentralization Initiative",
+          "fileName": "d482b2806aa7-ca-state-house.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/31f13d39-3565-4c4a-a223-208a00d3eb95/ca+state+house.jpg"
+        },
+        {
+          "id": "54d27704c16e",
+          "localPath": "/media/squarespace/54d27704c16e-23519353-10155610354317911-366432096105870276-n.jpg",
+          "alt": "23519353 10155610354317911 366432096105870276 n from Dojo Start Up Program",
+          "fileName": "54d27704c16e-23519353-10155610354317911-366432096105870276-n.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/0dcea448-1b30-4f34-906b-ce9dba44ecd0/23519353_10155610354317911_366432096105870276_n.jpg"
+        },
+        {
+          "id": "5cf931d6797d",
+          "localPath": "/media/squarespace/5cf931d6797d-dojobday.jpg",
+          "alt": "dojobday from Dojo Start Up Program",
+          "fileName": "5cf931d6797d-dojobday.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/4c262915-6c85-4f7d-8c04-123a81fa7310/dojobday.jpg"
+        },
+        {
+          "id": "1bdddf50fa00",
+          "localPath": "/media/squarespace/1bdddf50fa00-tejs.jpg",
+          "alt": "TEJS from Dojo Start Up Program",
+          "fileName": "1bdddf50fa00-tejs.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/5a53dce5-3f34-4cd4-824e-8be3eaa4c2ac/TEJS.jpg"
+        }
+      ]
+    },
+    {
+      "id": "9d9831773307",
+      "title": "Community Initiatives",
+      "slug": "community-initiatives",
+      "type": "page",
+      "author": "",
+      "includePublic": true,
+      "isFillerPost": false,
+      "excerpt": "We strive to accomplish amazing things in all aspects. Community support, pro bono, advocacy and charitable initiatives are our driving mission. Projects",
+      "headings": [
+        "Founders Dojo Community Initiatives"
+      ],
+      "paragraphs": [
+        "We strive to accomplish amazing things in all aspects. Community support, pro bono, advocacy and charitable initiatives are our driving mission.",
+        "Projects",
+        "Blockchain Advocacy Coalition",
+        "The Dojo is the founding organization for this leading decentralization and blockchain advocacy organization. Dojans have testified and advocated in front of multiple legislative and regulatory bodies in California, Wyoming and Washington D.C. in favor of decentralization and appropriate blockchain regulation and policy.",
+        "Open Door Legal",
+        "ODL is an award-winning legal aid nonprofit working to show that poverty will be dramatically reduced when everyone has access to the law. ODL has been a Dojo project since 2016, like all projects we provide talent, ideas and capital to help them continue to prove their hypothesis that universal access to legal representation is THE best poverty disrupter available to policy makers.",
+        "Using metrics from the Robinhood foundation, ODL found that every dollar spent on universal legal services generates $6.6 in direct benefit to their clients and $14.7 in benefit to the larger community. This totals to $21 in total SROI for every dollar spent, making their services one of the most cost effective anti-poverty solutions.",
+        "Lincoln University",
+        "Lincoln University is a 100+ year old not for profit, business college located in downtown Oakland, CA, it primarily serves the local community and international students. Founders Dojo partners with Lincoln to mentorship to staff and students, innovation in programing and engagement with the community.",
+        "Founders Dojo is also advising on the formation and launch of the Lincoln University Basketball Program. As reported the team will be launching led by Basketball Hall of Fame player and coach Gary Payton."
+      ],
+      "sections": [
+        {
+          "heading": "Founders Dojo Community Initiatives",
+          "level": 4,
+          "body": [
+            "We strive to accomplish amazing things in all aspects. Community support, pro bono, advocacy and charitable initiatives are our driving mission.",
+            "Projects",
+            "Blockchain Advocacy Coalition",
+            "The Dojo is the founding organization for this leading decentralization and blockchain advocacy organization. Dojans have testified and advocated in front of multiple legislative and regulatory bodies in California, Wyoming and Washington D.C. in favor of decentralization and appropriate blockchain regulation and policy.",
+            "Open Door Legal",
+            "ODL is an award-winning legal aid nonprofit working to show that poverty will be dramatically reduced when everyone has access to the law. ODL has been a Dojo project since 2016, like all projects we provide talent, ideas and capital to help them continue to prove their hypothesis that universal access to legal representation is THE best poverty disrupter available to policy makers.",
+            "Using metrics from the Robinhood foundation, ODL found that every dollar spent on universal legal services generates $6.6 in direct benefit to their clients and $14.7 in benefit to the larger community. This totals to $21 in total SROI for every dollar spent, making their services one of the most cost effective anti-poverty solutions.",
+            "Lincoln University",
+            "Lincoln University is a 100+ year old not for profit, business college located in downtown Oakland, CA, it primarily serves the local community and international students. Founders Dojo partners with Lincoln to mentorship to staff and students, innovation in programing and engagement with the community.",
+            "Founders Dojo is also advising on the formation and launch of the Lincoln University Basketball Program. As reported the team will be launching led by Basketball Hall of Fame player and coach Gary Payton."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.blockadvocacy.org",
+          "label": "Blockchain Advocacy Coalition"
+        },
+        {
+          "href": "https://opendoorlegal.org",
+          "label": "Open Door Legal"
+        },
+        {
+          "href": "http://www.lincolnuca.edu",
+          "label": "Lincoln University"
+        },
+        {
+          "href": "https://bleacherreport.com/articles/10004807-basketball-hofer-gary-payton-agrees-to-multiyear-contract-as-lincoln-university-hc",
+          "label": "reported"
+        },
+        {
+          "href": "https://www.collective.com/",
+          "label": "https://www.collective.com/"
+        },
+        {
+          "href": "https://refereum.com/",
+          "label": "https://refereum.com/"
+        }
+      ],
+      "images": [
+        {
+          "id": "ea2cb237e350",
+          "localPath": "/media/squarespace/ea2cb237e350-lincoln-graduation.jpg",
+          "alt": "lincoln graduation from Community Initiatives",
+          "fileName": "ea2cb237e350-lincoln-graduation.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/54507cc7-2b61-44dd-9144-fd1eb128eb57/lincoln+graduation.jpg"
+        },
+        {
+          "id": "b0179768eb99",
+          "localPath": "/media/squarespace/b0179768eb99-sacdojo.jpg",
+          "alt": "sacdojo from Community Initiatives",
+          "fileName": "b0179768eb99-sacdojo.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/00fc8feb-dfd9-499e-8489-b74a30989178/sacdojo.jpg"
+        },
+        {
+          "id": "86715aa8097c",
+          "localPath": "/media/squarespace/86715aa8097c-allynewsom.jpg",
+          "alt": "allynewsom from Community Initiatives",
+          "fileName": "86715aa8097c-allynewsom.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/60184619-0f8e-4c5a-a15f-121401d395dd/allynewsom.jpg"
+        },
+        {
+          "id": "54d27704c16e",
+          "localPath": "/media/squarespace/54d27704c16e-23519353-10155610354317911-366432096105870276-n.jpg",
+          "alt": "23519353 10155610354317911 366432096105870276 n from Dojo Start Up Program",
+          "fileName": "54d27704c16e-23519353-10155610354317911-366432096105870276-n.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/0dcea448-1b30-4f34-906b-ce9dba44ecd0/23519353_10155610354317911_366432096105870276_n.jpg"
+        },
+        {
+          "id": "5cf931d6797d",
+          "localPath": "/media/squarespace/5cf931d6797d-dojobday.jpg",
+          "alt": "dojobday from Dojo Start Up Program",
+          "fileName": "5cf931d6797d-dojobday.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/4c262915-6c85-4f7d-8c04-123a81fa7310/dojobday.jpg"
+        },
+        {
+          "id": "1bdddf50fa00",
+          "localPath": "/media/squarespace/1bdddf50fa00-tejs.jpg",
+          "alt": "TEJS from Dojo Start Up Program",
+          "fileName": "1bdddf50fa00-tejs.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/5a53dce5-3f34-4cd4-824e-8be3eaa4c2ac/TEJS.jpg"
+        }
+      ]
+    },
+    {
+      "id": "f93ee32efe71",
+      "title": "Web Site Terms and Conditions of Use",
+      "slug": "terms-and-use",
+      "type": "page",
+      "author": "",
+      "includePublic": false,
+      "isFillerPost": false,
+      "excerpt": "1. Terms By accessing this web site, you are agreeing to be bound by these web site Terms and Conditions of Use, applicable laws and regulations and their compliance. If you disagree with any of the stated terms and conditions, you are prohibited from using or accessing this site. The materials contained in this site are secured by relevant copyright and trade mark law.",
+      "headings": [
+        "Web Site Terms and Conditions of Use"
+      ],
+      "paragraphs": [
+        "1. Terms",
+        "By accessing this web site, you are agreeing to be bound by these web site Terms and Conditions of Use, applicable laws and regulations and their compliance. If you disagree with any of the stated terms and conditions, you are prohibited from using or accessing this site. The materials contained in this site are secured by relevant copyright and trade mark law.",
+        "2. Use License",
+        "Permission is allowed to temporarily download one duplicate of the materials (data or programming) on Founders Dojo's site for individual and non-business use only. This is the just a permit of license and not an exchange of title, and under this permit you may not:\n- modify or copy the materials;",
+        "use the materials for any commercial use , or for any public presentation (business or non-business);",
+        "attempt to decompile or rebuild any product or material contained on Founders Dojo's site;",
+        "remove any copyright or other restrictive documentations from the materials; or",
+        "transfer the materials to someone else or even \"mirror\" the materials on other server.",
+        "This permit might consequently be terminated if you disregard any of these confinements and may be ended by Founders Dojo whenever deemed. After permit termination or when your viewing permit is terminated, you must destroy any downloaded materials in your ownership whether in electronic or printed form.",
+        "3. Disclaimer",
+        "The materials on Founders Dojo's site are given \"as is\". Founders Dojo makes no guarantees, communicated or suggested, and thus renounces and nullifies every single other warranties, including without impediment, inferred guarantees or states of merchantability, fitness for a specific reason, or non-encroachment of licensed property or other infringement of rights. Further, Founders Dojo does not warrant or make any representations concerning the precision, likely results, or unwavering quality of the utilization of the materials on its Internet site or generally identifying with such materials or on any destinations connected to this website.",
+        "4. Constraints",
+        "In no occasion should Founders Dojo or its suppliers subject for any harms (counting, without constraint, harms for loss of information or benefit, or because of business interference,) emerging out of the utilization or powerlessness to utilize the materials on Founders Dojo's Internet webpage, regardless of the possibility that Founders Dojo or a Founders Dojo approved agent has been told orally or in written of the likelihood of such harm. Since a few purviews don't permit constraints on inferred guarantees, or impediments of obligation for weighty or coincidental harms, these confinements may not make a difference to you.",
+        "5. Amendments and Errata",
+        "The materials showing up on Founders Dojo's site could incorporate typographical, or photographic mistakes. Founders Dojo does not warrant that any of the materials on its site are exact, finished, or current. Founders Dojo may roll out improvements to the materials contained on its site whenever without notification. Founders Dojo does not, then again, make any dedication to update the materials.",
+        "6. Links",
+        "Founders Dojo has not checked on the majority of the websites or links connected to its website and is not in charge of the substance of any such connected webpage. The incorporation of any connection does not infer support by Founders Dojo of the site. Utilization of any such connected site is at the user's own risk.",
+        "7. Site Terms of Use Modifications",
+        "Founders Dojo may update these terms of utilization for its website whenever without notification. By utilizing this site you are consenting to be bound by the then current form of these Terms and Conditions of Use.",
+        "8. Governing Law",
+        "Any case identifying with Founders Dojo's site should be administered by the laws of Nevada, United States without respect to its contention of law provisions.",
+        "General Terms and Conditions applicable to Use of a Web Site.",
+        "Privacy Policy",
+        "Your privacy is critical to us. Likewise, we have built up this Policy with the end goal you should see how we gather, utilize, impart and reveal and make utilization of individual data. The following blueprints our privacy policy.",
+        "Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.",
+        "We will gather and utilization of individual data singularly with the target of satisfying those reasons indicated by us and for other good purposes, unless we get the assent of the individual concerned or as required by law.",
+        "We will just hold individual data the length of essential for the satisfaction of those reasons.",
+        "We will gather individual data by legal and reasonable means and, where fitting, with the information or assent of the individual concerned.",
+        "Personal information ought to be important to the reasons for which it is to be utilized, and, to the degree essential for those reasons, ought to be exact, finished, and updated.",
+        "We will protect individual data by security shields against misfortune or burglary, and also unapproved access, divulgence, duplicating, use or alteration.",
+        "We will promptly provide customers with access to our policies and procedures for the administration of individual data.",
+        "We are focused on leading our business as per these standards with a specific end goal to guarantee that the privacy of individual data is secure and maintained."
+      ],
+      "sections": [
+        {
+          "heading": "Web Site Terms and Conditions of Use",
+          "level": 3,
+          "body": [
+            "1. Terms",
+            "By accessing this web site, you are agreeing to be bound by these web site Terms and Conditions of Use, applicable laws and regulations and their compliance. If you disagree with any of the stated terms and conditions, you are prohibited from using or accessing this site. The materials contained in this site are secured by relevant copyright and trade mark law.",
+            "2. Use License",
+            "Permission is allowed to temporarily download one duplicate of the materials (data or programming) on Founders Dojo's site for individual and non-business use only. This is the just a permit of license and not an exchange of title, and under this permit you may not:\n- modify or copy the materials;",
+            "use the materials for any commercial use , or for any public presentation (business or non-business);",
+            "attempt to decompile or rebuild any product or material contained on Founders Dojo's site;",
+            "remove any copyright or other restrictive documentations from the materials; or",
+            "transfer the materials to someone else or even \"mirror\" the materials on other server.",
+            "This permit might consequently be terminated if you disregard any of these confinements and may be ended by Founders Dojo whenever deemed. After permit termination or when your viewing permit is terminated, you must destroy any downloaded materials in your ownership whether in electronic or printed form.",
+            "3. Disclaimer",
+            "The materials on Founders Dojo's site are given \"as is\". Founders Dojo makes no guarantees, communicated or suggested, and thus renounces and nullifies every single other warranties, including without impediment, inferred guarantees or states of merchantability, fitness for a specific reason, or non-encroachment of licensed property or other infringement of rights. Further, Founders Dojo does not warrant or make any representations concerning the precision, likely results, or unwavering quality of the utilization of the materials on its Internet site or generally identifying with such materials or on any destinations connected to this website.",
+            "4. Constraints",
+            "In no occasion should Founders Dojo or its suppliers subject for any harms (counting, without constraint, harms for loss of information or benefit, or because of business interference,) emerging out of the utilization or powerlessness to utilize the materials on Founders Dojo's Internet webpage, regardless of the possibility that Founders Dojo or a Founders Dojo approved agent has been told orally or in written of the likelihood of such harm. Since a few purviews don't permit constraints on inferred guarantees, or impediments of obligation for weighty or coincidental harms, these confinements may not make a difference to you.",
+            "5. Amendments and Errata",
+            "The materials showing up on Founders Dojo's site could incorporate typographical, or photographic mistakes. Founders Dojo does not warrant that any of the materials on its site are exact, finished, or current. Founders Dojo may roll out improvements to the materials contained on its site whenever without notification. Founders Dojo does not, then again, make any dedication to update the materials.",
+            "6. Links",
+            "Founders Dojo has not checked on the majority of the websites or links connected to its website and is not in charge of the substance of any such connected webpage. The incorporation of any connection does not infer support by Founders Dojo of the site. Utilization of any such connected site is at the user's own risk.",
+            "7. Site Terms of Use Modifications",
+            "Founders Dojo may update these terms of utilization for its website whenever without notification. By utilizing this site you are consenting to be bound by the then current form of these Terms and Conditions of Use.",
+            "8. Governing Law",
+            "Any case identifying with Founders Dojo's site should be administered by the laws of Nevada, United States without respect to its contention of law provisions.",
+            "General Terms and Conditions applicable to Use of a Web Site.",
+            "Privacy Policy",
+            "Your privacy is critical to us. Likewise, we have built up this Policy with the end goal you should see how we gather, utilize, impart and reveal and make utilization of individual data. The following blueprints our privacy policy.",
+            "Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.",
+            "We will gather and utilization of individual data singularly with the target of satisfying those reasons indicated by us and for other good purposes, unless we get the assent of the individual concerned or as required by law.",
+            "We will just hold individual data the length of essential for the satisfaction of those reasons.",
+            "We will gather individual data by legal and reasonable means and, where fitting, with the information or assent of the individual concerned.",
+            "Personal information ought to be important to the reasons for which it is to be utilized, and, to the degree essential for those reasons, ought to be exact, finished, and updated.",
+            "We will protect individual data by security shields against misfortune or burglary, and also unapproved access, divulgence, duplicating, use or alteration.",
+            "We will promptly provide customers with access to our policies and procedures for the administration of individual data.",
+            "We are focused on leading our business as per these standards with a specific end goal to guarantee that the privacy of individual data is secure and maintained."
+          ]
+        }
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "195926b9630d",
+      "title": "Dojo Las Vegas",
+      "slug": "dojo-las-vegas",
+      "type": "page",
+      "author": "",
+      "includePublic": true,
+      "isFillerPost": false,
+      "excerpt": "Las Vegas is the Silicon Valley of human experience. Art, hosting, gaming, global conventions, risk and reward are all here, and so is the Dojo, Located between the world famous Fremont Street cooridor and the fabled Las Vegas Arts District, the Vegas Dojo vibes and builds in teh classic Las Vegas style. Viva Las Vegas, Viva LV.",
+      "headings": [
+        "Las Vegas Dojo, baby",
+        "Dojo Las Vegas"
+      ],
+      "paragraphs": [
+        "Las Vegas is the Silicon Valley of human experience. Art, hosting, gaming, global conventions, risk and reward are all here, and so is the Dojo, Located between the world famous Fremont Street cooridor and the fabled Las Vegas Arts District, the Vegas Dojo vibes and builds in teh classic Las Vegas style. Viva Las Vegas, Viva LV."
+      ],
+      "sections": [
+        {
+          "heading": "Las Vegas Dojo, baby",
+          "level": 4,
+          "body": []
+        },
+        {
+          "heading": "Dojo Las Vegas",
+          "level": 2,
+          "body": [
+            "Las Vegas is the Silicon Valley of human experience. Art, hosting, gaming, global conventions, risk and reward are all here, and so is the Dojo, Located between the world famous Fremont Street cooridor and the fabled Las Vegas Arts District, the Vegas Dojo vibes and builds in teh classic Las Vegas style. Viva Las Vegas, Viva LV."
+          ]
+        }
+      ],
+      "links": [],
+      "images": [
+        {
+          "id": "5a9b37ceb87f",
+          "localPath": "/media/squarespace/5a9b37ceb87f-unsplash-image-rt8wwwth0v0.jpg",
+          "alt": "unsplash image rt8WwWTh0V0 from Dojo Las Vegas",
+          "fileName": "5a9b37ceb87f-unsplash-image-rt8wwwth0v0.jpg",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/9ee48aa6-9bfc-47db-ace6-ce348b6015e6/unsplash-image-rt8WwWTh0V0.jpg"
+        }
+      ]
+    },
+    {
+      "id": "85fa962be5b8",
+      "title": "Redefine Success",
+      "slug": "Blog Post Title One-3zaa9-zlxng-67tfc-wg3j5",
+      "type": "post",
+      "author": "",
+      "includePublic": false,
+      "isFillerPost": false,
+      "excerpt": "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming.",
+      "headings": [],
+      "paragraphs": [
+        "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming."
+      ],
+      "sections": [
+        {
+          "heading": "Intro",
+          "level": 0,
+          "body": [
+            "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming."
+          ]
+        }
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "3ac70b17efc8",
+      "title": "attachment-69e9285b34420c7c0cc448c1",
+      "slug": "imgg-demo-Mp7JMOJ2-png",
+      "type": "attachment",
+      "author": "",
+      "includePublic": false,
+      "isFillerPost": false,
+      "excerpt": "",
+      "headings": [],
+      "paragraphs": [],
+      "sections": [],
+      "links": [],
+      "images": [
+        {
+          "id": "c94a16ee9f3f",
+          "localPath": "/media/squarespace/c94a16ee9f3f-imgg-demo-mp7jmoj2.png",
+          "alt": "imgg demo Mp7JMOJ2 from attachment-69e9285b34420c7c0cc448c1",
+          "fileName": "c94a16ee9f3f-imgg-demo-mp7jmoj2.png",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1755889154109-2I4Z9DKESBO13FRFHQDY/imgg-demo-Mp7JMOJ2.png"
+        }
+      ]
+    },
+    {
+      "id": "6136c0aabfa6",
+      "title": "Make Room for Growth",
+      "slug": "blog-post-title-four-lr658-tcthp-wf5mw-kyc27",
+      "type": "post",
+      "author": "",
+      "includePublic": false,
+      "isFillerPost": false,
+      "excerpt": "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming.",
+      "headings": [],
+      "paragraphs": [
+        "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming."
+      ],
+      "sections": [
+        {
+          "heading": "Intro",
+          "level": 0,
+          "body": [
+            "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming."
+          ]
+        }
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "e56c644be449",
+      "title": "attachment-69e9285b34420c7c0cc448c3",
+      "slug": "imgg-demo-JBF3SmQJ-png",
+      "type": "attachment",
+      "author": "",
+      "includePublic": false,
+      "isFillerPost": false,
+      "excerpt": "",
+      "headings": [],
+      "paragraphs": [],
+      "sections": [],
+      "links": [],
+      "images": [
+        {
+          "id": "4b77d00804ad",
+          "localPath": "/media/squarespace/4b77d00804ad-imgg-demo-jbf3smqj.png",
+          "alt": "imgg demo JBF3SmQJ from attachment-69e9285b34420c7c0cc448c3",
+          "fileName": "4b77d00804ad-imgg-demo-jbf3smqj.png",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1757433890724-83OYUQHM0DUYIO5ZP0W5/imgg-demo-JBF3SmQJ.png"
+        }
+      ]
+    },
+    {
+      "id": "a579dd0437c6",
+      "title": "Turn Intention Into Action",
+      "slug": "blog-post-title-three-y3peb-4lwnz-5pkhf-8cmsb",
+      "type": "post",
+      "author": "",
+      "includePublic": false,
+      "isFillerPost": false,
+      "excerpt": "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming.",
+      "headings": [],
+      "paragraphs": [
+        "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming."
+      ],
+      "sections": [
+        {
+          "heading": "Intro",
+          "level": 0,
+          "body": [
+            "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming."
+          ]
+        }
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "f53183613c46",
+      "title": "attachment-69e9285b34420c7c0cc448c5",
+      "slug": "imgg-demo-lL9FvXrw-png",
+      "type": "attachment",
+      "author": "",
+      "includePublic": false,
+      "isFillerPost": false,
+      "excerpt": "",
+      "headings": [],
+      "paragraphs": [],
+      "sections": [],
+      "links": [],
+      "images": [
+        {
+          "id": "2d26fbf442f8",
+          "localPath": "/media/squarespace/2d26fbf442f8-imgg-demo-ll9fvxrw.png",
+          "alt": "imgg demo lL9FvXrw from attachment-69e9285b34420c7c0cc448c5",
+          "fileName": "2d26fbf442f8-imgg-demo-ll9fvxrw.png",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1755889154122-EG74ULQTTYDRPGHBYY8R/imgg-demo-lL9FvXrw.png"
+        }
+      ]
+    },
+    {
+      "id": "024365502997",
+      "title": "Small Steps Create Big Shifts",
+      "slug": "blog-post-title-two-t5my5-k4xmd-67jzh-9ck3c",
+      "type": "post",
+      "author": "",
+      "includePublic": false,
+      "isFillerPost": false,
+      "excerpt": "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming.",
+      "headings": [],
+      "paragraphs": [
+        "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming."
+      ],
+      "sections": [
+        {
+          "heading": "Intro",
+          "level": 0,
+          "body": [
+            "Confidence doesn’t always arrive with a bold entrance. Sometimes, it builds quietly, step by step, as we show up for ourselves day after day. It grows when we choose to try, even when we’re unsure of the outcome. Every time you take action despite self-doubt, you reinforce the belief that you’re capable. Confidence isn’t about having all the answers — it’s about trusting that you can figure it out along the way.\n\nThe key to making things happen isn’t waiting for the perfect moment; it’s starting with what you have, where you are. Big goals can feel overwhelming when viewed all at once, but momentum builds through small, consistent action. Whether you’re working toward a personal milestone or a professional dream, progress comes from showing up — not perfectly, but persistently. Action creates clarity, and over time, those steps forward add up to something real.\n\nYou don’t need to be fearless to reach your goals, you just need to be willing. Willing to try, willing to learn, and willing to believe that you’re capable of more than you know. The road may not always be smooth, but growth rarely is. What matters most is that you keep going, keep learning, and keep believing in the version of yourself you’re becoming."
+          ]
+        }
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "d4b3a8aec6a3",
+      "title": "attachment-69e9285b34420c7c0cc448c7",
+      "slug": "imgg-demo-MdIkhwVg-png",
+      "type": "attachment",
+      "author": "",
+      "includePublic": false,
+      "isFillerPost": false,
+      "excerpt": "",
+      "headings": [],
+      "paragraphs": [],
+      "sections": [],
+      "links": [],
+      "images": [
+        {
+          "id": "c59b08470c7a",
+          "localPath": "/media/squarespace/c59b08470c7a-imgg-demo-mdikhwvg.png",
+          "alt": "imgg demo MdIkhwVg from attachment-69e9285b34420c7c0cc448c7",
+          "fileName": "c59b08470c7a-imgg-demo-mdikhwvg.png",
+          "sourceUrl": "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1755889154129-Z3SQ06B6WLSTMRC7LU3J/imgg-demo-MdIkhwVg.png"
+        }
+      ]
+    }
+  ],
+  "allImages": [
+    {
+      "id": "d15fbe891876",
+      "localPath": "/media/squarespace/d15fbe891876-goldengatebridge-001.jpg",
+      "alt": "GoldenGateBridge 001 from Home",
+      "fileName": "d15fbe891876-goldengatebridge-001.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/1622145470586-3Y4RJFG4VA2WO3FES556/GoldenGateBridge-001.jpg"
+    },
+    {
+      "id": "2c54723ba792",
+      "localPath": "/media/squarespace/2c54723ba792-lake-tahoe.jpg",
+      "alt": "Lake Tahoe from Dojo Lake Tahoe",
+      "fileName": "2c54723ba792-lake-tahoe.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/1622140757244-WYJACXO70M54XW3MSN2I/Lake+Tahoe.jpg"
+    },
+    {
+      "id": "dee48e022424",
+      "localPath": "/media/squarespace/dee48e022424-sfnight.jpg",
+      "alt": "SFNight from Dojo San Francisco",
+      "fileName": "dee48e022424-sfnight.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/1622227352606-ZVSJBNPYMO4FRI37ERNG/SFNight.JPG"
+    },
+    {
+      "id": "88f9ebe624c2",
+      "localPath": "/media/squarespace/88f9ebe624c2-building.jpg",
+      "alt": "building from Dojo San Francisco",
+      "fileName": "88f9ebe624c2-building.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/bbd3a7b3-3384-4481-a8ee-0b70119eca74/building.jpg"
+    },
+    {
+      "id": "7791a5f81188",
+      "localPath": "/media/squarespace/7791a5f81188-cityview.jpg",
+      "alt": "cityview from Dojo San Francisco",
+      "fileName": "7791a5f81188-cityview.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/c6c4cc11-2f53-4a85-99e2-573a9144d542/cityview.jpg"
+    },
+    {
+      "id": "78791cbe5131",
+      "localPath": "/media/squarespace/78791cbe5131-rooftopcheers.jpg",
+      "alt": "rooftopcheers from Dojo San Francisco",
+      "fileName": "78791cbe5131-rooftopcheers.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/f84af53c-dfaa-471a-8702-a52b5eea0428/rooftopcheers.jpg"
+    },
+    {
+      "id": "a1d030a62a29",
+      "localPath": "/media/squarespace/a1d030a62a29-banyacrew.jpg",
+      "alt": "banyacrew from Dojo San Francisco",
+      "fileName": "a1d030a62a29-banyacrew.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/8c426d68-f15d-4748-b17b-a197d629b2e3/banyacrew.jpg"
+    },
+    {
+      "id": "165bc4f826df",
+      "localPath": "/media/squarespace/165bc4f826df-52819960-160625357654972-r.jpeg",
+      "alt": "52819960 160625357654972 r from Dojo San Francisco",
+      "fileName": "165bc4f826df-52819960-160625357654972-r.jpeg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/056b25ae-261e-48dd-ba3c-e108082d61ab/52819960_160625357654972_r.jpeg"
+    },
+    {
+      "id": "3cc2ba4ce1f8",
+      "localPath": "/media/squarespace/3cc2ba4ce1f8-chess.jpg",
+      "alt": "chess from Dojo San Francisco",
+      "fileName": "3cc2ba4ce1f8-chess.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/2cbfd718-39a5-4dcf-90c4-d813a64def2f/chess.jpg"
+    },
+    {
+      "id": "92c27198f458",
+      "localPath": "/media/squarespace/92c27198f458-ravifortunecver.jpg",
+      "alt": "RaviFortuneCver from Our Community",
+      "fileName": "92c27198f458-ravifortunecver.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/11802e3e-310b-4824-b9e5-95816eeb107c/RaviFortuneCver.jpg"
+    },
+    {
+      "id": "135ab2f32548",
+      "localPath": "/media/squarespace/135ab2f32548-dojopep1.jpg",
+      "alt": "dojopep1 from Our Community",
+      "fileName": "135ab2f32548-dojopep1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/bf1c3ddd-d61a-47c7-bcd3-3017f59f08e4/dojopep1.jpg"
+    },
+    {
+      "id": "21798eea5be8",
+      "localPath": "/media/squarespace/21798eea5be8-conference-at-sf-dojo2.jpg",
+      "alt": "conference at sf dojo2 from Our Community",
+      "fileName": "21798eea5be8-conference-at-sf-dojo2.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/4c05c091-e2e0-4971-980d-c9187d019e36/conference+at+sf+dojo2.jpg"
+    },
+    {
+      "id": "9a67c37494b2",
+      "localPath": "/media/squarespace/9a67c37494b2-dojobday.jpg",
+      "alt": "dojobday from Our Community",
+      "fileName": "9a67c37494b2-dojobday.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/fb26049a-33c3-4601-a9ea-3266e472e039/dojobday.jpg"
+    },
+    {
+      "id": "97f2dcb50a86",
+      "localPath": "/media/squarespace/97f2dcb50a86-dojopicabove.jpg",
+      "alt": "dojopicabove from Our Community",
+      "fileName": "97f2dcb50a86-dojopicabove.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/b3e865db-6225-4232-9d5f-07fd705505d6/dojopicabove.jpg"
+    },
+    {
+      "id": "bf083db8d695",
+      "localPath": "/media/squarespace/bf083db8d695-fdshirt.jpg",
+      "alt": "fdshirt from Our Community",
+      "fileName": "bf083db8d695-fdshirt.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/05456b4e-403e-436e-8c9a-fe9eb51c1397/fdshirt.jpg"
+    },
+    {
+      "id": "aca7ad6d9877",
+      "localPath": "/media/squarespace/aca7ad6d9877-dogpatchplayground.jpg",
+      "alt": "dogpatchplayground from Our Community",
+      "fileName": "aca7ad6d9877-dogpatchplayground.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/458887d3-a16a-40c6-a3d7-f6d4415540ba/dogpatchplayground.jpg"
+    },
+    {
+      "id": "0899eda6fca9",
+      "localPath": "/media/squarespace/0899eda6fca9-timpatrick.jpg",
+      "alt": "TimPatrick from Our Community",
+      "fileName": "0899eda6fca9-timpatrick.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/ad423941-c36c-4c62-81bf-67b924dbef64/TimPatrick.jpg"
+    },
+    {
+      "id": "7ffa53cf2ac3",
+      "localPath": "/media/squarespace/7ffa53cf2ac3-dojodrones.jpg",
+      "alt": "dojodrones from Our Community",
+      "fileName": "7ffa53cf2ac3-dojodrones.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/ee57af8f-ec1b-4c3a-a7be-d600ba6c2b9a/dojodrones.jpg"
+    },
+    {
+      "id": "c870d68c4312",
+      "localPath": "/media/squarespace/c870d68c4312-dojocelebrate.jpg",
+      "alt": "dojocelebrate from Our Community",
+      "fileName": "c870d68c4312-dojocelebrate.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/241c356e-be1e-42aa-bff8-ca4f51542050/dojocelebrate.jpg"
+    },
+    {
+      "id": "533410f42c5b",
+      "localPath": "/media/squarespace/533410f42c5b-dogpatch-playground-fundraiser36.jpg",
+      "alt": "Dogpatch Playground Fundraiser36 from Our Community",
+      "fileName": "533410f42c5b-dogpatch-playground-fundraiser36.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/8a7caa78-0155-480a-9f4c-c850b5ed9380/Dogpatch+Playground+Fundraiser36.jpg"
+    },
+    {
+      "id": "30b9a0f926bc",
+      "localPath": "/media/squarespace/30b9a0f926bc-keneticactivitydojo.jpg",
+      "alt": "keneticactivitydojo from Our Community",
+      "fileName": "30b9a0f926bc-keneticactivitydojo.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/edf165c6-8aba-4739-b6fb-4190cea1de07/keneticactivitydojo.jpg"
+    },
+    {
+      "id": "9271f7358e11",
+      "localPath": "/media/squarespace/9271f7358e11-rips.jpg",
+      "alt": "rips from Our Community",
+      "fileName": "9271f7358e11-rips.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/2ebcc3ff-7eb6-4d60-99cc-7d1721e7d460/rips.jpg"
+    },
+    {
+      "id": "aa6e37f27d85",
+      "localPath": "/media/squarespace/aa6e37f27d85-danabbie.jpg",
+      "alt": "DanAbbie from Our Community",
+      "fileName": "aa6e37f27d85-danabbie.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/e5394dc5-2092-4b60-9694-e2fbcaf60d77/DanAbbie.jpg"
+    },
+    {
+      "id": "af5b22a4aadf",
+      "localPath": "/media/squarespace/af5b22a4aadf-abbieamina.jpg",
+      "alt": "AbbieAmina from Our Community",
+      "fileName": "af5b22a4aadf-abbieamina.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/35097cc8-c612-4d36-b2f4-223142c00513/AbbieAmina.jpg"
+    },
+    {
+      "id": "08ed046ebe1a",
+      "localPath": "/media/squarespace/08ed046ebe1a-amina.jpg",
+      "alt": "Amina from Our Community",
+      "fileName": "08ed046ebe1a-amina.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/a4478367-8ef4-4f4f-b2c8-55b183b9aade/Amina.jpg"
+    },
+    {
+      "id": "77b156640dd2",
+      "localPath": "/media/squarespace/77b156640dd2-rajchris.jpg",
+      "alt": "rajchris from Our Community",
+      "fileName": "77b156640dd2-rajchris.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/b1b7fda6-82a7-4716-b7e7-5571ef0325e2/rajchris.jpg"
+    },
+    {
+      "id": "11381f29e443",
+      "localPath": "/media/squarespace/11381f29e443-old-dojo.jpg",
+      "alt": "old dojo from Our Community",
+      "fileName": "11381f29e443-old-dojo.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/49614b97-7f0c-4b4a-a609-d6158449951b/old+dojo.jpg"
+    },
+    {
+      "id": "2b181fbb48c9",
+      "localPath": "/media/squarespace/2b181fbb48c9-abbyjohn.jpg",
+      "alt": "AbbyJohn from Dojo Start Up Program",
+      "fileName": "2b181fbb48c9-abbyjohn.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/59bdfeed-4684-4b2c-8f62-98cd945f2788/AbbyJohn.jpg"
+    },
+    {
+      "id": "8efdaf30ba7a",
+      "localPath": "/media/squarespace/8efdaf30ba7a-spinks.jpg",
+      "alt": "spinks from Dojo Start Up Program",
+      "fileName": "8efdaf30ba7a-spinks.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/bc37fcb3-ab65-4bde-b05d-4d51b29a3777/spinks.jpg"
+    },
+    {
+      "id": "6a906c639754",
+      "localPath": "/media/squarespace/6a906c639754-dojocrew.jpg",
+      "alt": "dojocrew from Dojo Start Up Program",
+      "fileName": "6a906c639754-dojocrew.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/12d7deae-e09a-487b-ae91-0f271083907f/dojocrew.jpg"
+    },
+    {
+      "id": "54d27704c16e",
+      "localPath": "/media/squarespace/54d27704c16e-23519353-10155610354317911-366432096105870276-n.jpg",
+      "alt": "23519353 10155610354317911 366432096105870276 n from Dojo Start Up Program",
+      "fileName": "54d27704c16e-23519353-10155610354317911-366432096105870276-n.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/0dcea448-1b30-4f34-906b-ce9dba44ecd0/23519353_10155610354317911_366432096105870276_n.jpg"
+    },
+    {
+      "id": "5cf931d6797d",
+      "localPath": "/media/squarespace/5cf931d6797d-dojobday.jpg",
+      "alt": "dojobday from Dojo Start Up Program",
+      "fileName": "5cf931d6797d-dojobday.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/4c262915-6c85-4f7d-8c04-123a81fa7310/dojobday.jpg"
+    },
+    {
+      "id": "4c80be23b794",
+      "localPath": "/media/squarespace/4c80be23b794-facebooktour.jpg",
+      "alt": "facebooktour from Dojo Start Up Program",
+      "fileName": "4c80be23b794-facebooktour.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/45667b54-6a83-4421-bf84-14c2adea4455/facebooktour.jpg"
+    },
+    {
+      "id": "6d4077d7ffd2",
+      "localPath": "/media/squarespace/6d4077d7ffd2-needles-meerkat.jpg",
+      "alt": "needles meerkat from Dojo Start Up Program",
+      "fileName": "6d4077d7ffd2-needles-meerkat.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/a03ddace-5ed0-4c7c-b3e4-8fe4602f34bb/needles+meerkat.jpg"
+    },
+    {
+      "id": "33dcb98d56c0",
+      "localPath": "/media/squarespace/33dcb98d56c0-sammoiz.jpg",
+      "alt": "samMoiz from Dojo Start Up Program",
+      "fileName": "33dcb98d56c0-sammoiz.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/b1c5e83d-d5a0-49c5-bd9b-6e20e5e92b61/samMoiz.jpg"
+    },
+    {
+      "id": "1bdddf50fa00",
+      "localPath": "/media/squarespace/1bdddf50fa00-tejs.jpg",
+      "alt": "TEJS from Dojo Start Up Program",
+      "fileName": "1bdddf50fa00-tejs.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/5a53dce5-3f34-4cd4-824e-8be3eaa4c2ac/TEJS.jpg"
+    },
+    {
+      "id": "dfbd5f57d546",
+      "localPath": "/media/squarespace/dfbd5f57d546-ca-state-house.jpg",
+      "alt": "ca state house from Our Vision",
+      "fileName": "dfbd5f57d546-ca-state-house.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/c6d03449-2bb8-41ba-92b8-0c3227928dd6/ca+state+house.jpg"
+    },
+    {
+      "id": "424c29134c8c",
+      "localPath": "/media/squarespace/424c29134c8c-cryptinight.jpg",
+      "alt": "cryptinight from Our Vision",
+      "fileName": "424c29134c8c-cryptinight.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/2043f57f-8ae8-4692-9a64-9d12d9966e88/cryptinight.jpg"
+    },
+    {
+      "id": "c948dfeb63dd",
+      "localPath": "/media/squarespace/c948dfeb63dd-dojopicabove.jpg",
+      "alt": "dojopicabove from Our Vision",
+      "fileName": "c948dfeb63dd-dojopicabove.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/edd9cea7-7be2-4091-b95e-b1e44ad9127e/dojopicabove.jpg"
+    },
+    {
+      "id": "e0edbd040938",
+      "localPath": "/media/squarespace/e0edbd040938-facebooktour.jpg",
+      "alt": "facebooktour from Our Vision",
+      "fileName": "e0edbd040938-facebooktour.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/714496fc-e361-4248-83c2-394896cfc1d0/facebooktour.jpg"
+    },
+    {
+      "id": "3e037919c79a",
+      "localPath": "/media/squarespace/3e037919c79a-tejs.jpg",
+      "alt": "TEJS from Our Vision",
+      "fileName": "3e037919c79a-tejs.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/494e5c5a-9871-4347-a9f2-85714e03d240/TEJS.jpg"
+    },
+    {
+      "id": "4a762db28a64",
+      "localPath": "/media/squarespace/4a762db28a64-tinawithhrc.jpg",
+      "alt": "tinawithHRC from Our Vision",
+      "fileName": "4a762db28a64-tinawithhrc.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/d2fae460-cd97-4a39-b6d3-b2fca2b814b5/tinawithHRC.jpg"
+    },
+    {
+      "id": "0cf87d1a4a78",
+      "localPath": "/media/squarespace/0cf87d1a4a78-faces.jpg",
+      "alt": "faces from Our Vision",
+      "fileName": "0cf87d1a4a78-faces.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/1622147522307-PH6NH8ND7LX1QLUD0AN9/faces.jpg"
+    },
+    {
+      "id": "1f4041484d8c",
+      "localPath": "/media/squarespace/1f4041484d8c-newsom2.jpg",
+      "alt": "newsom2 from Decentralization Initiative",
+      "fileName": "1f4041484d8c-newsom2.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/80537fb1-b5e3-454c-aa66-6d29d7d89d4b/newsom2.jpg"
+    },
+    {
+      "id": "4475b9d77fd6",
+      "localPath": "/media/squarespace/4475b9d77fd6-newsom.jpg",
+      "alt": "newsom from Decentralization Initiative",
+      "fileName": "4475b9d77fd6-newsom.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/dcd007ea-f988-4c9e-81da-a389ac971bce/newsom.jpg"
+    },
+    {
+      "id": "d482b2806aa7",
+      "localPath": "/media/squarespace/d482b2806aa7-ca-state-house.jpg",
+      "alt": "ca state house from Decentralization Initiative",
+      "fileName": "d482b2806aa7-ca-state-house.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/31f13d39-3565-4c4a-a223-208a00d3eb95/ca+state+house.jpg"
+    },
+    {
+      "id": "ea2cb237e350",
+      "localPath": "/media/squarespace/ea2cb237e350-lincoln-graduation.jpg",
+      "alt": "lincoln graduation from Community Initiatives",
+      "fileName": "ea2cb237e350-lincoln-graduation.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/54507cc7-2b61-44dd-9144-fd1eb128eb57/lincoln+graduation.jpg"
+    },
+    {
+      "id": "b0179768eb99",
+      "localPath": "/media/squarespace/b0179768eb99-sacdojo.jpg",
+      "alt": "sacdojo from Community Initiatives",
+      "fileName": "b0179768eb99-sacdojo.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/00fc8feb-dfd9-499e-8489-b74a30989178/sacdojo.jpg"
+    },
+    {
+      "id": "86715aa8097c",
+      "localPath": "/media/squarespace/86715aa8097c-allynewsom.jpg",
+      "alt": "allynewsom from Community Initiatives",
+      "fileName": "86715aa8097c-allynewsom.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/60184619-0f8e-4c5a-a15f-121401d395dd/allynewsom.jpg"
+    },
+    {
+      "id": "5a9b37ceb87f",
+      "localPath": "/media/squarespace/5a9b37ceb87f-unsplash-image-rt8wwwth0v0.jpg",
+      "alt": "unsplash image rt8WwWTh0V0 from Dojo Las Vegas",
+      "fileName": "5a9b37ceb87f-unsplash-image-rt8wwwth0v0.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60afda1c7179a91557b9baca/9ee48aa6-9bfc-47db-ace6-ce348b6015e6/unsplash-image-rt8WwWTh0V0.jpg"
+    },
+    {
+      "id": "c94a16ee9f3f",
+      "localPath": "/media/squarespace/c94a16ee9f3f-imgg-demo-mp7jmoj2.png",
+      "alt": "imgg demo Mp7JMOJ2 from attachment-69e9285b34420c7c0cc448c1",
+      "fileName": "c94a16ee9f3f-imgg-demo-mp7jmoj2.png",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1755889154109-2I4Z9DKESBO13FRFHQDY/imgg-demo-Mp7JMOJ2.png"
+    },
+    {
+      "id": "4b77d00804ad",
+      "localPath": "/media/squarespace/4b77d00804ad-imgg-demo-jbf3smqj.png",
+      "alt": "imgg demo JBF3SmQJ from attachment-69e9285b34420c7c0cc448c3",
+      "fileName": "4b77d00804ad-imgg-demo-jbf3smqj.png",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1757433890724-83OYUQHM0DUYIO5ZP0W5/imgg-demo-JBF3SmQJ.png"
+    },
+    {
+      "id": "2d26fbf442f8",
+      "localPath": "/media/squarespace/2d26fbf442f8-imgg-demo-ll9fvxrw.png",
+      "alt": "imgg demo lL9FvXrw from attachment-69e9285b34420c7c0cc448c5",
+      "fileName": "2d26fbf442f8-imgg-demo-ll9fvxrw.png",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1755889154122-EG74ULQTTYDRPGHBYY8R/imgg-demo-lL9FvXrw.png"
+    },
+    {
+      "id": "c59b08470c7a",
+      "localPath": "/media/squarespace/c59b08470c7a-imgg-demo-mdikhwvg.png",
+      "alt": "imgg demo MdIkhwVg from attachment-69e9285b34420c7c0cc448c7",
+      "fileName": "c59b08470c7a-imgg-demo-mdikhwvg.png",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1755889154129-Z3SQ06B6WLSTMRC7LU3J/imgg-demo-MdIkhwVg.png"
+    }
+  ],
+  "downloadFailures": []
+}
