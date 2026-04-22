@@ -154,6 +154,7 @@ nav a:focus-visible {
 .timeline-card,
 .location-card,
 .principle-card,
+.partner-card,
 .founder-card,
 .cta-card,
 .stat-card,
@@ -331,21 +332,25 @@ h3 {
   align-items: start;
 }
 
-.rishi-section {
-  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 0.9fr);
-  gap: 1rem;
-  align-items: start;
+.partners-section {
+  padding-top: 2rem;
 }
 
-.rishi-copy {
-  padding-right: 1rem;
-}
-
-.rishi-highlights {
+.partner-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+}
+
+.partner-card {
+  padding: 1.5rem;
+}
+
+.partner-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 1.25rem;
 }
 
 .manifesto-copy {
@@ -431,7 +436,7 @@ h3 {
 
 .founder-section {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  grid-template-columns: 1fr;
   gap: 1rem;
   padding-bottom: 4rem;
 }
@@ -467,7 +472,6 @@ h3 {
 @media (max-width: 1100px) {
   .hero,
   .manifesto,
-  .rishi-section,
   .founder-section,
   .location-grid {
     grid-template-columns: 1fr;
@@ -476,6 +480,8 @@ h3 {
   .stats-strip,
   .card-grid,
   .card-grid-large,
+  .partner-grid,
+  .partner-highlights,
   .principles-grid,
   .timeline {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -528,6 +534,8 @@ h3 {
   .stats-strip,
   .card-grid,
   .card-grid-large,
+  .partner-grid,
+  .partner-highlights,
   .principles-grid,
   .timeline {
     grid-template-columns: 1fr;

@@ -72,7 +72,7 @@ export default function Home() {
               </div>
               <div>
                 <span>Now</span>
-                <p>Global network spanning studio work, advisory, initiatives and infrastructure bets.</p>
+                <p>David Grossblatt and Rishi Sachdev operating as equal managing partners.</p>
               </div>
             </div>
           </aside>
@@ -101,8 +101,9 @@ export default function Home() {
               institutions.
             </p>
             <p>
-              This relaunch keeps that spirit but frames it more cleanly. Founders Dojo is best
-              understood as a founder-built network that helps unusual people and ambitious
+              This relaunch keeps that spirit but frames the current leadership directly. Founders
+              Dojo is best understood as a founder-built network now run by David Grossblatt and
+              Rishi Sachdev as equal managing partners, helping unusual people and ambitious
               projects find each other at the right moment.
             </p>
           </div>
@@ -114,7 +115,7 @@ export default function Home() {
             </div>
             <div className="accent-card">
               <span>Now</span>
-              <p>San Francisco roots, Tahoe expansion and a community that moves across projects.</p>
+              <p>David and Rishi as equal managing partners across the network, studio and community.</p>
             </div>
           </div>
         </section>
@@ -171,35 +172,43 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section rishi-section" id="rishi">
-          <div className="rishi-copy">
-            <SectionHeading
-              eyebrow={siteContent.rishi.eyebrow}
-              title={siteContent.rishi.title}
-            />
-            <p>{siteContent.rishi.body}</p>
-            <p>{siteContent.rishi.supporting}</p>
+        <section className="section partners-section" id="partners">
+          <SectionHeading
+            eyebrow={siteContent.partners.eyebrow}
+            title={siteContent.partners.title}
+            description={siteContent.partners.description}
+          />
 
-            <div className="hero-actions">
-              {siteContent.rishi.links.map((link) => (
-                <a
-                  className="button button-secondary"
-                  href={link.href}
-                  key={link.href}
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
-          </div>
+          <div className="partner-grid">
+            {siteContent.partners.profiles.map((partner) => (
+              <article className="partner-card" key={partner.title}>
+                <p className="card-eyebrow">{partner.role}</p>
+                <h3>{partner.title}</h3>
+                <p>{partner.body}</p>
+                <p>{partner.supporting}</p>
 
-          <div className="rishi-highlights">
-            {siteContent.rishi.highlights.map((highlight) => (
-              <article className="stat-card" key={highlight.label}>
-                <p>{highlight.label}</p>
-                <strong>{highlight.value}</strong>
+                <div className="partner-highlights">
+                  {partner.highlights.map((highlight) => (
+                    <article className="stat-card" key={highlight.label}>
+                      <p>{highlight.label}</p>
+                      <strong>{highlight.value}</strong>
+                    </article>
+                  ))}
+                </div>
+
+                <div className="hero-actions">
+                  {partner.links.map((link) => (
+                    <a
+                      className="button button-secondary"
+                      href={link.href}
+                      key={link.href}
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
               </article>
             ))}
           </div>
@@ -230,22 +239,14 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section founder-section" id="founder">
-          <div className="founder-card">
-            <SectionHeading
-              eyebrow={siteContent.founder.eyebrow}
-              title={siteContent.founder.title}
-            />
-            <p>{siteContent.founder.body}</p>
-            <p>{siteContent.founder.supporting}</p>
-          </div>
-
+        <section className="section founder-section" id="contact">
           <div className="cta-card">
             <p className="eyebrow">Next move</p>
-            <h2>If you are building something improbable, start with the signal.</h2>
+            <h2>If you are building something improbable, start with the partners.</h2>
             <p>
-              This site is the beginning of a cleaner digital home for the Dojo. Until this domain
-              becomes the primary hub, the live network and archival material remain at the current
+              This site is the beginning of a cleaner digital home for the Dojo under David
+              Grossblatt and Rishi Sachdev as equal managing partners. Until this domain becomes
+              the primary hub, the live network and archival material remain at the current
               Founders Dojo site.
             </p>
             <div className="hero-actions">
@@ -256,6 +257,9 @@ export default function Home() {
                 target="_blank"
               >
                 Open foundersdojo.com
+              </a>
+              <a className="button button-secondary" href="#partners">
+                Review the partner narrative
               </a>
               <a className="button button-secondary" href="#top">
                 Back to top

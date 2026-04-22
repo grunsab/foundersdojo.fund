@@ -36,27 +36,36 @@ export type Principle = {
   title: string;
 };
 
+export type PartnerProfile = {
+  body: string;
+  highlights: Stat[];
+  links: NavItem[];
+  role: string;
+  supporting: string;
+  title: string;
+};
+
 export const siteContent = {
   currentSiteUrl: "https://www.foundersdojo.com/",
   navigation: [
     { href: "#story", label: "Story" },
     { href: "#focus", label: "Focus" },
     { href: "#projects", label: "Projects" },
-    { href: "#rishi", label: "Rishi" },
+    { href: "#partners", label: "Partners" },
     { href: "#network", label: "Network" },
-    { href: "#founder", label: "Founder" }
+    { href: "#contact", label: "Contact" }
   ] satisfies NavItem[],
   hero: {
     eyebrow: "Founded in San Francisco. Built for outliers.",
     title: "Ideas, talent and capital to make the impossible probable.",
     description:
-      "Founders Dojo began in South Park in 2008 as a too-big office that turned into a free refuge for founders, technologists and operators who did not fit the usual startup script. What started as a collaborative studio became a global network for ventures, experiments and communities that need sharp people around them.",
+      "Founders Dojo began in South Park in 2008 as a too-big office that turned into a free refuge for founders, technologists and operators who did not fit the usual startup script. Today it is led by David Grossblatt and Rishi Sachdev as equal managing partners, carrying the original Dojo ethos into a broader network of ventures, experiments and communities that need sharp people around them.",
     asideTitle: "What the Dojo is",
     asideBody:
-      "Not a generic accelerator. Not just co-working. The Dojo is a founder-built environment for assembling talent, pressure-testing ideas, backing unusual projects and helping serious builders move straighter, faster and with less noise.",
+      "Not a generic accelerator. Not just co-working. The Dojo is a founder-built environment for assembling talent, pressure-testing ideas, backing unusual projects and helping serious builders move straighter, faster and with less noise, now actively shaped by Grossblatt and Sachdev together as managing partners.",
     primaryCta: {
-      href: "#projects",
-      label: "See the project pattern"
+      href: "#partners",
+      label: "Meet the managing partners"
     },
     secondaryCta: {
       href: "https://www.foundersdojo.com/our-community",
@@ -66,8 +75,8 @@ export const siteContent = {
   stats: [
     { label: "Origin", value: "South Park, 2008" },
     { label: "Founder support", value: "200+ desks given away" },
-    { label: "Reach", value: "Global Dojo community" },
-    { label: "Operating model", value: "Studio, advisory and network" }
+    { label: "Leadership", value: "David + Rishi" },
+    { label: "Operating model", value: "Managing partners, studio and network" }
   ] satisfies Stat[],
   story: [
     {
@@ -90,9 +99,9 @@ export const siteContent = {
     },
     {
       year: "Now",
-      title: "A broader network with sharper range",
+      title: "A broader network under equal partnership",
       body:
-        "Today the Dojo describes itself as a global community and project platform. The work spans startup formation, capital and advisory support, decentralization efforts, community initiatives and a network that now stretches well beyond the original San Francisco office."
+        "Today the Dojo is led by David Grossblatt and Rishi Sachdev as equal managing partners. The work spans startup formation, capital and advisory support, decentralization efforts, community initiatives and a network that now stretches well beyond the original San Francisco office."
     }
   ] satisfies StoryBeat[],
   focusAreas: [
@@ -155,49 +164,73 @@ export const siteContent = {
         "Used by the Dojo as proof that the network has touched both internet infrastructure bets and scaled consumer businesses."
     }
   ] satisfies ProjectSpotlight[],
-  rishi: {
-    eyebrow: "Current steward",
-    title: "Rishi Sachdev",
-    body:
-      "Rishi Sachdev is the CEO and technical founder of TalkDoc, an AI-powered telehealth platform focused on Medicaid behavioral health in California. His public profile materials also place him as the CTO and technical co-founder of Rooster, with prior operating experience at Coinbase, Google Fiber and a Berkeley background in computer science and applied mathematics.",
-    supporting:
-      "The healthcare infrastructure behind that work runs deeper than software. Rishi's background includes Bay Area Doctors / Csolutions International, a family-run California clinician staffing operation tied to prison and government behavioral health work. His public profile materials describe that platform as scaling past $100M in combined revenue, while the operating history behind it helped mental health care reach hundreds of thousands of incarcerated patients.",
-    highlights: [
+  partners: {
+    eyebrow: "Managing partners",
+    title: "David Grossblatt and Rishi Sachdev lead the Dojo together.",
+    description:
+      "The site now reflects the operating reality directly: Founders Dojo is managed by David Grossblatt and Rishi Sachdev as equal partners. David carries the original San Francisco Dojo culture and network memory; Rishi extends the platform through company building, healthcare infrastructure and technical execution.",
+    profiles: [
       {
-        label: "TalkDoc",
-        value: "$1.8MM peak ARR"
+        title: "David Grossblatt",
+        role: "Managing partner",
+        body:
+          "Grossblatt built the original Dojo environment in South Park and shaped the culture that made it matter: give sharp, unconventional founders real room to work, keep talent close and let the right projects collide without institutional drag.",
+        supporting:
+          "That role is not just historical. The current Dojo still draws much of its identity from David's network, taste and long-term presence inside the founder community, which is why the right framing is managing partner rather than distant founder emeritus.",
+        highlights: [
+          {
+            label: "Dojo roots",
+            value: "South Park, 2008"
+          },
+          {
+            label: "Public profile",
+            value: "Real-life Erlich story"
+          },
+          {
+            label: "Core edge",
+            value: "Network, culture, founder taste"
+          }
+        ],
+        links: [
+          {
+            href: "https://thehustle.co/the-real-erlich-bachman-of-silicon-valley/",
+            label: "Read David's profile"
+          }
+        ]
       },
       {
-        label: "Rooster",
-        value: "Technical co-founder"
-      },
-      {
-        label: "Healthcare infrastructure",
-        value: "$100MM staffing base"
-      },
-      {
-        label: "Operating range",
-        value: "Google Fiber, Coinbase, Berkeley"
-      },
-      {
-        label: "CA Medicaid",
-        value: "10+ years in market"
-      },
-      {
-        label: "Current role",
-        value: "Stewarding this relaunch"
+        title: "Rishi Sachdev",
+        role: "Managing partner",
+        body:
+          "Sachdev brings operator and technical depth to the partnership. He is the CEO and technical founder of TalkDoc, and was also the CTO and technical co-founder of Rooster, with prior operating experience at Coinbase, Google Fiber and a Berkeley background in computer science and applied mathematics.",
+        supporting:
+          "The healthcare infrastructure behind that work runs deeper than software. Rishi's background includes Bay Area Doctors / Csolutions International, a family-run California clinician staffing operation tied to prison and government behavioral health work, with public profile materials describing more than $100M in combined revenue and care delivery reaching hundreds of thousands of incarcerated patients.",
+        highlights: [
+          {
+            label: "TalkDoc",
+            value: "$1.8MM peak ARR"
+          },
+          {
+            label: "Rooster",
+            value: "Technical co-founder"
+          },
+          {
+            label: "Healthcare platform",
+            value: "$100MM staffing base"
+          }
+        ],
+        links: [
+          {
+            href: "https://www.talkdoc.com/about",
+            label: "View TalkDoc"
+          },
+          {
+            href: "https://rishisachdev.net/",
+            label: "View Rishi profile"
+          }
+        ]
       }
-    ] satisfies Stat[],
-    links: [
-      {
-        href: "https://www.talkdoc.com/about",
-        label: "View TalkDoc"
-      },
-      {
-        href: "https://rishisachdev.net/",
-        label: "View Rishi profile"
-      }
-    ] satisfies NavItem[]
+    ] satisfies PartnerProfile[]
   },
   locations: [
     {
@@ -216,14 +249,6 @@ export const siteContent = {
         "The strongest through-line is not a building. It is the claim that alumni and collaborators continue to reconnect across the world, forming ad hoc crews around projects, ventures and movements."
     }
   ] satisfies LocationCard[],
-  founder: {
-    title: "David Grossblatt",
-    eyebrow: "Founder and connective tissue",
-    body:
-      "Across the archive and current materials, Grossblatt shows up less as a polished frontman and more as the person who kept the room alive. The public story around him is consistent: freedom mattered more than startup cosplay, great people were worth making space for, and the right environment could turn drift into serious work.",
-    supporting:
-      "That ethos is what makes the Dojo different. It is not selling belonging through branding. It is offering a place, a network and a working style for founders who would rather build something improbable than fit neatly into someone else's institution."
-  },
   principles: [
     {
       title: "Keep talent close",
@@ -242,5 +267,5 @@ export const siteContent = {
     }
   ] satisfies Principle[],
   footer:
-    "This first version of foundersdojo.fund is a modern relaunch for Founders Dojo, stewarded by Rishi Sachdev and assembled from archived Dojo material, current official site copy and published reporting on the Dojo's origin story."
+    "This first version of foundersdojo.fund presents Founders Dojo as led by equal managing partners David Grossblatt and Rishi Sachdev, assembled from archived Dojo material, current official site copy and published reporting on the Dojo's origin story."
 } as const;
