@@ -4,7 +4,7 @@ import "./globals.css";
 const siteUrl = "https://foundersdojo.fund";
 const title = "Founder's Dojo Fund";
 const description =
-  "A modern relaunch for Founder's Dojo Fund: a San Francisco-born startup studio and global founder network connecting ideas, talent and capital.";
+  "A June 2026 San Francisco residency from Founder's Dojo Fund for six early-stage companies with traction, impact, mentorship and fund support.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

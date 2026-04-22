@@ -48,34 +48,34 @@ export type PartnerProfile = {
 export const siteContent = {
   navigation: [
     { href: "#story", label: "Story" },
-    { href: "#focus", label: "Focus" },
-    { href: "#projects", label: "Projects" },
+    { href: "#residency", label: "Residency" },
+    { href: "#fit", label: "Founder Fit" },
     { href: "#partners", label: "Partners" },
-    { href: "#network", label: "Network" },
+    { href: "#support", label: "Support" },
     { href: "#contact", label: "Contact" }
   ] satisfies NavItem[],
   hero: {
-    eyebrow: "Founded in San Francisco. Built for outliers.",
-    title: "Ideas, talent and capital to make the impossible probable.",
+    eyebrow: "June 2026 inaugural batch. Six companies.",
+    title: "A one-month San Francisco residency for founders already creating real outcomes.",
     description:
-      "Founder's Dojo Fund began in South Park in 2008 as a too-big office that turned into a free refuge for founders, technologists and operators who did not fit the usual startup script. Today it is led by David Grossblatt and Rishi Sachdev as equal managing partners, carrying the original Dojo ethos into a broader network of ventures, experiments and communities that need sharp people around them.",
-    asideTitle: "What the Dojo is",
+      "Founder's Dojo Fund is building a June 2026 residency program for early-stage companies that already have meaningful traction and clear impact, and are ready to scale much harder with the right environment. We will select six teams for one month in San Francisco, then surround them with capital, mentorship, operator support and a fund model designed to keep backing them after graduation.",
+    asideTitle: "What accepted founders get",
     asideBody:
-      "Not a generic accelerator. Not just co-working. The Dojo is a founder-built environment for assembling talent, pressure-testing ideas, backing unusual projects and helping serious builders move straighter, faster and with less noise, now actively shaped by Grossblatt and Sachdev together as managing partners.",
+      "Free stay in San Francisco for one month. Free office space. A stipend. Intensive mentorship from respected operators, industry leaders, exited founders, venture capitalists and angel investors. We take 2% and put the full weight of our team behind helping the company scale.",
     primaryCta: {
-      href: "#partners",
-      label: "Meet the managing partners"
+      href: "#residency",
+      label: "See the residency"
     },
     secondaryCta: {
-      href: "#projects",
-      label: "See the project pattern"
+      href: "#fit",
+      label: "See founder fit"
     }
   },
   stats: [
-    { label: "Origin", value: "South Park, 2008" },
-    { label: "Founder support", value: "200+ desks given away" },
-    { label: "Leadership", value: "David + Rishi" },
-    { label: "Operating model", value: "Managing partners, studio and network" }
+    { label: "Launch", value: "June 2026" },
+    { label: "Batch size", value: "6 companies" },
+    { label: "Residency", value: "1 month in SF" },
+    { label: "Fund model", value: "2% + syndication" }
   ] satisfies Stat[],
   story: [
     {
@@ -98,76 +98,76 @@ export const siteContent = {
     },
     {
       year: "Now",
-      title: "A broader network under equal partnership",
+      title: "The residency becomes the main program",
       body:
-        "Today the Dojo is led by David Grossblatt and Rishi Sachdev as equal managing partners. The work spans startup formation, capital and advisory support, decentralization efforts, community initiatives and a network that now stretches well beyond the original San Francisco office."
+        "Today the fund is led by David Grossblatt and Rishi Sachdev as equal managing partners, and the main program is a June 2026 San Francisco residency for six companies. The goal is not to help founders start from zero, but to take companies with real outcomes and help them break into much larger impact."
     }
   ] satisfies StoryBeat[],
   focusAreas: [
     {
-      eyebrow: "Start up program",
-      title: "Formation first, growth second",
+      eyebrow: "Batch 01",
+      title: "Six founders. One month. June 2026.",
       body:
-        "The Dojo's startup program is built around two phases: getting from idea to a real MVP, then building the systems and team required for growth. The operating principle is simple: achieve clarity, map the next move and avoid avoidable pain."
+        "The inaugural residency begins in June 2026 with six spots. We are deliberately keeping the batch small so every company gets serious partner time, daily operating support and real access to the wider Dojo network."
     },
     {
-      eyebrow: "Decentralization initiative",
-      title: "Open systems, user control and infrastructure bets",
+      eyebrow: "What founders get",
+      title: "Free stay, free office space, stipend and real intensity",
       body:
-        "Official Dojo materials place decentralization at the center of its modern thesis. The network supports projects working across open source software, policy, token design, community, launch and growth, with special emphasis on the right to a safer and freer internet."
+        "Accepted teams get one month in San Francisco with housing, office space and a stipend covered. The point is to remove distraction, compress feedback loops and let founders spend the month fully focused on building and scaling."
     },
     {
-      eyebrow: "Community initiatives",
-      title: "Studio energy applied beyond venture outcomes",
+      eyebrow: "Mentorship and fund support",
+      title: "Advisors who have built, exited and invested at the highest level",
       body:
-        "The Dojo also directs talent and attention toward advocacy, legal access, education and mission-driven community work. That keeps the identity broader than pure startup finance and closer to a long-lived civic-tech network with founder instincts."
+        "Every residency company gets intensive mentorship from industry leaders, exited founders, respected venture capitalists and angel investors. We take 2%, offer the full support of our team during the residency, and plan to syndicate every company through the fund after graduation."
     }
   ] satisfies FocusArea[],
   projectIntro:
-    "The official site positions the Dojo as a place where capital, talent and operators repeatedly gather around projects that should not have been easy to build. These are representative outcomes and affiliations mentioned in the current Dojo narrative.",
+    "The ideal company for the residency is already doing something that matters. We are not looking for raw ideas. We are looking for founders with proof, momentum and a credible path to dramatically larger impact if they are given the right environment and leverage.",
   projects: [
     {
-      name: "Akash",
-      category: "Decentralized cloud",
+      name: "Already producing outcomes",
+      category: "Traction",
       description:
-        "Cited by the Dojo as a major decentralization success story and one of the projects that helped define its current infrastructure thesis."
+        "The strongest fit already has customers, users, revenue, adoption or some other clear evidence that the product is solving a real problem."
     },
     {
-      name: "Quantstamp",
-      category: "Blockchain security",
+      name: "Making a real dent already",
+      category: "Impact",
       description:
-        "Presented as an example of the Dojo's long-running involvement with decentralization and security-oriented internet infrastructure."
+        "We want founders who are already making a decent impact and can point to the people, systems or markets that are materially better because the company exists."
     },
     {
-      name: "The Hustle",
-      category: "Media",
+      name: "Ready to scale beyond the current plateau",
+      category: "Scale",
       description:
-        "Referenced in Dojo materials as a notable company in the orbit, and the publication that later amplified the Dojo story to a much wider audience."
+        "The residency is for companies that do not need generic startup motivation. They need sharper distribution, positioning, hiring, product leverage, financing or network effects to unlock the next order of magnitude."
     },
     {
-      name: "Scout Monitoring",
-      category: "Infrastructure software",
+      name: "Able to use intense founder pressure well",
+      category: "Tempo",
       description:
-        "Part of the Dojo origin story through early South Park collaborators and later highlighted as an incubated or advised company."
+        "One month in San Francisco only works if the team is ready for concentrated feedback, fast iteration and a high-trust, high-honesty environment."
     },
     {
-      name: "Talkdoc",
-      category: "Health tech",
+      name: "A fit for direct partner involvement",
+      category: "Support model",
       description:
-        "Named on the official community page as a Dojo-linked company focused on equal access to mental health services."
+        "We want companies where David, Rishi, the advisor bench and the wider Dojo network can create meaningful leverage instead of offering generic office hours."
     },
     {
-      name: "Native Co",
-      category: "Consumer brand",
+      name: "Worth backing after graduation",
+      category: "Fund thesis",
       description:
-        "Used by the Dojo as proof that the network has touched both internet infrastructure bets and scaled consumer businesses."
+        "Every residency company is a candidate for syndication through the fund after the program. That only works if the company is strong enough that we genuinely want to keep backing it."
     }
   ] satisfies ProjectSpotlight[],
   partners: {
     eyebrow: "Managing partners",
     title: "David Grossblatt and Rishi Sachdev lead the Dojo together.",
     description:
-      "The site now reflects the operating reality directly: Founder's Dojo Fund is managed by David Grossblatt and Rishi Sachdev as equal partners. David carries the original San Francisco Dojo culture and network memory; Rishi extends the platform through company building, healthcare infrastructure and technical execution.",
+      "The residency works because it combines founder taste, operator depth, investor access and a support model built around real leverage. David carries the original San Francisco Dojo culture and network memory; Rishi extends the platform through company building, healthcare infrastructure and technical execution.",
     profiles: [
       {
         title: "David Grossblatt",
@@ -233,38 +233,38 @@ export const siteContent = {
   },
   locations: [
     {
-      title: "San Francisco",
+      title: "Free stay in San Francisco",
       body:
-        "The Dojo still anchors its story in San Francisco. The current site places its main city presence alongside Archimedes Banya, framing the space as part work suite, part event venue and part social operating base for the network."
+        "Each company receives one month of free stay in San Francisco so the team can work in proximity, build momentum quickly and use the city itself as part of the program."
     },
     {
-      title: "Lake Tahoe / Carson City",
+      title: "Free office space and stipend",
       body:
-        "The more recent relaunch materials expand the geography to Nevada, where the Dojo connects frontier mythology, deal-making culture and crypto infrastructure into a second outpost."
+        "We provide office space and a stipend so founders can spend the month focused on the company instead of carrying unnecessary operating drag while they are in residency."
     },
     {
-      title: "Everywhere Dojians gather",
+      title: "An advisor bench with real weight",
       body:
-        "The strongest through-line is not a building. It is the claim that alumni and collaborators continue to reconnect across the world, forming ad hoc crews around projects, ventures and movements."
+        "The support system includes industry leaders, exited founders, respected venture capitalists and active angel investors who can help founders tighten strategy and accelerate the right introductions."
     }
   ] satisfies LocationCard[],
   principles: [
     {
-      title: "Keep talent close",
+      title: "Full-team support during the residency",
       body:
-        "The original Dojo insight was spatial before it was strategic: if strong people can stay in the same room, the right projects happen faster."
+        "This is not light-touch programming. Founders get the concentrated help of the managing partners and the broader team for the full month."
     },
     {
-      title: "Trade polish for signal",
+      title: "2% for aligned, practical help",
       body:
-        "The Dojo story consistently favors real builders, real momentum and rough edges over prestige theater or startup pageantry."
+        "We take 2% because the program is designed to be genuinely useful, highly involved and tightly aligned with the companies we believe can create outsized outcomes."
     },
     {
-      title: "Back unusual categories early",
+      title: "Syndication after graduation",
       body:
-        "From web-era founders to blockchain policy and decentralized infrastructure, the network tends to move where serious technical leverage is underpriced."
+        "Graduation is not the end of the relationship. Every company in the residency is one we intend to syndicate through the fund if the work and company quality justify it."
     }
   ] satisfies Principle[],
   footer:
-    "This first version of foundersdojo.fund presents Founder's Dojo Fund as led by equal managing partners David Grossblatt and Rishi Sachdev, assembled from archived Dojo material, current official site copy and published reporting on the Dojo's origin story."
+    "Founder's Dojo Fund is building a June 2026 residency for six early-stage companies with real outcomes, offering one month in San Francisco, full-team support, intensive mentorship and fund syndication after graduation."
 } as const;

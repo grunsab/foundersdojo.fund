@@ -62,12 +62,12 @@ export default function Home() {
 
             <div className="signal-grid">
               <div>
-                <span>2008</span>
-                <p>South Park origin with free space for founders who needed room to work.</p>
+                <span>6 spots</span>
+                <p>The first batch launches in June 2026 with six residency companies.</p>
               </div>
               <div>
-                <span>Now</span>
-                <p>David Grossblatt and Rishi Sachdev operating as equal managing partners.</p>
+                <span>1 month</span>
+                <p>Free stay in San Francisco, free office space, a stipend and intensive mentorship.</p>
               </div>
             </div>
           </aside>
@@ -85,8 +85,8 @@ export default function Home() {
         <section className="section manifesto" id="story">
           <div className="manifesto-copy">
             <SectionHeading
-              eyebrow="Why it mattered"
-              title="The Dojo became important because it made room for the wrong kind of founder."
+              eyebrow="Why this exists"
+              title="The original Dojo made room for unusual founders. The fund turns that into a concentrated residency."
             />
             <p>
               The archived home page described the Dojo as a place where ideas, talent and capital
@@ -132,10 +132,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section" id="focus">
+        <section className="section" id="residency">
           <SectionHeading
-            eyebrow="Current focus"
-            title="Three ways the Dojo now shows up in the world"
+            eyebrow="Main program"
+            title="The Founder&apos;s Dojo Fund Residency"
           />
 
           <div className="card-grid card-grid-large">
@@ -149,11 +149,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section" id="projects">
+        <section className="section" id="fit">
           <SectionHeading
             description={siteContent.projectIntro}
-            eyebrow="Project pattern"
-            title="Signals from the Dojo orbit"
+            eyebrow="Founder fit"
+            title="The companies we want to help scale"
           />
 
           <div className="card-grid">
@@ -209,10 +209,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section network-section" id="network">
+        <section className="section network-section" id="support">
           <SectionHeading
-            eyebrow="Places and people"
-            title="The network is geographic, but the real asset is density"
+            eyebrow="Support stack"
+            title="What founders actually receive in the residency"
           />
 
           <div className="location-grid">
@@ -236,14 +236,21 @@ export default function Home() {
 
         <section className="section founder-section" id="contact">
           <div className="cta-card">
-            <p className="eyebrow">Next move</p>
-            <h2>If you are building something improbable, start with the partners.</h2>
+            <p className="eyebrow">June 2026 batch</p>
+            <h2>Six companies. One month in San Francisco. Full-team support.</h2>
+            <p>
+              We are looking for early-stage founders with meaningful outcomes already on the
+              board, a company that is clearly making an impact, and a credible path to much larger
+              scale if the right people get deeply involved. The residency includes free stay, free
+              office space, a stipend, intensive mentorship, 2 percent economics and post-program
+              syndication through the fund.
+            </p>
             <div className="hero-actions">
-              <a className="button button-primary" href="#projects">
-                Explore the portfolio
+              <a className="button button-primary" href="#fit">
+                Review founder fit
               </a>
-              <a className="button button-secondary" href="#partners">
-                Review the partner narrative
+              <a className="button button-secondary" href="#residency">
+                Review the residency
               </a>
               <a className="button button-secondary" href="#top">
                 Back to top
