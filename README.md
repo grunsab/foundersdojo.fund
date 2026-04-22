@@ -1,6 +1,6 @@
 # foundersdojo.fund
 
-A Vercel-ready Next.js relaunch for Founders Dojo.
+A Vercel-ready Next.js relaunch for Founder's Dojo Fund.
 
 ## Run locally
 
@@ -30,5 +30,5 @@ npm run build
 
 ## Notes
 
-- The homepage intentionally excludes `content library/Profile-1.pdf` because it is personal resume material rather than Founders Dojo source content.
-- The current version is a single-page relaunch with static content and external links back to the existing Founders Dojo website while this domain becomes the primary home.
+- The homepage intentionally excludes `content library/Profile-1.pdf` because it is personal resume material rather than Founder's Dojo Fund source content.
+- The current version is a single-page relaunch with static content and external links back to the existing foundersdojo.com website while this domain becomes the primary home.

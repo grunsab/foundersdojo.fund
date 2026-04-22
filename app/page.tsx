@@ -25,7 +25,7 @@ export default function Home() {
         <a className="brand" href="#top">
           <span className="brand-mark">FD</span>
           <span className="brand-copy">
-            <strong>Founders Dojo</strong>
+            <strong>Founder&apos;s Dojo Fund</strong>
             <span>foundersdojo.fund</span>
           </span>
         </a>
@@ -50,12 +50,7 @@ export default function Home() {
               <a className="button button-primary" href={siteContent.hero.primaryCta.href}>
                 {siteContent.hero.primaryCta.label}
               </a>
-              <a
-                className="button button-secondary"
-                href={siteContent.hero.secondaryCta.href}
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a className="button button-secondary" href={siteContent.hero.secondaryCta.href}>
                 {siteContent.hero.secondaryCta.label}
               </a>
             </div>
@@ -78,7 +73,7 @@ export default function Home() {
           </aside>
         </section>
 
-        <section className="stats-strip" aria-label="Founders Dojo signals">
+        <section className="stats-strip" aria-label="Founder's Dojo Fund signals">
           {siteContent.stats.map((stat) => (
             <article className="stat-card" key={stat.label}>
               <p>{stat.label}</p>
@@ -101,8 +96,8 @@ export default function Home() {
               institutions.
             </p>
             <p>
-              This relaunch keeps that spirit but frames the current leadership directly. Founders
-              Dojo is best understood as a founder-built network now run by David Grossblatt and
+              This relaunch keeps that spirit but frames the current leadership directly. Founder&apos;s
+              Dojo Fund is best understood as a founder-built network now run by David Grossblatt and
               Rishi Sachdev as equal managing partners, helping unusual people and ambitious
               projects find each other at the right moment.
             </p>
@@ -243,20 +238,9 @@ export default function Home() {
           <div className="cta-card">
             <p className="eyebrow">Next move</p>
             <h2>If you are building something improbable, start with the partners.</h2>
-            <p>
-              This site is the beginning of a cleaner digital home for the Dojo under David
-              Grossblatt and Rishi Sachdev as equal managing partners. Until this domain becomes
-              the primary hub, the live network and archival material remain at the current
-              Founders Dojo site.
-            </p>
             <div className="hero-actions">
-              <a
-                className="button button-primary"
-                href={siteContent.currentSiteUrl}
-                rel="noreferrer"
-                target="_blank"
-              >
-                Open foundersdojo.com
+              <a className="button button-primary" href="#projects">
+                Explore the portfolio
               </a>
               <a className="button button-secondary" href="#partners">
                 Review the partner narrative

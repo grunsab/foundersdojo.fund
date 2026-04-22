@@ -46,7 +46,6 @@ export type PartnerProfile = {
 };
 
 export const siteContent = {
-  currentSiteUrl: "https://www.foundersdojo.com/",
   navigation: [
     { href: "#story", label: "Story" },
     { href: "#focus", label: "Focus" },
@@ -59,7 +58,7 @@ export const siteContent = {
     eyebrow: "Founded in San Francisco. Built for outliers.",
     title: "Ideas, talent and capital to make the impossible probable.",
     description:
-      "Founders Dojo began in South Park in 2008 as a too-big office that turned into a free refuge for founders, technologists and operators who did not fit the usual startup script. Today it is led by David Grossblatt and Rishi Sachdev as equal managing partners, carrying the original Dojo ethos into a broader network of ventures, experiments and communities that need sharp people around them.",
+      "Founder's Dojo Fund began in South Park in 2008 as a too-big office that turned into a free refuge for founders, technologists and operators who did not fit the usual startup script. Today it is led by David Grossblatt and Rishi Sachdev as equal managing partners, carrying the original Dojo ethos into a broader network of ventures, experiments and communities that need sharp people around them.",
     asideTitle: "What the Dojo is",
     asideBody:
       "Not a generic accelerator. Not just co-working. The Dojo is a founder-built environment for assembling talent, pressure-testing ideas, backing unusual projects and helping serious builders move straighter, faster and with less noise, now actively shaped by Grossblatt and Sachdev together as managing partners.",
@@ -68,8 +67,8 @@ export const siteContent = {
       label: "Meet the managing partners"
     },
     secondaryCta: {
-      href: "https://www.foundersdojo.com/our-community",
-      label: "Visit the current network"
+      href: "#projects",
+      label: "See the project pattern"
     }
   },
   stats: [
@@ -168,7 +167,7 @@ export const siteContent = {
     eyebrow: "Managing partners",
     title: "David Grossblatt and Rishi Sachdev lead the Dojo together.",
     description:
-      "The site now reflects the operating reality directly: Founders Dojo is managed by David Grossblatt and Rishi Sachdev as equal partners. David carries the original San Francisco Dojo culture and network memory; Rishi extends the platform through company building, healthcare infrastructure and technical execution.",
+      "The site now reflects the operating reality directly: Founder's Dojo Fund is managed by David Grossblatt and Rishi Sachdev as equal partners. David carries the original San Francisco Dojo culture and network memory; Rishi extends the platform through company building, healthcare infrastructure and technical execution.",
     profiles: [
       {
         title: "David Grossblatt",
@@ -267,5 +266,5 @@ export const siteContent = {
     }
   ] satisfies Principle[],
   footer:
-    "This first version of foundersdojo.fund presents Founders Dojo as led by equal managing partners David Grossblatt and Rishi Sachdev, assembled from archived Dojo material, current official site copy and published reporting on the Dojo's origin story."
+    "This first version of foundersdojo.fund presents Founder's Dojo Fund as led by equal managing partners David Grossblatt and Rishi Sachdev, assembled from archived Dojo material, current official site copy and published reporting on the Dojo's origin story."
 } as const;

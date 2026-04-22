@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const siteUrl = "https://foundersdojo.fund";
-const title = "Founders Dojo";
+const title = "Founder's Dojo Fund";
 const description =
-  "A modern relaunch for Founders Dojo: a San Francisco-born startup studio and global founder network connecting ideas, talent and capital.";
+  "A modern relaunch for Founder's Dojo Fund: a San Francisco-born startup studio and global founder network connecting ideas, talent and capital.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
