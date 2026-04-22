@@ -23,7 +23,7 @@ export default function CommunityPage() {
       <section className="section">
         <SectionHeading
           eyebrow="About the network"
-          title="The community page in the export is the clearest statement of proof."
+          title="The community story is the clearest statement of proof."
         />
 
         <div className="stack">

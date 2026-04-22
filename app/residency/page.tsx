@@ -9,7 +9,7 @@ import { siteContent } from "../../lib/site-content";
 export const metadata: Metadata = {
   title: "Residency",
   description:
-    "The Founder's Dojo Fund residency: one month in San Francisco for six companies with free stay, office space, stipend, intensive mentorship, and post-program syndication."
+    "The Founder's Dojo Fund residency program: one month in San Francisco, batches starting on the first of each month, beginning June 1, 2026, with free stay, office space, stipend, intensive mentorship, and post-program syndication."
 };
 
 export default function ResidencyPage() {

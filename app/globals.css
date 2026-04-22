@@ -359,7 +359,7 @@ h3 {
 
 .stats-strip {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
   gap: 1rem;
   margin-top: 1.5rem;
 }
@@ -522,10 +522,15 @@ h3 {
   font-size: 0.84rem;
 }
 
-.partner-highlights,
-.footer-stats {
+.partner-highlights {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.footer-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   gap: 0.8rem;
 }
 

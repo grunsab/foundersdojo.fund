@@ -57,9 +57,9 @@ type PartnerCard = {
 
 function normalizeBrandCopy(value: string) {
   return value
-    .replace(/\bFounders Dojo\b/g, "Founder's Dojo Fund")
-    .replace(/\bFounder'?s Dojo\b/g, "Founder's Dojo Fund")
-    .replace(/\bFounder’s Dojo\b/g, "Founder's Dojo Fund")
+    .replace(/\bFounders Dojo\b(?! Fund)/g, "Founder's Dojo Fund")
+    .replace(/\bFounder'?s Dojo\b(?! Fund)/g, "Founder's Dojo Fund")
+    .replace(/\bFounder’s Dojo\b(?! Fund)/g, "Founder's Dojo Fund")
     .replace(/\bfounding organization for this leading decentralization and blockchain advocacy organization\./i, "a founding force behind this leading decentralization and blockchain advocacy organization.")
     .replace(/\s{2,}/g, " ")
     .trim();
@@ -125,7 +125,7 @@ const companyCards: CompanyCard[] = [
   {
     title: "Native Co",
     category: "DTC exit",
-    body: "The export credits the Dojo orbit with helping shape Native Co before its sale to Procter & Gamble in a $100M outcome.",
+    body: "The Dojo orbit helped shape Native Co before its sale to Procter & Gamble in a $100M outcome.",
     href: getLink(communitySource, "nativecos.com")
   },
   {
@@ -149,7 +149,7 @@ const companyCards: CompanyCard[] = [
   {
     title: "The Hustle",
     category: "Media exit",
-    body: "The Hustle shows the Dojo's range beyond software, with the export noting its eventual sale to HubSpot.",
+    body: "The Hustle shows the Dojo's range beyond software, with the company eventually selling to HubSpot.",
     href: getLink(communitySource, "thehustle.co")
   },
   {
@@ -161,7 +161,7 @@ const companyCards: CompanyCard[] = [
   {
     title: "TalkDoc",
     category: "Healthcare infrastructure",
-    body: "The export frames TalkDoc as a fast-growing mental tele-healthcare platform focused on expanding access to care.",
+    body: "TalkDoc is framed as a fast-growing mental tele-healthcare platform focused on expanding access to care.",
     href: getLink(communitySource, "talkdoc.com")
   },
   {
@@ -244,7 +244,7 @@ const locationCards: LocationCard[] = [
     title: "San Francisco",
     badge: "Residency base",
     body:
-      "San Francisco is the active home of the June 2026 residency. The Dojo story points to a 10,000-square-foot work and event environment with views, gathering space, and enough density to keep founders in the room with each other.",
+      "San Francisco is the active home of the residency program, with the first batch starting June 1, 2026. The Dojo story points to a 10,000-square-foot work and event environment with views, gathering space, and enough density to keep founders in the room with each other.",
     images: sfSource.images.slice(0, 4)
   },
   {
@@ -270,7 +270,7 @@ const initiativeCards: CompanyCard[] = [
     title: "Manifest Network",
     category: "Decentralization",
     body:
-      "The export highlights Manifest Network alongside Akash and Quantstamp as part of the Dojo's long-running commitment to decentralized infrastructure.",
+      "Manifest Network sits alongside Akash and Quantstamp as part of the Dojo's long-running commitment to decentralized infrastructure.",
     href: getLink(decentralizationSource, "manifest.network")
   },
   {
@@ -311,8 +311,9 @@ const initiativeCards: CompanyCard[] = [
 ];
 
 const footerStats: Stat[] = [
-  { label: "Launch", value: "June 2026" },
+  { label: "First batch", value: "June 1, 2026" },
   { label: "Batch size", value: "6 companies" },
+  { label: "Cadence", value: "Starts monthly" },
   { label: "Residency", value: "1 month in SF" },
   { label: "Economics", value: "2% + syndication" }
 ];
@@ -337,14 +338,14 @@ export const siteContent = {
   footerStats,
   home: {
     hero: {
-      eyebrow: "June 2026 inaugural batch. Six companies.",
-      title: "A one-month San Francisco residency for founders already creating real outcomes.",
+      eyebrow: "Monthly batches. First batch starts June 1, 2026.",
+      title: "A San Francisco residency program for founders already creating real outcomes.",
       description:
-        "Founder's Dojo Fund is centered on a June 2026 residency for six early-stage companies that already have traction, real impact, and clear leverage if the right operators, investors, advisors, and peers get deeply involved for a concentrated month in San Francisco.",
+        "Founder's Dojo Fund is building a recurring San Francisco residency program for early-stage companies that already have traction, real impact, and clear leverage if the right operators, investors, advisors, and peers get deeply involved. Batches begin on the first of each month, starting with a six-company inaugural batch on June 1, 2026.",
       image: sfHeroImage,
       panelTitle: "What accepted founders get",
       panelBody:
-        "Free stay in San Francisco for one month, free office space, a stipend, and intensive mentorship from industry leaders, exited founders, respected venture capitalists, and angel investors. The Fund takes 2 percent, works closely during the program, and plans to syndicate every company after graduation.",
+        "Each batch brings founders to San Francisco for one month with free stay, free office space, a stipend, and intensive mentorship from industry leaders, exited founders, respected venture capitalists, and angel investors. The Fund takes 2 percent, works closely during the program, and plans to syndicate every company after graduation.",
       panelItems: footerStats,
       actions: [
         { href: "/residency", label: "See the residency" },
@@ -355,7 +356,7 @@ export const siteContent = {
       eyebrow: "Why this works",
       title: "The Dojo already knows how to gather the right people around ambitious companies.",
       description:
-        "The older Dojo material points to four useful truths: the network started in South Park in 2008, it kept unusual founders close to one another, it accumulated real outcomes across companies and initiatives, and San Francisco remains the right place to run an intense first batch."
+        "The older Dojo material points to four useful truths: the network started in South Park in 2008, it kept unusual founders close to one another, it accumulated real outcomes across companies and initiatives, and San Francisco remains the right place to run intense monthly batches."
     },
     storyParagraphs: [
       normalizeBrandCopy(homeSource.paragraphs[0]),
@@ -375,7 +376,7 @@ export const siteContent = {
       {
         eyebrow: "Current shape",
         title: "Residency first, proof behind it",
-        body: "The Fund now uses that history as an advantage: six companies, one month, direct partner involvement, and a network that already understands how to help founders move faster."
+        body: "The Fund now uses that history as an advantage: six companies at a time, one month in San Francisco, direct partner involvement, and a network that already understands how to help founders move faster."
       }
     ] satisfies SimpleCard[],
     residencyCards: [
@@ -454,11 +455,11 @@ export const siteContent = {
       eyebrow: "Main program",
       title: "The Founder's Dojo Fund Residency",
       description:
-        "The main program is a one-month San Francisco residency for six companies in June 2026. It is designed for founders who already have meaningful traction or impact and need sharper leverage across product, distribution, hiring, capital, positioning, and network access.",
+        "The main program is a recurring one-month San Francisco residency with batches that begin on the first of each month, starting with six companies on June 1, 2026. It is designed for founders who already have meaningful traction or impact and need sharper leverage across product, distribution, hiring, capital, positioning, and network access.",
       image: sfSource.images[0],
       panelTitle: "Residency terms",
       panelBody:
-        "6 companies. 1 month in San Francisco. Free stay. Free office space. Stipend. Intensive mentorship. 2 percent economics. Post-program syndication through the Fund.",
+        "6 companies per batch. 1 month in San Francisco. Batches start on the first of the month. Free stay. Free office space. Stipend. Intensive mentorship. 2 percent economics. Post-program syndication through the Fund.",
       panelItems: footerStats,
       actions: [
         { href: "/locations", label: "See the SF base" },
@@ -469,7 +470,7 @@ export const siteContent = {
       {
         eyebrow: "Environment",
         title: "San Francisco with no operating drag",
-        body: "Housing, office space, and a stipend are part of the program so founders can spend the month in a tighter loop of work, feedback, and momentum."
+        body: "Housing, office space, and a stipend are part of the program so founders can spend each residency month in a tighter loop of work, feedback, and momentum."
       },
       {
         eyebrow: "Mentor access",
@@ -545,7 +546,7 @@ export const siteContent = {
       {
         eyebrow: "After the month",
         title: "Graduation is the start of the next relationship",
-        body: "The Fund intends to syndicate strong companies after the residency, making the month part of a longer support arc instead of a one-off batch experience."
+        body: "The Fund intends to syndicate strong companies after the residency, making each month part of a longer support arc instead of a one-off batch experience."
       }
     ] satisfies SimpleCard[],
     companies: companyCards.slice(0, 4),
@@ -555,9 +556,9 @@ export const siteContent = {
       ...startupSource.images.slice(0, 3)
     ]),
     cta: {
-      title: "The first batch is deliberately small so every company gets real partner time.",
+      title: "Each batch is deliberately small so every company gets real partner time.",
       body:
-        "Six spots is a design choice, not a scarcity gimmick. The Fund wants a cohort small enough that each founder actually feels the weight of the team, advisors, and network around them.",
+        "Six spots is a design choice, not a scarcity gimmick. The June 1, 2026 inaugural batch sets the pattern: a cohort small enough that each founder actually feels the weight of the team, advisors, and network around them.",
       actions: [
         { href: "/community", label: "See the company pattern" },
         { href: "/initiatives", label: "See the impact thesis" }
@@ -607,7 +608,7 @@ export const siteContent = {
       eyebrow: "Current footprint",
       title: "San Francisco, Lake Tahoe, and Las Vegas in one operating network.",
       description:
-        "San Francisco is the base for the June 2026 residency, while Lake Tahoe and Las Vegas expand the Fund's current footprint with different working modes: sprinting, convening, and founder collisions in environments that are distinct on purpose.",
+        "San Francisco is the base for the residency program, with the first batch starting June 1, 2026, while Lake Tahoe and Las Vegas expand the Fund's current footprint with different working modes: sprinting, convening, and founder collisions in environments that are distinct on purpose.",
       image: sfHeroImage,
       panelTitle: "Why this matters",
       panelBody:
@@ -627,7 +628,7 @@ export const siteContent = {
     modeCards: [
       {
         eyebrow: "Residency",
-        title: "San Francisco for the main batch",
+        title: "San Francisco for the monthly batches",
         body: "The main program lives in San Francisco because that is where the Dojo's founder history, advisor access, and dense collision potential are strongest."
       },
       {

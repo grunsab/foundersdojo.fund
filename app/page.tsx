@@ -226,7 +226,7 @@ export default function Home() {
 
       <section className="section founder-section">
         <div className="cta-card">
-          <p className="eyebrow">June 2026 batch</p>
+          <p className="eyebrow">First batch starts June 1, 2026</p>
           <h2>{content.cta.title}</h2>
           <p>{content.cta.body}</p>
           <div className="hero-actions">
