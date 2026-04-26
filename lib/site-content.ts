@@ -313,8 +313,8 @@ const initiativeCards: CompanyCard[] = [
 const footerStats: Stat[] = [
   { label: "First batch", value: "June 1, 2026" },
   { label: "Batch size", value: "6 companies" },
-  { label: "Cadence", value: "Starts monthly" },
-  { label: "Residency", value: "1 month in SF" },
+  { label: "Cadence", value: "Every 2 months" },
+  { label: "Residency", value: "2 months in SF" },
   { label: "Economics", value: "2% + syndication" }
 ];
 
@@ -338,14 +338,14 @@ export const siteContent = {
   footerStats,
   home: {
     hero: {
-      eyebrow: "Monthly batches. First batch starts June 1, 2026.",
+      eyebrow: "Batches every two months. First batch starts June 1, 2026.",
       title: "A San Francisco residency program for founders already creating real outcomes.",
       description:
-        "Founder's Dojo Fund is building a recurring San Francisco residency program for early-stage companies that already have traction, real impact, and clear leverage if the right operators, investors, advisors, and peers get deeply involved. Batches begin on the first of each month, starting with a six-company inaugural batch on June 1, 2026.",
+        "Founder's Dojo Fund is building a recurring San Francisco residency program for early-stage companies that already have traction, real impact, and clear leverage if the right operators, investors, advisors, and peers get deeply involved. Batches begin every two months, starting with a six-company inaugural batch on June 1, 2026.",
       image: sfHeroImage,
       panelTitle: "What accepted founders get",
       panelBody:
-        "Each batch brings founders to San Francisco for one month with free stay, free office space, a stipend, and intensive mentorship from industry leaders, exited founders, respected venture capitalists, and angel investors. The Fund takes 2 percent, works closely during the program, and plans to syndicate every company after graduation.",
+        "Each batch brings founders to San Francisco for two months with free stay, free office space, a stipend, and intensive mentorship from industry leaders, exited founders, respected venture capitalists, and angel investors. The Fund takes 2 percent, works closely during the program, and plans to syndicate every company after graduation.",
       panelItems: footerStats,
       actions: [
         { href: "/residency", label: "See the residency" },
@@ -356,7 +356,7 @@ export const siteContent = {
       eyebrow: "Why this works",
       title: "The Dojo already knows how to gather the right people around ambitious companies.",
       description:
-        "The older Dojo material points to four useful truths: the network started in South Park in 2008, it kept unusual founders close to one another, it accumulated real outcomes across companies and initiatives, and San Francisco remains the right place to run intense monthly batches."
+        "The older Dojo material points to four useful truths: the network started in South Park in 2008, it kept unusual founders close to one another, it accumulated real outcomes across companies and initiatives, and San Francisco remains the right place to run intense two-month batches."
     },
     storyParagraphs: [
       normalizeBrandCopy(homeSource.paragraphs[0]),
@@ -376,14 +376,14 @@ export const siteContent = {
       {
         eyebrow: "Current shape",
         title: "Residency first, proof behind it",
-        body: "The Fund now uses that history as an advantage: six companies at a time, one month in San Francisco, direct partner involvement, and a network that already understands how to help founders move faster."
+        body: "The Fund now uses that history as an advantage: six companies at a time, two months in San Francisco, direct partner involvement, and a network that already understands how to help founders move faster."
       }
     ] satisfies SimpleCard[],
     residencyCards: [
       {
         eyebrow: "Included",
         title: "Free stay, free office space, stipend",
-        body: "The residency removes living and workspace friction so founders can spend the month building instead of solving logistics."
+        body: "The residency removes living and workspace friction so founders can spend the two-month residency building instead of solving logistics."
       },
       {
         eyebrow: "Mentorship",
@@ -393,7 +393,7 @@ export const siteContent = {
       {
         eyebrow: "Alignment",
         title: "2 percent, full-team support, syndication after graduation",
-        body: "The economics are intentionally simple: tight alignment during the month, then continued backing through the fund when the company earns it."
+        body: "The economics are intentionally simple: tight alignment during the residency, then continued backing through the fund when the company earns it."
       }
     ] satisfies SimpleCard[],
     companies: companyCards.slice(0, 6),
@@ -401,7 +401,7 @@ export const siteContent = {
       {
         title: "Residency",
         href: "/residency",
-        body: "Program structure, founder fit, economics, and what founders actually receive during the month.",
+        body: "Program structure, founder fit, economics, and what founders actually receive during the two-month residency.",
         image: sfSource.images[1]
       },
       {
@@ -455,11 +455,11 @@ export const siteContent = {
       eyebrow: "Main program",
       title: "The Founder's Dojo Fund Residency",
       description:
-        "The main program is a recurring one-month San Francisco residency with batches that begin on the first of each month, starting with six companies on June 1, 2026. It is designed for founders who already have meaningful traction or impact and need sharper leverage across product, distribution, hiring, capital, positioning, and network access.",
+        "The main program is a recurring two-month San Francisco residency with batches that begin every two months, starting with six companies on June 1, 2026. It is designed for founders who already have meaningful traction or impact and need sharper leverage across product, distribution, hiring, capital, positioning, and network access.",
       image: sfSource.images[0],
       panelTitle: "Residency terms",
       panelBody:
-        "6 companies per batch. 1 month in San Francisco. Batches start on the first of the month. Free stay. Free office space. Stipend. Intensive mentorship. 2 percent economics. Post-program syndication through the Fund.",
+        "6 companies per batch. 2 months in San Francisco. Batches start every two months. Free stay. Free office space. Stipend. Intensive mentorship. 2 percent economics. Post-program syndication through the Fund.",
       panelItems: footerStats,
       actions: [
         { href: "/locations", label: "See the SF base" },
@@ -470,7 +470,7 @@ export const siteContent = {
       {
         eyebrow: "Environment",
         title: "San Francisco with no operating drag",
-        body: "Housing, office space, and a stipend are part of the program so founders can spend each residency month in a tighter loop of work, feedback, and momentum."
+        body: "Housing, office space, and a stipend are part of the program so founders can spend the full two-month residency in a tighter loop of work, feedback, and momentum."
       },
       {
         eyebrow: "Mentor access",
@@ -480,7 +480,7 @@ export const siteContent = {
       {
         eyebrow: "Fund model",
         title: "2 percent for concentrated help and long-term alignment",
-        body: "The economics are intentionally lean because the Fund wants to keep backing companies after the residency instead of treating the month as the end of the relationship."
+        body: "The economics are intentionally lean because the Fund wants to keep backing companies after the residency instead of treating the two-month program as the end of the relationship."
       }
     ] satisfies SimpleCard[],
     founderFit: [
@@ -502,7 +502,7 @@ export const siteContent = {
       {
         eyebrow: "Tempo",
         title: "Able to use pressure well",
-        body: "One month only works if the team is ready for concentrated conversation, rapid iteration, and honest operator feedback."
+        body: "A two-month residency only works if the team is ready for concentrated conversation, rapid iteration, and honest operator feedback."
       },
       {
         eyebrow: "Partner fit",
@@ -544,9 +544,9 @@ export const siteContent = {
         body: normalizeBrandCopy(getSection(communitySource, "About Us")?.body[2] ?? "")
       },
       {
-        eyebrow: "After the month",
+        eyebrow: "After the residency",
         title: "Graduation is the start of the next relationship",
-        body: "The Fund intends to syndicate strong companies after the residency, making each month part of a longer support arc instead of a one-off batch experience."
+        body: "The Fund intends to syndicate strong companies after the residency, making each cohort part of a longer support arc instead of a one-off batch experience."
       }
     ] satisfies SimpleCard[],
     companies: companyCards.slice(0, 4),
@@ -628,7 +628,7 @@ export const siteContent = {
     modeCards: [
       {
         eyebrow: "Residency",
-        title: "San Francisco for the monthly batches",
+        title: "San Francisco for the residency batches",
         body: "The main program lives in San Francisco because that is where the Dojo's founder history, advisor access, and dense collision potential are strongest."
       },
       {

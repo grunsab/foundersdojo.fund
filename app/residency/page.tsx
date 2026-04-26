@@ -9,7 +9,7 @@ import { siteContent } from "../../lib/site-content";
 export const metadata: Metadata = {
   title: "Residency",
   description:
-    "The Founder's Dojo Fund residency program: one month in San Francisco, batches starting on the first of each month, beginning June 1, 2026, with free stay, office space, stipend, intensive mentorship, and post-program syndication."
+    "The Founder's Dojo Fund residency program: two months in San Francisco, with new batches every two months beginning June 1, 2026, plus free stay, office space, stipend, intensive mentorship, and post-program syndication."
 };
 
 export default function ResidencyPage() {
@@ -22,7 +22,7 @@ export default function ResidencyPage() {
       <section className="section">
         <SectionHeading
           eyebrow="Offer"
-          title="Six companies. One month. Full-team support."
+          title="Six companies. Two months. Full-team support."
         />
 
         <div className="card-grid card-grid-large">

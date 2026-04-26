@@ -9,7 +9,7 @@ import { siteContent } from "../../lib/site-content";
 export const metadata: Metadata = {
   title: "Locations",
   description:
-    "The current Founder's Dojo Fund footprint across San Francisco, Lake Tahoe, and Las Vegas, with San Francisco as the base for monthly residency batches beginning June 1, 2026."
+    "The current Founder's Dojo Fund footprint across San Francisco, Lake Tahoe, and Las Vegas, with San Francisco as the base for residency batches every two months beginning June 1, 2026."
 };
 
 export default function LocationsPage() {
