@@ -216,13 +216,13 @@ const partnerCards: PartnerCard[] = [
     title: "Rishi Sachdev",
     role: "Managing partner",
     body:
-      "Sachdev brings operator, technical, and healthcare infrastructure depth to the Fund, spanning TalkDoc, Rooster, engineering leadership, and a staffing platform tied to more than $100M in revenue and care access for hundreds of thousands of incarcerated patients.",
+      "Sachdev brings operator, technical, and healthcare infrastructure depth to the Fund, spanning TalkDoc, Rooster, engineering leadership, and a staffing platform tied to $100MM gross revenue, $20MM revenue (post-paying clinicians), and care access for hundreds of thousands of incarcerated patients.",
     supporting:
       "That mix matters for the residency: the Fund is not designed as passive programming. It is built for direct partner involvement on product, growth, capital, hiring, and execution with founders who already have something real working.",
     highlights: [
       { label: "TalkDoc", value: "$1.8MM peak ARR" },
       { label: "Rooster", value: "Technical co-founder" },
-      { label: "Healthcare platform", value: "$100MM staffing base" }
+      { label: "Healthcare platform", value: "$100MM gross / $20MM post-paying clinicians" }
     ],
     links: [
       {
