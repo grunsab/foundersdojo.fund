@@ -10,7 +10,7 @@ import { siteContent } from "../../lib/site-content";
 export const metadata: Metadata = {
   title: "Community",
   description:
-    "Community proof for Founder's Dojo Fund: company outcomes, South Park history, and the people-and-place context behind the residency."
+    "Community proof for Founder's Dojo FU ND: company outcomes, South Park history, and the people-and-place context behind the residency."
 };
 
 export default function CommunityPage() {
@@ -76,7 +76,7 @@ export default function CommunityPage() {
       <section className="section">
         <SectionHeading
           eyebrow="The Dojo story"
-          title="Programs, places, and themes that still shape the Fund."
+          title="Programs, places, and themes that still shape the FU ND."
         />
 
         <div className="card-grid">

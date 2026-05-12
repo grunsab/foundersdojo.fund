@@ -9,7 +9,7 @@ import { siteContent } from "../../lib/site-content";
 export const metadata: Metadata = {
   title: "Initiatives",
   description:
-    "The decentralization and community-impact work around Founder's Dojo Fund, showing the kind of consequential companies and projects the residency wants close."
+    "The decentralization and community-impact work around Founder's Dojo FU ND, showing the kind of consequential companies and projects the residency wants close."
 };
 
 export default function InitiativesPage() {
@@ -39,7 +39,7 @@ export default function InitiativesPage() {
       <section className="section">
         <SectionHeading
           eyebrow="Selected initiatives"
-          title="Projects and organizations that shape the Fund's taste."
+          title="Projects and organizations that shape the FU ND's taste."
         />
 
         <div className="card-grid">

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { brand, footerText, navigation, siteContent } from "../lib/site-content";
+import { brand, footerLegalText, footerText, navigation, siteContent } from "../lib/site-content";
 
 export function SiteShell({
   children,
@@ -14,7 +14,7 @@ export function SiteShell({
         <Link className="brand" href="/">
           <span className="brand-mark">FD</span>
           <span className="brand-copy">
-            <strong>{brand.name}</strong>
+            <strong>{brand.name}*</strong>
             <span>{brand.domain}</span>
           </span>
         </Link>
@@ -36,7 +36,7 @@ export function SiteShell({
 
       <footer className="site-footer">
         <div className="footer-copy">
-          <p className="eyebrow">Founder&apos;s Dojo Fund</p>
+          <p className="eyebrow">Founder&apos;s Dojo FU ND</p>
           <p>{footerText}</p>
         </div>
 
@@ -48,6 +48,8 @@ export function SiteShell({
             </article>
           ))}
         </div>
+
+        <p className="footer-legal-note">{footerLegalText}</p>
       </footer>
     </>
   );

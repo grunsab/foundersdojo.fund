@@ -556,6 +556,14 @@ h3 {
   padding: 1.2rem 0;
 }
 
+.footer-legal-note {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding-top: 0.2rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
 .footer-stats .stat-card {
   background: rgba(255, 250, 244, 0.76);
 }

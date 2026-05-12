@@ -57,9 +57,9 @@ type PartnerCard = {
 
 function normalizeBrandCopy(value: string) {
   return value
-    .replace(/\bFounders Dojo\b(?! Fund)/g, "Founder's Dojo Fund")
-    .replace(/\bFounder'?s Dojo\b(?! Fund)/g, "Founder's Dojo Fund")
-    .replace(/\bFounder’s Dojo\b(?! Fund)/g, "Founder's Dojo Fund")
+    .replace(/\bFounders Dojo\b(?! FU ND)/g, "Founder's Dojo FU ND")
+    .replace(/\bFounder'?s Dojo\b(?! FU ND)/g, "Founder's Dojo FU ND")
+    .replace(/\bFounder’s Dojo\b(?! FU ND)/g, "Founder's Dojo FU ND")
     .replace(/\bfounding organization for this leading decentralization and blockchain advocacy organization\./i, "a founding force behind this leading decentralization and blockchain advocacy organization.")
     .replace(/\s{2,}/g, " ")
     .trim();
@@ -98,7 +98,7 @@ function dedupeImages(images: ImportedImage[]) {
 
 function fallbackExcerpt(slug: string) {
   if (slug === "our-vision") {
-    return "The visual material around the Dojo now supports the Fund's broader story about place, ambition, and the kind of builders it wants close.";
+    return "The visual material around the Dojo now supports the FU ND's broader story about place, ambition, and the kind of builders it wants close.";
   }
 
   return "";
@@ -198,7 +198,7 @@ const partnerCards: PartnerCard[] = [
     body:
       "Grossblatt built the original South Park Dojo environment and the operating culture behind it: keep unusual founders close, remove unnecessary drag, and let strong people create leverage together.",
     supporting:
-      "That history still shapes the Fund's taste today, from the free-desk origin story to the companies, initiatives, and spaces that define what kind of founder community the partners want to build around.",
+      "That history still shapes the FU ND's taste today, from the free-desk origin story to the companies, initiatives, and spaces that define what kind of founder community the partners want to build around.",
     highlights: [
       { label: "Original base", value: "South Park, 2008" },
       { label: "Operating edge", value: "Network and founder taste" },
@@ -216,9 +216,9 @@ const partnerCards: PartnerCard[] = [
     title: "Rishi Sachdev",
     role: "Managing partner",
     body:
-      "Sachdev brings operator, technical, and healthcare infrastructure depth to the Fund, spanning TalkDoc, Rooster, engineering leadership, and a staffing platform tied to $100MM gross revenue, $20MM revenue (post-paying clinicians), and care access for hundreds of thousands of incarcerated patients.",
+      "Sachdev brings operator, technical, and healthcare infrastructure depth to the FU ND, spanning TalkDoc, Rooster, engineering leadership, and a staffing platform tied to $100MM gross revenue, $20MM revenue (post-paying clinicians), and care access for hundreds of thousands of incarcerated patients.",
     supporting:
-      "That mix matters for the residency: the Fund is not designed as passive programming. It is built for direct partner involvement on product, growth, capital, hiring, and execution with founders who already have something real working.",
+      "That mix matters for the residency: the FU ND is not designed as passive programming. It is built for direct partner involvement on product, growth, capital, hiring, and execution with founders who already have something real working.",
     highlights: [
       { label: "TalkDoc", value: "$1.8MM peak ARR" },
       { label: "Rooster", value: "Technical co-founder" },
@@ -259,7 +259,7 @@ const locationCards: LocationCard[] = [
     title: "Las Vegas",
     badge: "Experience and convening",
     body: normalizeBrandCopy(
-      `${vegasSource.excerpt} We present it as part of the Fund's current broader footprint: a place for high-energy convenings, brand moments, and founder collisions around culture, risk, and hospitality.`
+      `${vegasSource.excerpt} We present it as part of the FU ND's current broader footprint: a place for high-energy convenings, brand moments, and founder collisions around culture, risk, and hospitality.`
     ),
     images: vegasSource.images.slice(0, 1)
   }
@@ -284,7 +284,7 @@ const initiativeCards: CompanyCard[] = [
     title: "Quantstamp",
     category: "Decentralization",
     body:
-      "Quantstamp reinforces the Fund's bias toward security, open internet infrastructure, and technically serious founders.",
+      "Quantstamp reinforces the FU ND's bias toward security, open internet infrastructure, and technically serious founders.",
     href: getLink(decentralizationSource, "quantstamp.com")
   },
   {
@@ -319,7 +319,7 @@ const footerStats: Stat[] = [
 ];
 
 export const brand = {
-  name: "Founder's Dojo Fund",
+  name: "Founder's Dojo FU ND",
   domain: "foundersdojo.fund"
 } as const;
 
@@ -332,7 +332,10 @@ export const navigation: NavItem[] = [
 ];
 
 export const footerText =
-  "Founder's Dojo Fund is a residency-led platform run by David Grossblatt and Rishi Sachdev, using the Dojo's history, current footprint, and operating network to help already-working companies scale into much larger impact.";
+  "Founder's Dojo FU ND is a residency-led platform run by David Grossblatt and Rishi Sachdev, using the Dojo's history, current footprint, and operating network to help already-working companies scale into much larger impact.";
+
+export const footerLegalText =
+  "* Founder's Dojo FU ND is a venture studio structured as an LLC, not an investment fund.";
 
 export const siteContent = {
   footerStats,
@@ -341,11 +344,11 @@ export const siteContent = {
       eyebrow: "Batches every two months. First batch starts June 1, 2026.",
       title: "A San Francisco residency program for founders already creating real outcomes.",
       description:
-        "Founder's Dojo Fund is building a recurring San Francisco residency program for early-stage companies that already have traction, real impact, and clear leverage if the right operators, investors, advisors, and peers get deeply involved. Batches begin every two months, starting with a six-company inaugural batch on June 1, 2026.",
+        "Founder's Dojo FU ND is building a recurring San Francisco residency program for early-stage companies that already have traction, real impact, and clear leverage if the right operators, investors, advisors, and peers get deeply involved. Batches begin every two months, starting with a six-company inaugural batch on June 1, 2026.",
       image: sfHeroImage,
       panelTitle: "What accepted founders get",
       panelBody:
-        "Each batch brings founders to San Francisco for two months with free stay, free office space, a stipend, and intensive mentorship from industry leaders, exited founders, respected venture capitalists, and angel investors. The Fund takes 2 percent, works closely during the program, and plans to syndicate every company after graduation.",
+        "Each batch brings founders to San Francisco for two months with free stay, free office space, a stipend, and intensive mentorship from industry leaders, exited founders, respected venture capitalists, and angel investors. The FU ND takes 2 percent, works closely during the program, and plans to syndicate every company after graduation.",
       panelItems: footerStats,
       actions: [
         { href: "/residency", label: "See the residency" },
@@ -360,7 +363,7 @@ export const siteContent = {
     },
     storyParagraphs: [
       normalizeBrandCopy(homeSource.paragraphs[0]),
-      "The older startup-program language supplied the clearer operator frame: connect capital, talent, and wisdom to accomplish the amazing. The Fund now turns that into a more specific offer for founders who already have something working and need sharper leverage to scale."
+      "The older startup-program language supplied the clearer operator frame: connect capital, talent, and wisdom to accomplish the amazing. The FU ND now turns that into a more specific offer for founders who already have something working and need sharper leverage to scale."
     ],
     originCards: [
       {
@@ -376,7 +379,7 @@ export const siteContent = {
       {
         eyebrow: "Current shape",
         title: "Residency first, proof behind it",
-        body: "The Fund now uses that history as an advantage: six companies at a time, two months in San Francisco, direct partner involvement, and a network that already understands how to help founders move faster."
+        body: "The FU ND now uses that history as an advantage: six companies at a time, two months in San Francisco, direct partner involvement, and a network that already understands how to help founders move faster."
       }
     ] satisfies SimpleCard[],
     residencyCards: [
@@ -393,7 +396,7 @@ export const siteContent = {
       {
         eyebrow: "Alignment",
         title: "2 percent, full-team support, syndication after graduation",
-        body: "The economics are intentionally simple: tight alignment during the residency, then continued backing through the fund when the company earns it."
+        body: "The economics are intentionally simple: tight alignment during the residency, then continued backing through the FU ND when the company earns it."
       }
     ] satisfies SimpleCard[],
     companies: companyCards.slice(0, 6),
@@ -419,7 +422,7 @@ export const siteContent = {
       {
         title: "Initiatives",
         href: "/initiatives",
-        body: "Decentralization, advocacy, nonprofit work, and the impact-oriented edge that shapes the Fund's taste.",
+        body: "Decentralization, advocacy, nonprofit work, and the impact-oriented edge that shapes the FU ND's taste.",
         image: initiativesHeroImage
       }
     ] satisfies PageCard[],
@@ -441,7 +444,7 @@ export const siteContent = {
           ?.body[0] ?? "Ryan Hoover, Founder of Product Hunt"
     },
     cta: {
-      title: "The Fund is looking for companies that already matter and are ready to compound much faster.",
+      title: "The FU ND is looking for companies that already matter and are ready to compound much faster.",
       body:
         "The right team already has outcomes on the board. The residency exists to compress the next stage of company building, not to create generic startup theater.",
       actions: [
@@ -453,13 +456,13 @@ export const siteContent = {
   residency: {
     hero: {
       eyebrow: "Main program",
-      title: "The Founder's Dojo Fund Residency",
+      title: "The Founder's Dojo FU ND Residency",
       description:
         "The main program is a recurring two-month San Francisco residency with batches that begin every two months, starting with six companies on June 1, 2026. It is designed for founders who already have meaningful traction or impact and need sharper leverage across product, distribution, hiring, capital, positioning, and network access.",
       image: sfSource.images[0],
       panelTitle: "Residency terms",
       panelBody:
-        "6 companies per batch. 2 months in San Francisco. Batches start every two months. Free stay. Free office space. Stipend. Intensive mentorship. 2 percent economics. Post-program syndication through the Fund.",
+        "6 companies per batch. 2 months in San Francisco. Batches start every two months. Free stay. Free office space. Stipend. Intensive mentorship. 2 percent economics. Post-program syndication through the FU ND.",
       panelItems: footerStats,
       actions: [
         { href: "/locations", label: "See the SF base" },
@@ -478,9 +481,9 @@ export const siteContent = {
         body: "The advisory layer is meant to be useful in practice, not ornamental. Founders should expect hard feedback, specific introductions, and decision-shaping context."
       },
       {
-        eyebrow: "Fund model",
+        eyebrow: "FU ND model",
         title: "2 percent for concentrated help and long-term alignment",
-        body: "The economics are intentionally lean because the Fund wants to keep backing companies after the residency instead of treating the two-month program as the end of the relationship."
+        body: "The economics are intentionally lean because the FU ND wants to keep backing companies after the residency instead of treating the two-month program as the end of the relationship."
       }
     ] satisfies SimpleCard[],
     founderFit: [
@@ -507,12 +510,12 @@ export const siteContent = {
       {
         eyebrow: "Partner fit",
         title: "A company the partners can materially help",
-        body: "The Fund wants situations where David, Rishi, the advisors, and the Dojo network can produce non-generic leverage."
+        body: "The FU ND wants situations where David, Rishi, the advisors, and the Dojo network can produce non-generic leverage."
       },
       {
         eyebrow: "Backability",
         title: "Strong enough to syndicate after graduation",
-        body: "Every residency company is a candidate for continued backing through the Fund, which is why the bar is higher than a typical accelerator funnel."
+        body: "Every residency company is a candidate for continued backing through the FU ND, which is why the bar is higher than a typical accelerator funnel."
       }
     ] satisfies SimpleCard[],
     operatingModel: [
@@ -546,7 +549,7 @@ export const siteContent = {
       {
         eyebrow: "After the residency",
         title: "Graduation is the start of the next relationship",
-        body: "The Fund intends to syndicate strong companies after the residency, making each cohort part of a longer support arc instead of a one-off batch experience."
+        body: "The FU ND intends to syndicate strong companies after the residency, making each cohort part of a longer support arc instead of a one-off batch experience."
       }
     ] satisfies SimpleCard[],
     companies: companyCards.slice(0, 4),
@@ -570,7 +573,7 @@ export const siteContent = {
       eyebrow: "Archive proof",
       title: "A founder network with real outcomes behind it.",
       description:
-        "The community story is the clearest proof layer for the Fund: company outcomes, a long founder history in South Park, and a body of real people-and-place evidence that shows the Dojo as an actual working environment rather than a slogan.",
+        "The community story is the clearest proof layer for the FU ND: company outcomes, a long founder history in South Park, and a body of real people-and-place evidence that shows the Dojo as an actual working environment rather than a slogan.",
       image: communityHeroImage,
       panelTitle: "Why this matters",
       panelBody:
@@ -608,11 +611,11 @@ export const siteContent = {
       eyebrow: "Current footprint",
       title: "San Francisco, Lake Tahoe, and Las Vegas in one operating network.",
       description:
-        "San Francisco is the base for the residency program, with the first batch starting June 1, 2026, while Lake Tahoe and Las Vegas expand the Fund's current footprint with different working modes: sprinting, convening, and founder collisions in environments that are distinct on purpose.",
+        "San Francisco is the base for the residency program, with the first batch starting June 1, 2026, while Lake Tahoe and Las Vegas expand the FU ND's current footprint with different working modes: sprinting, convening, and founder collisions in environments that are distinct on purpose.",
       image: sfHeroImage,
       panelTitle: "Why this matters",
       panelBody:
-        "The residency is not an abstract remote program. Place matters. The different Dojo environments make that clear and help explain why the Fund can host founders in ways that feel more immersive than a standard batch.",
+        "The residency is not an abstract remote program. Place matters. The different Dojo environments make that clear and help explain why the FU ND can host founders in ways that feel more immersive than a standard batch.",
       panelItems: [
         { label: "SF role", value: "Residency base" },
         { label: "Tahoe role", value: "Sprint base" },
@@ -634,7 +637,7 @@ export const siteContent = {
       {
         eyebrow: "Sprints",
         title: "Tahoe for focused working sessions",
-        body: "Tahoe gives teams a quieter mode without leaving the broader Fund footprint."
+        body: "Tahoe gives teams a quieter mode without leaving the broader FU ND footprint."
       },
       {
         eyebrow: "Conventions",
@@ -650,7 +653,7 @@ export const siteContent = {
     cta: {
       title: "San Francisco is the batch base. The wider footprint expands how the network works.",
       body:
-        "The three-location story is not there for ornament. It gives the Fund multiple contexts for getting founders together at the right level of intensity.",
+        "The three-location story is not there for ornament. It gives the FU ND multiple contexts for getting founders together at the right level of intensity.",
       actions: [
         { href: "/residency", label: "Review the residency" },
         { href: "/initiatives", label: "Review the impact thesis" }
@@ -660,9 +663,9 @@ export const siteContent = {
   initiatives: {
     hero: {
       eyebrow: "Impact and infrastructure",
-      title: "The Fund's taste extends beyond startup growth for its own sake.",
+      title: "The FU ND's taste extends beyond startup growth for its own sake.",
       description:
-        "The older Dojo material makes the worldview visible: decentralization, advocacy, legal access, institutional partnership, and projects that have a credible public-interest edge. That does not replace the residency. It explains what kind of founder the Fund wants close.",
+        "The older Dojo material makes the worldview visible: decentralization, advocacy, legal access, institutional partnership, and projects that have a credible public-interest edge. That does not replace the residency. It explains what kind of founder the FU ND wants close.",
       image: initiativesHeroImage,
       panelTitle: "Themes in the network",
       panelBody:
@@ -691,8 +694,8 @@ export const siteContent = {
       },
       {
         eyebrow: "Residency implication",
-        title: "The Fund prefers founders with actual stakes in the world",
-        body: "The target company is already producing outcomes and can plausibly scale into much larger impact with the Fund's network, advice, and follow-on support."
+        title: "The FU ND prefers founders with actual stakes in the world",
+        body: "The target company is already producing outcomes and can plausibly scale into much larger impact with the FU ND's network, advice, and follow-on support."
       }
     ] satisfies SimpleCard[],
     projects: initiativeCards,
@@ -704,7 +707,7 @@ export const siteContent = {
     cta: {
       title: "The best residency candidates already care about consequential problems.",
       body:
-        "The Fund is not only looking for good startup mechanics. It is looking for founders whose work already matters and can matter much more with the right leverage around them.",
+        "The FU ND is not only looking for good startup mechanics. It is looking for founders whose work already matters and can matter much more with the right leverage around them.",
       actions: [
         { href: "/residency", label: "See the residency" },
         { href: "/community", label: "See the company outcomes" }

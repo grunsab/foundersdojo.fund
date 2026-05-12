@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const siteUrl = "https://foundersdojo.fund";
-const title = "Founder's Dojo Fund";
+const title = "Founder's Dojo FU ND";
 const description =
-  "A San Francisco residency program from Founder's Dojo Fund with new batches every two months beginning June 1, 2026, for high-potential companies with traction, impact, intensive mentorship, and post-program fund support.";
+  "A San Francisco residency program from Founder's Dojo FU ND with new batches every two months beginning June 1, 2026, for high-potential companies with traction, impact, intensive mentorship, and post-program support from the FU ND.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

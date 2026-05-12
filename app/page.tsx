@@ -43,7 +43,7 @@ export default function Home() {
     <SiteShell currentPath="/">
       <PageHero {...content.hero} />
 
-      <section className="stats-strip" aria-label="Founder's Dojo Fund signals">
+      <section className="stats-strip" aria-label="Founder's Dojo FU ND signals">
         {siteContent.footerStats.map((stat) => (
           <article className="stat-card" key={stat.label}>
             <p>{stat.label}</p>
@@ -75,7 +75,7 @@ export default function Home() {
       <section className="section">
         <SectionHeading
           eyebrow="What carried over"
-          title="The older Dojo material clarified what the Fund should keep."
+          title="The older Dojo material clarified what the FU ND should keep."
         />
 
         <div className="card-grid card-grid-large">
@@ -93,7 +93,7 @@ export default function Home() {
         <SectionHeading
           eyebrow="Residency program"
           title="The main offer is clear now."
-          description="The older startup-program material gave the Fund language and operating principles. The current site turns that into a cleaner founder offer."
+          description="The older startup-program material gave the FU ND language and operating principles. The current site turns that into a cleaner founder offer."
         />
 
         <div className="card-grid card-grid-large">
@@ -164,7 +164,7 @@ export default function Home() {
       <section className="section">
         <SectionHeading
           eyebrow="Taste"
-          title="The Fund likes companies and projects with real stakes in the world."
+          title="The FU ND likes companies and projects with real stakes in the world."
         />
 
         <div className="card-grid">
@@ -177,7 +177,7 @@ export default function Home() {
       <section className="section partners-section">
         <SectionHeading
           eyebrow="Managing partners"
-          title="David Grossblatt and Rishi Sachdev lead the Fund together."
+          title="David Grossblatt and Rishi Sachdev lead the FU ND together."
         />
 
         <div className="partner-grid">
